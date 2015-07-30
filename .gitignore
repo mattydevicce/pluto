@@ -2,3 +2,5 @@ __lesson__
 .DS_Store
 .DS_Store?
 *.log
+*.swp
+*.swo
