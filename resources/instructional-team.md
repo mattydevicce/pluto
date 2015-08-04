@@ -7,9 +7,3 @@ Role | Name | Slack | Email
 **Instructional Lead** | Pan Wangperawong | @pan | pan.wangperawong@generalassemb.ly
 **Instructional Associate** | Dennis Liaw | @dennisliaw | dennis.liaw@generalassemb.ly
 **Instructional Associate** | Bobby King | @bobbydigital | bobby.king@generalassemb.ly
-
-### Course Producer
-
-### Instructional Leads
-
-### Instructional Associates
