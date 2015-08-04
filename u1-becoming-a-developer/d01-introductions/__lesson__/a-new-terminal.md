@@ -1,5 +1,12 @@
 # Episode 4: A New Terminal
 
+## Opening
+- What are they going to learn?
+   - **Today we are going to get an introduction to the Unix command lines through a Starwars example**
+   - **Specifically you'll learn how to create folders and file, copy files, and delete files**
+- Why is this material important?
+- How will the learning occur?
+
 A long time ago in a unix environment far, far away, there were many Jedi padawans who
 will learn to use the terminal and destroy the the Dark Side.
 
