@@ -1,8 +1,7 @@
 # Episode 4: A New Terminal
 
-A long time ago in a unix environment far, far away, young Jedi padawans who
-knew only of desktop software were seduced by the dark side of the Force to
-enter… The Terminal.
+A long time ago in a unix environment far, far away, there were many Jedi padawans who
+will learn to use the terminal and destroy the the Dark Side.
 
 Follow the instructions below using all the console commands introduced in
 Fundamentals, class, or that you find on your own.
