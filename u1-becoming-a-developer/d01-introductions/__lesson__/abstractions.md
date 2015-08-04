@@ -18,5 +18,5 @@
 - Linking Javascript, `alert("Hello World")`
 - Prompting for Input, `alert("Hello "+name)`
 
-## STEP 3: Simple Calculator
+## STEP 3: Simple Calc
 - Operators: +, -, /, *, = ( ), %, +=, -=, *=, /=, ++
