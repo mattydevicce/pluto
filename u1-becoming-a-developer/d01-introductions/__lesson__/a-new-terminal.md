@@ -1,4 +1,4 @@
-# Episode 7: A New Terminal
+# Episode 4: A New Terminal
 
 A long time ago in a unix environment far, far away, young Jedi padawans who
 knew only of desktop software were seduced by the dark side of the Force to
@@ -10,7 +10,7 @@ Fundamentals, class, or that you find on your own.
 ## Set the Scene
 
 1. Open the **Terminal app**
-2. Change directories to your **unit-01/w01d01/student**.
+2. Change directories to your **pluto/u1-becoming-a-developer/d01-introductions/student**.
 3. Create a new directory called "**galaxy-far-far-away**" and enter it.
 4. Create a directory called "**death-star**", and make the following files inside of it:
     * "**darth-vader.txt**"
