@@ -52,6 +52,8 @@ Instead of using the menus, let's practice using the most common keyboard shortc
 6. Copy the entire contents of `file1.txt` and paste it into `file2.txt`
 7. Create a new file named "file3.txt", type your name, and close it.
 
+## STEP 4: Web Servers [W]
+
 Lets create a simple HTML project in Atom.  Let's start by creating a directory:
 
 ```sh
@@ -67,8 +69,6 @@ the contents of that directory is visible in the pane on the left.
 Let's create a new file named "index.html".  Let's take a few minutes to build
 out a simple website for our neighbor.  (15 minutes)
 
-## STEP 4: Web Servers [W]
-
 If we are going to be real web developers, we should get used to working behind a web server.
 
 In your terminal, type the words:
@@ -78,3 +78,12 @@ $ server
 ```
 
 This command was setup by during installfest.  For the first few units, we will use this command to test our code.
+
+## STEP 5: How the Internet Works
+
+DevOps
+
+##### Browsers
+##### Servers
+##### IP Addresses
+##### DNS
