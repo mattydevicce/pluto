@@ -40,63 +40,31 @@ Ask student to copy and paste command into terminal
 > - Type `cd ~/Desktop`
 > - Type `mv myFile.txt ~/Documents/myFile.txt`
 
-## I do
+## I do _(30m)_
+Introduce BASH commands
 
 | BASH Command     | Description     |
 | :------------- | :------------- |
 | `pwd` | Print Working Directory |
 | `ls` | List files and folders in current directory|
 | `cd [path]` | Change Directory |
-| `mkdir [directory]` | Create directory |
+| `mkdir [directory]` | Create directory(folder) |
 | `touch [path/file_name].[extension]` | Create new file |
 | `rm [path/file]` | Remove file |
 | `rm [path/file] -r` | Remove directory recursively |
 | `cp [path/file]` | Copy file |
 | `mv [path/file] [/path/]` | Move/Rename file |
 
+# BREAK _(10m)_
 
-
-# We do _(5)_:
-- Add the definitions in your own words:
-  - GUI, CLI, CLI prompt, Terminal, and Unix Shell.
-
-
-# I do: Some commands: _(10m)_
-- syntax
-  - case sensitive
-- The CLI is an interpreter of commands! Our commands are like a programming language.
-- The evolution from the CLI to the WYSIWYG. The web browser back then vs now etc.
-  - HyperCard, ViolaWWW, Lynx
-- Use the terminal to run
-  ```
-  date
-  whoami
-  ping -c 3 www.google.com // see if connected or site is up
-  df -h  // free disk space
-  top -o cpu // info about processes
-  man
-  ```
-- brew install tree
-
-# We do:  _(5m)_
-- Think of 5 advantages the CLI has over the GUI
-- Think of 5 advantages the GUI has over the CLI
-
-| CLI Advantages     | GUI Advantages     |
-| :------------- | :------------- |
-| Access to admin tools with more <br> detailed info ( ps, top, df )| Easy to navigate interface |
-| Use much less resources | Facilitates creation of complex <br> documents ( xls, pdf, docx )|
-| Easier to create tasks | Great for multitasking |
-
-# BREAK _(5m)_
-
-# I do: CLI File Structure & Manipulation _(15m)_
-- OS's organize files in directories
+## I do _(15m)_
+CLI File Structure & Manipulation
+- OS's organize files in directories (folders)
 - CLI allows us manage files and directories in the file system.
-  - Folders are special files where other files fit into, creating something that looks like a tree.
+  - directories or folders are special files where other files fit into, creating something that looks like a tree.
   - folders allows us to organize all the files in the OS.
 
-## A/V
+## We do
 - We have to think of file structure as a tree
 - We navigate through the CLI via "paths" ```cd```
 - Absolute paths vs relative paths
