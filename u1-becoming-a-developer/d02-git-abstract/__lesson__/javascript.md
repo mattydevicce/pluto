@@ -8,7 +8,6 @@
   - undefined, null, boolean, string, number
 - Comment code
 - String Methods
-- Array Methods
 
 Let's start programming! (continues from `abstractions.md`)
 
@@ -83,6 +82,7 @@ Methods take arguments.
 
 - `"Hello".indexOf('l')`
 - `"Charlie".replace('Ch','M')`
+- `"My favorite color today is RED".replace('RED','BLUE')`
 - `"charlie".slice(1)`
 - `"charlie".slice(0,1)`
 - `"charlie".slice(1,2)`
