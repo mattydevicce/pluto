@@ -38,6 +38,7 @@ Instead of using the menus, let's practice using the most common keyboard shortc
 | Ctrl+V   | Paste the contents of the clipboard |
 | Cmd+A    | Select the entire file |
 | Cmd+T    | Open a file in by name |
+| Cmd+\    | Toggle File Pane |
 
 ## ACTIVITY: Shortcut Practice (15 minutes)
 `d01/student/shortcut-practice`
@@ -81,9 +82,13 @@ This command was setup by during installfest.  For the first few units, we will 
 
 ## STEP 5: How the Internet Works
 
-DevOps
+- In many business, DevOps will be responsible for handling a majority of the servers, but that isn't always the case.  Developers are expected to have a reasonable amount of understanding of Networking.
 
 ##### Browsers
+- The browser is an application on the customers computer
+- The browser parses HTML and renders web pages
+- The browser connects as a client to a "Web Server"
+
 ##### Servers
 ##### IP Addresses
 ##### DNS

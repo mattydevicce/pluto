@@ -24,7 +24,7 @@
 
 ---LUNCH---
 
-- Clone the Class Repo (10 minutes) [PW]
+- Fork and Clone the Class Repo (10 minutes) [PW]
 - Introduction to the Command Line (30 minute) [PW]
 - A New Terminal (Activity) (1.5 hour)
 - BREAK
