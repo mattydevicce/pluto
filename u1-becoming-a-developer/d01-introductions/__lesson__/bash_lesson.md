@@ -55,7 +55,7 @@ Introduce BASH commands
 | `cp [path/file]` | Copy file |
 | `mv [path/file] [/path/]` | Move/Rename file |
 
-# BREAK _(10m)_
+> # BREAK _(10m)_
 
 ## I do _(15m)_
 CLI File Structure & Manipulation
