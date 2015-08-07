@@ -66,7 +66,7 @@ This is meant to be an introduction to BASH commands and I do not expect you to 
 
 > NOTE: You don't have to study these commands. Just keep looking it up, using them and it'll start becoming second nature.
 
-## We do _(60m)_
+## We do _(40m)_
 Reps & Flex: Go through each command
 - How do we check what directory we are on?
 - How do we list all files and directories at the location we are currently at?
@@ -97,6 +97,9 @@ Reps & Flex: Go through each command
 - You noticed there were prompts when we did `rm -r dirForRemovingAgain`. That could be annoying, so I'm going to introduce you to another flag `-f`. Can someone take a guess what `f` stands for? Now do this command to remove `dirForRemovingAgain` without having the prompts `rm -rf dirForRemovingAgain`.
 
 > # BREAK _(10m)_
+
+## We do continue _(20m)_
+Now we will learn the `mv` command and incorporate everything we learned previously as well.
 
 - Create a directory called `ToyFactory` and add two happy toys called `woody1.txt` and `buzz1.txt`.
 - Change directory to `ToyFactory` and make a copy of `buzz2.txt`.
