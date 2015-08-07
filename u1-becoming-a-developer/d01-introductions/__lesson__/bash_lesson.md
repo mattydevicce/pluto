@@ -93,6 +93,9 @@ Reps & Flex: Go through each command
 - Remove `dirForRemovingAgain`.
 - Recreate `dirForRemovingAgain` and add two poor files called `dontRemoveMe.txt` and `pleaseDontRemoveMe.txt`.
 - You noticed there were prompts when we did `rm -r dirForRemovingAgain`. That could be annoying, so I'm going to introduce you to another flag `-f`. Can someone take a guess what `f` stands for? Now do this command to remove `dirForRemovingAgain` without having the prompts `rm -rf dirForRemovingAgain`.
+
+> BREAK _(10m)_
+
 - Create a directory called `ToyFactory` and add two happy toys called `woody1.txt` and `buzz1.txt`.
 - Change directory to `ToyFactory` and make a copy of `buzz2.txt`.
 - Now go back to your previous directory.
@@ -101,8 +104,6 @@ Reps & Flex: Go through each command
 - Create `woody.txt` and `buzz.txt` in the `ToyFactory`.
 - Notice that we are not following the naming conventions of the previous woody and buzz files. Change directory into `ToyFactory` and let's rename them. It's weird but you rename them by using `mv`
 - Go back up one directory and move the new `woody3.txt buzz3.txt` into `ToyStore`. You'll be able to specify the path of the files you are trying to move and the path you are moving the files to.
-
-> BREAK _(10m)_
 
 ## We do
 - We have to think of file structure as a tree
