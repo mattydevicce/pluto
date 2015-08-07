@@ -40,6 +40,8 @@ Ask student to copy and paste command into terminal
 > - Type `cd ~/Desktop`
 > - Type `mv myFile.txt ~/Documents/myFile.txt`
 
+<br>
+
 > # BREAK _(10m)_
 
 ## I do _(30m)_
@@ -94,7 +96,7 @@ Reps & Flex: Go through each command
 - Recreate `dirForRemovingAgain` and add two poor files called `dontRemoveMe.txt` and `pleaseDontRemoveMe.txt`.
 - You noticed there were prompts when we did `rm -r dirForRemovingAgain`. That could be annoying, so I'm going to introduce you to another flag `-f`. Can someone take a guess what `f` stands for? Now do this command to remove `dirForRemovingAgain` without having the prompts `rm -rf dirForRemovingAgain`.
 
-> BREAK _(10m)_
+> # BREAK _(10m)_
 
 - Create a directory called `ToyFactory` and add two happy toys called `woody1.txt` and `buzz1.txt`.
 - Change directory to `ToyFactory` and make a copy of `buzz2.txt`.
