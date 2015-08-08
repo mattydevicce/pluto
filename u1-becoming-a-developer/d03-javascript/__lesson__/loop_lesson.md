@@ -4,8 +4,7 @@
 
 - **What are we going to learn?**
 
-> - Is the concept of looping unfamiliar to any of you? What are some ways we use loops in our everyday lives?
-> - Who listens to music here? There is a loop button so you could listen to your favorite songs over and over again.
+> - Who listens to music here? What's your favorite song? There is a loop button so you could listen to your favorite songs over and over again.
 > - I think you all know where I'm going with this. We'll be learning about programming loops.
 
 - **Why is this important?**
