@@ -16,5 +16,6 @@
 
 #### AND
 #### OR
+#### NOT
 
 ### STEP 3: JavaScript Conditionals

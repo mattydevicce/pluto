@@ -27,12 +27,12 @@ Instead of using the menus, let's practice using the most common keyboard shortc
 
 | Shortcut | Function |
 |----------|----------|
-| Ctrl+S   | Save the current document |
-| Ctrl+O   | Open a file |
-| Ctrl+N   | Create a new file |
-| Ctrl+W   | Close the file |
-| Ctrl+[   | Switch to the previous tab |
-| Ctrl+]   | Switch to the next tab |
+| Cmd+S   | Save the current document |
+| Cmd+O   | Open a file |
+| Cmd+N   | Create a new file |
+| Cmd+W   | Close the file |
+| Cmd+[   | Switch to the previous tab |
+| Cmd+]   | Switch to the next tab |
 | Shift+Arrow Keys | Make selection using the keyboard |
 | Ctrl+C   | Copy the selection to the clipboard |
 | Ctrl+V   | Paste the contents of the clipboard |
