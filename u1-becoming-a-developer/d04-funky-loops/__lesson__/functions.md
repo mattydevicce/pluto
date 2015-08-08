@@ -7,7 +7,6 @@
 
 ##### Vocabulary
 - **scope** - the set of variables you have access to and where
-- **argument** - the data passed in when a function is invoked
 - **parameter** - a variable part of the method signature, the place holder
 
 ---
@@ -59,7 +58,20 @@ function findAnything(haystack, thingToFind) {
 }
 ```
 
-One of the BIGGEST things you need to remember is that EVERYTHING returns
+One of the BIGGEST things you need to remember is that EVERYTHING returns something:
+
+```
+function findAnything(haystack, thingToFind) {
+  for(var i=0; i<haystack.length; i++) {
+    if (haystack[i] == thing_to_find) {
+      return i;
+    }
+  }
+}
+```
+
+**ACTIVITY:** Let's write a function that returns an array where each element is
+multiplied by 2.
 
 ```
 function doubleDouble(arrayToDouble) {
@@ -67,25 +79,16 @@ function doubleDouble(arrayToDouble) {
 }
 ```
 
+**ACTIVITY:** Now, write *another* function that creates an array of 5 random
+numbers
+
 ```
 function toilAndTrouble() {
-
 }
 ```
 
-`doubleDouble(toilAndTrouble())`
+Now, let's call them together: `doubleDouble(toilAndTrouble())`
 
 ---
-
-###### SOLUTION
-```
-function findAnything(haystack, thingToFind) {
-  for(var i=0; i<haystack.length; i++) {
-    if (haystack[i] == thing_to_find) {
-      alert("Found the "+thingToFind)
-    }
-  }
-}
-```
 
 ## STEP 3:

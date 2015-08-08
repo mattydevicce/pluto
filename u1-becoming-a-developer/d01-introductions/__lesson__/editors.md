@@ -25,20 +25,20 @@ should begin to develop our muscle memory so we can be as effective as possible.
 
 Instead of using the menus, let's practice using the most common keyboard shortcuts:
 
-| Shortcut | Function |
-|----------|----------|
-| Cmd+S   | Save the current document |
-| Cmd+O   | Open a file |
-| Cmd+N   | Create a new file |
-| Cmd+W   | Close the file |
-| Cmd+[   | Switch to the previous tab |
-| Cmd+]   | Switch to the next tab |
-| Shift+Arrow Keys | Make selection using the keyboard |
-| Ctrl+C   | Copy the selection to the clipboard |
-| Ctrl+V   | Paste the contents of the clipboard |
-| Cmd+A    | Select the entire file |
-| Cmd+T    | Open a file in by name |
-| Cmd+\    | Toggle File Pane |
+| Shortcut          | Function
+|-------------------|-------------
+| Cmd+S             | Save the current document
+| Cmd+O             | Open a file
+| Cmd+N             | Create a new file
+| Cmd+W             | Close the file
+| Cmd+[             | Switch to the previous tab
+| Cmd+]             | Switch to the next tab
+| Shift+Arrow Keys  | Make selection using the keyboard
+| Ctrl+C            | Copy the selection to the clipboard
+| Ctrl+V            | Paste the contents of the clipboard
+| Cmd+A             | Select the entire file
+| Cmd+T             | Open a file in by name
+| Cmd+\             | Toggle File Pane
 
 ## ACTIVITY: Shortcut Practice (15 minutes)
 `d01/student/shortcut-practice`
