@@ -9,6 +9,9 @@
 - Comment code
 - String Methods
 
+What is JavaScript
+Why do we need to know Javascript?  Javascript is the language of the web.
+
 Let's start programming! (continues from `abstractions.md`)
 
 Let's create a new file: `pluto.js` and inside of it, let's type:
@@ -17,6 +20,8 @@ Let's create a new file: `pluto.js` and inside of it, let's type:
 alert('Hello World!');
 ```
 
+- Explain Javascript Syntax (function, string)
+- Write Vocabulary Words
 - How can we determine what this code does? [Google it! / MDN]
 - Pull up the documentation for `alert` on MDN
 

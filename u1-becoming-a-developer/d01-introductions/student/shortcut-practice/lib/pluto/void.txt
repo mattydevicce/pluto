@@ -8,33 +8,33 @@ Thank you, Captain.
 Cream of leola soup, fettran
 risotto, Luhvian quail...
 it just keeps getting better.
-l knew you'd been
+I knew you'd been
 expanding your palate,
-but l didn't realize
+but I didn't realize
 you'd become a gourmet cook.
-Preparing meals myself is
+Preparing meais myseIf is
 the best way to ensure quality.
 l suppose l should be insulted,
 but everything is so delicious,
-l may just have to admit defeat
+I may just have to admit defeat
 and hang up my apron.
 No, that'd be a real tragedy,
 Neelix.
 Pinot noir, Commander?
-l'll have another glass
+I'll have another glass
 of the chardonnay.
 Each course has been paired
 with a specific wine.
 Substitutions
 are not recommended.
 The pinot noir sounds perfect.
-ls there any salt?
+is there any salt?
 Additional seasoning
 is not required.
-Oh, l'm sorry, l...
-lf the quail hasn't been
+Oh, I'm sorry, l...
+If the quail hasn't been
 prepared to your satisfaction,
-l could replicate something
+I could replicate something
 more to your liking.
 A peanut butter
 and jelly sandwich, perhaps.
@@ -44,8 +44,8 @@ Captain to the Bridge.
 Report.
 We're being pulled off-course.
 How?
-l'm not certain.
-lt appears to be
+I'm not certain.
+it appears to be
 some kind of graviton surge.
 On my way.
 We've rerouted all available
@@ -66,13 +66,13 @@ but the ship has technology
 from several different species.
 There's another vessel
 approaching.
-lt's charging weapons.
+it's charging weapons.
 Evasive pattern Beta-6.
 Maybe we've got an ally.
 The Vaadwaur ship is retreating.
 Hail the second ship.
 No response.
-l stand corrected.
+I stand corrected.
 They have penetrated
 our aft shields.
 Reroute power to the auxiliary
@@ -85,11 +85,11 @@ Navigational sensors
 are malfunctioning.
 Something to do
 with this environment.
-l want a full damage report
+I want a full damage report
 and an inventory
 of everything that was
 taken off this ship.
-And l want to know where we are.
+And I want to know where we are.
 They got more than 90 percent
 of our food stores,
 including almost everything
@@ -102,17 +102,17 @@ Why would anyone
 steal deuterium?
 You could find it anywhere.
 Apparently not here.
-l'm not detecting any gases,
+I'm not detecting any gases,
 stellar bodies,
 or matter of any kind.
 Except for the ships
 that attacked us.
 Scan for other vessels.
-l want to know how many
+I want to know how many
 we're dealing with.
 There are more than 150 ships
 within scanning range,
-but l'm only detecting
+but I'm only detecting
 life signs on 29 of them.
 Captain, there's another vessel
 approaching at high impulse.
@@ -125,7 +125,7 @@ That'll have to do.
 Charge weapons.
 Captain, this one wants to talk.
 On screen.
-l'm Captain Janeway
+I'm Captain Janeway
 of the Starship Voyager.
 General Valen.
 Welcome to the Void.
@@ -136,13 +136,13 @@ but in case you change
 your mind,
 we're prepared
 to defend ourselves.
-l know; l've been observing you
+I know; l've been observing you
 on sensors.
 The way you fought those ships
 was impressive.
-Most vessels don't survive
+Most vesseis don't survive
 the first few minutes.
-l'd appreciate any information
+I'd appreciate any information
 you could give us
 about where we are.
 The anomaly's
@@ -171,7 +171,7 @@ to breach it.
 How long have you been here?
 More than five years.
 There must be a way to escape.
-New arrivals are always
+New arrivais are always
 thinking about escape.
 We have
 a sophisticated starship.
@@ -192,7 +192,7 @@ The only source
 of food and energy in the Void
 comes from new ships
 that are drawn in.
-lf you want to survive here,
+If you want to survive here,
 you'll have to compete
 for their resources.
 And l suppose
@@ -204,7 +204,7 @@ But you want something
 in return.
 My scans show
 you have photon torpedoes.
-l'm sorry,
+I'm sorry,
 we don't trade weapons.
 Why not?
 Because we have
@@ -216,7 +216,7 @@ Wait a few weeks until
 your resources start to run out.
 Morality won't keep your
 life support systems running.
-l'm sorry, General.
+I'm sorry, General.
 There are some compromises
 l won't make.
 Not yet.
@@ -238,14 +238,14 @@ Using fractal algorithms
 with the Borg sensors,
 l believe l can predict
 where and when
-these funnels will occur.
+these funneis will occur.
 Well, that's impressive,
 but how does it help us?
-The funnels originate
+The funneis originate
 inside the anomaly,
 creating massive graviton forces
 before they erupt.
-lf we were to enter
+If we were to enter
 one of the funnels
 just as that happened,
 we might be able
@@ -291,19 +291,19 @@ Prepare to go to warp.
 Engineering to the Bridge.
 Go ahead.
 The warp core is off-line.
-lf nothing else,
+If nothing else,
 we learned some things
 that'll help us next time.
 With all due respect, Captain,
 we don't even have
 warp drive anymore.
-l may be able
+I may be able
 to get it back on line,
 but we still need deuterium
 to keep our basic systems
 running.
 How long will our reserves last?
-lf we shut down life support
+If we shut down life support
 on all but a few decks,
 deactivate Astrometrics,
 turbolifts,
@@ -331,7 +331,7 @@ the ship that raided us
 and get back what they stole.
 We should do it quickly.
 l've detected a number
-of vessels monitoring us.
+of vesseis monitoring us.
 The vultures are circling.
 Vultures eat the dead,
 Mr. Paris.
@@ -346,7 +346,7 @@ Scan for ion trails.
 Whoever did this
 probably has our deuterium.
 Aye, Captain.
-ls there anything left aboard
+is there anything left aboard
 that ship worth salvaging?
 Their technology and supplies
 have been picked clean.
@@ -355,7 +355,7 @@ has been taken.
 The warp core has been removed,
 but the casing
 that protected it is intact.
-lt's composed of tricesium.
+it's composed of tricesium.
 We can convert it
 into a power source.
 Every little bit helps.
@@ -424,8 +424,8 @@ from my daily allotment.
 You've found something?
 We think we know
 who has our deuterium.
-lt's someone we've already met.
-l knew l'd see you again,
+it's someone we've already met.
+I knew I'd see you again,
 Captain.
 l expect you've reconsidered
 my proposal.
@@ -453,11 +453,11 @@ Target his shields and fire.
 Lock onto whatever belongs to us
 and transport it
 to the cargo bay.
-l'm detecting large quantities
+I'm detecting large quantities
 of food on his supply deck.
 Maybe we should take it
 while we have the chance.
-ls it ours?
+is it ours?
 No, but our own reserves
 are running out.
 Valen wouldn't hesitate
@@ -489,9 +489,9 @@ after five years in here.
 l was thinking
 about that myself.
 l thought maybe
-l could get some guidance
+I could get some guidance
 from the Federation Charter.
-l was hoping l'd find a loophole
+l was hoping I'd find a loophole
 that would allow us to...
 take actions
 we ordinarily wouldn't take.
@@ -508,10 +508,10 @@ to our principles,
 not abandon them.
 Should the crew be ready
 to die for those principles?
-lf the alternative means
+If the alternative means
 becoming thieves
 and killers ourselves, yes.
-But l'm betting
+But I'm betting
 that our principles
 are going to keep us alive.
 Captain?
@@ -552,7 +552,7 @@ Captain, maybe you'd better take
 another look at that inventory.
 Our food and power reserves
 will be gone within a week.
-lf we start giving
+If we start giving
 everything away...
 Then maybe we'll only survive
 for two days instead of seven.
@@ -561,7 +561,7 @@ if we share what we have,
 instead of hoarding it,
 we might find other people
 willing to do the same.
-lf we combine our technology,
+If we combine our technology,
 we can find ways
 of improving our situation
 and ultimately
@@ -597,7 +597,7 @@ new members,
 share technology and resources.
 We almost escaped the Void
 on our own.
-lf we work together,
+If we work together,
 l believe we'll succeed.
 How many ships do you have
 in this alliance?
@@ -613,7 +613,7 @@ and the resources of my ship,
 and she has never failed
 to help me
 when l needed her.
-lt's a noble idea, Captain,
+it's a noble idea, Captain,
 but good intentions are
 like deuterium reserves--
 they tend to get lost
@@ -648,7 +648,7 @@ Did they join?
 Not yet.
 -Captain...
 -l know.
-lt's not exactly
+it's not exactly
 the most ''efficient'' policy.
 But, then, you don't always do
 what's most efficient either.
@@ -664,15 +664,15 @@ is nothing but a drain
 on resources.
 What's efficient about
 wasting food on him?
-You think l'm being inefficient,
+You think I'm being inefficient,
 Tuvok thinks
-l'm being illogical...
+I'm being illogical...
 You both could be right.
 But maybe the best way
 to get help is to give it.
 Oh, and, Seven?
 -Yes?
--l'm sorry
+-I'm sorry
 l gave away your favorite
 phase compensator.
 How is he?
@@ -695,7 +695,7 @@ in a few days.
 Choosing the right name
 for myself
 is extremely difficult.
-l'm a complex individual.
+I'm a complex individual.
 And Fantome isn't?
 On the contrary.
 l believe
@@ -734,7 +734,7 @@ Still, it is festive.
 We appreciate the effort.
 l believe there's been
 a mistake here, waiter.
-l didn't order this.
+I didn't order this.
 Close your eyes and pretend that
 it's Seven's fettran risotto.
 lt tastes more like chicken.
@@ -762,7 +762,7 @@ Then stand down.
 This new ship has
 impressive technology.
 We can share it.
-l'm not here
+I'm not here
 to divide the spoils.
 Then why are you here?
 To protect the ship
@@ -786,7 +786,7 @@ Shields at 60 percent.
 Fire torpedoes.
 Shields on Valen's lead ship
 are holding at 80 percent.
-lt appears he's upgraded them
+it appears he's upgraded them
 since we last met.
 Ours?
 Thirty.
@@ -851,7 +851,7 @@ our replicator efficiency.
 lt may not be a gourmet feast,
 but we can feed
 500 people a day now,
-using half the power
+using haIf the power
 it took us a few days ago.
 Why don't we sit down?
 Doctor.
@@ -863,7 +863,7 @@ but it's taken me
 this long to coax him
 out of Sick Bay.
 He's quite shy.
-l'm telling him not to worry...
+I'm telling him not to worry...
 that you're the one
 who keeps us all safe.
 He says, ''Thank you.''
@@ -873,7 +873,7 @@ lt began
 with a few simple words,
 but now we're capable
 of rudimentary conversation.
-Tell him l'm pleased
+Tell him I'm pleased
 he's feeling better.
 l will.
 What's that parasite
@@ -892,9 +892,9 @@ Fantome is perfectly healthy,
 and unlike some people
 in this Void, he hasn't stolen
 anything.
-lf my sensors could detect
+If my sensors could detect
 where they are on my ship,
-l'd exterminate them.
+I'd exterminate them.
 l suggest you do the same.
 Captain, this is outrageous!
 Doctor!
@@ -908,16 +908,16 @@ But if you're having
 a bad experience
 with the members of this species
 on your ship,
-l'd be happy to bring
+I'd be happy to bring
 them to Voyager.
-lf you could find them.
+If you could find them.
 Now that we've had a chance to
 analyze Fantome's physiology,
 l think we can get
 a transporter lock on them.
-ls this your way of enticing me
+is this your way of enticing me
 to join your... alliance?
-l'm simply trying to demonstrate
+I'm simply trying to demonstrate
 how cooperation and tolerance
 can benefit everyone.
 Then we have an agreement.
@@ -968,7 +968,7 @@ on any ship in the Void
 without being detected.
 This is the cargo hold
 on the Jelinian freighter.
-Now, if l'm not mistaken,
+Now, if I'm not mistaken,
 the Jelinians
 are a member of our alliance.
 Which is why you shouldn't
@@ -980,9 +980,9 @@ Did they compose it, or did you?
 They did.
 Though strictly speaking,
 it's not a composition.
-lt's more of a conversation.
-l'm impressed.
-l wish l could take credit,
+it's more of a conversation.
+I'm impressed.
+l wish I could take credit,
 but it was Fantome
 who taught the others
 in a fraction of the time
@@ -1000,7 +1000,7 @@ just as comfortable
 communicating with music now.
 Could their species be native
 to the Void?
-lt's certainly possible.
+it's certainly possible.
 They told us
 they were born here.
 Just when you think
@@ -1047,7 +1047,7 @@ The Jelinians and the Kraylor
 have left with Bosaal.
 They felt you were being...
 lmpulsive and self-righteous?
-ls that what you think?
+is that what you think?
 You did what you had to do.
 Still, l made a mistake.
 By telling Bosaal to leave?
@@ -1067,7 +1067,7 @@ could help us escape.
 You weren't the only one
 who wanted him in the alliance.
 Maybe not...
-but if l'd listened
+but if I'd listened
 to my doubts in the first place,
 we wouldn't have lost
 the other two ships.
@@ -1086,8 +1086,8 @@ They have to.
 lt says so
 in the Federation Charter.
 Good news, l hope.
-l'm afraid not.
-lt appears Commander Bosaal
+I'm afraid not.
+it appears Commander Bosaal
 is attempting to form
 an alliance of his own
 with one of our adversaries.
@@ -1107,7 +1107,7 @@ The rest of their
 conversation suggests
 they will attack
 within the next 48 hours.
-l'm so glad we taught them
+I'm so glad we taught them
 the value of cooperation.
 Our power reserves
 will be severely depleted
