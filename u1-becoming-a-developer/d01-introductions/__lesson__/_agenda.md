@@ -14,10 +14,9 @@
 - Emotional Framing (30 minutes)
   - The emotional cycle [BK]
   - Dealing with uncertainty, [BK]
+  - Pay attention - but be patient with yourself [PW]  
   - Accepting Criticism, saying "I don't know" [PW]
-  - Taking Notes (Don't write commands) [PW]
-  - Pay attention - but be patient with yourself [PW]
-  - Don't compare yourself to others; compare yourself to who you were. [BK]
+  - Don't compare yourself to others; compare yourself to who you were. [PW]
 - Health and Sustainability (30 minutes) [JC]
   - Eye Strain, Stretch, Etc
 - OPTIONAL: Watch Grit (TED Talk) (10 minutes) [JC]
@@ -26,7 +25,7 @@
 
 - Fork and Clone the Class Repo (10 minutes) [PW]
 - Introduction to the Command Line (30 minute) [PW]
-- A New Terminal (Activity) (1.5 hour)
+- A New Terminal (Activity) (1.5 hour) // this will be moved.
 - BREAK
 - Editor Lesson (45 minutes) [JC]
 - Editor Activity [JC]
