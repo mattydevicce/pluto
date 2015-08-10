@@ -5,7 +5,7 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
 ####"A New Hope"
 ######Act I
 
-* In your week 1, day 1 folder, create a directory called `star_wars`.
+* In your root directory create a directory called `star_wars`.
 
 > Example answer: `mkdir star_wars`
 
