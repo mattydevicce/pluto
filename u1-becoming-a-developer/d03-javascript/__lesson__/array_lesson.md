@@ -1,4 +1,6 @@
-# INTRO
+# Array (1h 20m)
+
+## INTRO
 - **Relation to what they learned previously**
 
 > Previously we learned about JavaScript variables. With a variable we could only store one thing at a time, which is limiting.
@@ -15,7 +17,7 @@ For example, let's say we wanted a reference to the Beatles.  This would look li
 
 - Learn use cases for Arrays
 
-## Warm up _(10m)_
+## Warm up _(5m)_
 We previously learned about variables from the Intro to JS lesson.
 
 Let's review:
@@ -28,7 +30,7 @@ var booleanVariable = true;
 
 An Arrays is a variable as well, but it has special capabilities. We'll see why shortly.
 
-## I do _(15m)_
+## I do _(5m)_
 Sometimes it is useful to have a collection of things that are related. This is where Arrays come in. For example, let's say we wanted a reference to the Beatles. This would look like this:
 
 ```js
@@ -48,8 +50,8 @@ var blob = [1, 'two', 3, false, 'four', true];
 
 > Check for understanding
 
-## I do _(15m)_
-That's great that an Array could store a collection of data items, but how do we get access to the items stored in there? It wouldn't be very useful if we don't have a way to access the data.
+## I do _(5m)_
+That's great that an array could store a collection of data items, but how do we get access to the items stored in there? It wouldn't be very useful if we don't have a way to access the data.
 
 To access data in an Array we much use bracket notation `[]` with a valid index that is an integer from `0` to `1`.
 
@@ -60,7 +62,7 @@ Yes I did. This is because computers start counting at `0`
 var beatles = ['John', 'Paul', 'George', 'Ringo'];
 ```
 
-## I do _(10m)_
+## I do _(5m)_
 For this example we will get the following results:
 
 ```js
@@ -144,7 +146,7 @@ I want to come back! Puts me back at the top again.
 
 ```js
 myBand.unshift('Maria')
-````
+```
 
 ## You do _(20m)_
 Given the following array:

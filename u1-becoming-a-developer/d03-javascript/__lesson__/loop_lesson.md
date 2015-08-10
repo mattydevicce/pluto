@@ -1,14 +1,55 @@
-# INTRO
-What are some scenarios where we use loops. Who listens to music here? You know when you
-- **What are we going to learn
-> - Today we are going to learn about Arrays which is another type of JavaScript variable. An Array is really cool because it allows you to store a bunch of data in one place.
+# Loops
 
-- why is it important?**
-> - As developers, the GUI is limiting in terms of what we could do and how efficiently.
-> - Today we are going to learn a way to communicate with computers - Command Line.
+## Intro _(5m)_
 
-- **How will the learning occur?**
-> - We'll learn Command Line by first learning a few commands that are relevant to us.
-> - The use these commands in a Star Wars example - you'll like it.
+- **What are we going to learn?**
 
-## 
+> - Who listens to music here? What's your favorite song? There is a loop button so you could listen to your favorite songs over and over again.
+> - I think you all know where I'm going with this. We'll be learning about programming loops.
+
+- **Why is this important?**
+
+> - In some cases we have to do the same operations more than once and it would be inefficient to repeat code.
+> - If we think back to arrays wouldn't it great to have a loop that increments a index to access each element without having to write the manual code.
+
+## Objectives
+- Learn about for & while loop and understand when to use one over the other
+- Understand how loops allows us to reduce code redundancy
+- Traverse through arrays with loops
+
+## I do _(10m)_
+Let's imagine you go to some party and your objective is to get the food, but there are generic boring people there who want to talk to you. They all greet you the same way and you have no interest in speaking to these people, so you give them all the same generic responses.
+
+```js
+console.log("I'm fine, thank you. Nice to see you again.");
+console.log("I'm fine, thank you. Nice to see you again.");
+console.log("I'm fine, thank you. Nice to see you again.");
+console.log("I'm fine, thank you. Nice to see you again.");
+console.log("I'm fine, thank you. Nice to see you again.");
+```
+
+It get's tiring to either have to write or copy/paste code and look at it.
+
+Here's when loops become very useful. All of this redundancy could be simplified to
+
+```js
+for(var i=0; i<5; i++) {
+  console.log("I'm fine, thank you. Nice to see you again.");
+}
+```
+
+What's going on here
+```js
+var i=0 // that is declaring a counting variable
+i<5 // is a condition we apply for the loop to run. If it evaluates to false the loop stops.
+i++ // increments the counting variables
+```
+
+## We do _(5m)_
+Let's say you have a dog name Skippy and he wants to play fetch. However you have a WDI assignment due soon and only have time for five throws. Let's code a loop together that would allow us to play fetch with Skippy 5 times.
+
+```js
+for(var i=0; i<5; i++) {
+  console.log("throw " + i);
+}
+```
