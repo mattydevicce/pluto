@@ -2,8 +2,6 @@
 
 Working in the command line is a key skill to develop as a programmer. It's a big break from what you're used to, and practice makes (eventually) perfect. Let's explore the Star Wars narrative using the command line!
 
-Please record your commands underneath each bullet point in this markdown. **What is a markdown you ask?** You should have pulled another markdown about markdowns in your class folder for today.
-
 ####"A New Hope"
 ######Act I
 
