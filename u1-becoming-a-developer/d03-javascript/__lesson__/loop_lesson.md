@@ -12,6 +12,11 @@
 > - In some cases we have to do the same operations more than once and it would be inefficient to repeat code.
 > - If we think back to arrays wouldn't it great to have a loop that increments a index to access each element without having to write the manual code.
 
+## Objectives
+- Learn about for & while loop and understand when to use one over the other
+- Understand how loops allows us to reduce code redundancy
+- Traverse through arrays with loops
+
 ## I do _(10m)_
 Let's imagine you go to some party and your objective is to get the food, but there are generic boring people there who want to talk to you. They all greet you the same way and you have no interest in speaking to these people, so you give them all the same generic responses.
 
