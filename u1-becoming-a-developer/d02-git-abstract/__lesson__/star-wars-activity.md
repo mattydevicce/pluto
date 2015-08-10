@@ -25,6 +25,8 @@ As you work, make sure you `git add .` and `git commit -m "[YOUR MESSAGE HERE]"`
 
 * Move `darth_vader` into the `death_star`.
 
+* Add and commit the Directory Universe to Github
+
 ######Act II
 
 * Move back to your `star_wars` directory, and enter the `rebellion` directory.
@@ -43,6 +45,8 @@ As you work, make sure you `git add .` and `git commit -m "[YOUR MESSAGE HERE]"`
 
 * Move the `millenium_falcon` into the `death_star`.
 
+* Add and commit the Act II to Github
+
 ######Act III
 
 * Unload the Millenium Falcon! Move the whole crew from the `millenium_falcon` directory into the `death_star` directory.
@@ -57,3 +61,4 @@ As you work, make sure you `git add .` and `git commit -m "[YOUR MESSAGE HERE]"`
 
 * Thanks to his practice back home at Beggar's Canyon, Luke blew up the `death_star`! Remove it from the galaxy! :boom:
 
+* Add and commit the Act III to Github

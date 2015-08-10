@@ -1,27 +1,37 @@
 ## JavaScript
+(continues from [abstractions](abstractions.md))
 
-##### Learning Objectives
-- Declare a variable
+##### LEARNING OBJECTIVES
+- Create and link HTML and JavaScript files
+- Declare variables
 - Use the assignment operator
-- Describe how the Browser executes JavaScript
-- Define a JavaScript primitive value
-  - undefined, null, boolean, string, number
-- Comment code
-- String Methods
-- Array Methods
+- Comment their code
+- Explore String Methods
 
-Let's start programming! (continues from `abstractions.md`)
+##### VOCABULARY (introduce as necessary)
+- **string** - A sequence of letters / text
+- **function** - a block of code designed to perform a particular task
+- **argument** - Data passed in when a function is invoked
 
-Let's create a new file: `pluto.js` and inside of it, let's type:
+### STEP 1: JavaScript (10 min)
+
+- What is JavaScript?
+- Why do we need to know Javascript?
+- Javascript is the language of the web.
+
+Let's start programming!
+
+Let's create a new folder `hellojs` and a file `pluto.js`. Inside of it, let's type:
 
 ```js
 alert('Hello World!');
 ```
 
+- Explain Javascript syntax (function, string, argument)
 - How can we determine what this code does? [Google it! / MDN]
 - Pull up the documentation for `alert` on MDN
 
-##### Linking Javascript
+### STEP 2: Linking Javascript (5 min)
 
 ```html
 <html>
@@ -45,7 +55,7 @@ var message = 'Hello World';
 alert(message);
 ```
 
-##### Prompting for Input
+### STEP 3: Prompting for Input (10 min)
 
 - By introducing input, we have introduced some uncertainty into the program.
 
@@ -55,7 +65,7 @@ var name = prompt("What is your name?")
 alert(message+name)
 ```
 
-We could write this same code in another way.  There is often no 'right answer' when it comes to code.  You are likely to see all sorts of code, so it's important that you ynderstand what things *do* and *reason* about it.
+We could write this same code in another way.  There is often no 'right answer' when it comes to code.  You are likely to see all sorts of code, so it's important that you understand what things *do* and *reason* about it.
 
 ```js
 var message, name;
@@ -68,7 +78,10 @@ alert(message+name);
 
 - What happens if I create a variable named `prompt`?
 
-**- BREAK (10 minutes)-**
+---
+** BREAK (10 minutes)**
+
+### STEP 4: Variables (10 min)
 
 - JavaScript variables have "types", and "types" have methods. You call methods using a `.` and the method name.
 - Let's experiment in the JavaScript console.
@@ -77,12 +90,13 @@ alert(message+name);
 - `"Hello".toUpperCase()`
 - `"Hello".toLowerCase()`
 
-Using these functions, modify your code so that it tells the person to take out the trash IN UPPERCASE. (2 minutes)
+> Using these functions, modify your code so that it tells the person to take out the trash IN UPPERCASE. (2 minutes)
 
 Methods take arguments.
 
 - `"Hello".indexOf('l')`
 - `"Charlie".replace('Ch','M')`
+- `"My favorite color today is RED".replace('RED','BLUE')`
 - `"charlie".slice(1)`
 - `"charlie".slice(0,1)`
 - `"charlie".slice(1,2)`
@@ -97,16 +111,38 @@ Using these functions, modify your code so that it uppercases only the first let
 
 Write a program that accepts a binary number and converts it into decimal (2 minutes)
 
-##### Math
+### STEP 5: Math (15 min)
 
 Computers are basically fancy calculators. Let's go back to the console, and do some Math:
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Modulus (`%`)
 - `Math.floor(10)`
 - `Math.ceil(10)`
 - `Math.round(10)`
+- `Math.random()`
+
+### STEP 6: Finish `hellojs` (20 minutes)
+
+You're program should:
+- Alert "Hello World"
+- Prompt for a Name
+- Alert "TAKE OUT THE TRASH, [NAME]" where name is all uppercase.
+- Prompt "How many bags of trash is there?"
+- Alert "It should take you **[MINUTES]** minutes", where **[MINUTES]** is the number of bags multiplied by 5
+- Alert a random number between 1 and 10
+
+### STEP 7: Wrap Up
+
+- JavaScript is the "language of the web"
+- "Strings" are sequences of text
+- "Integers" are numeric values
+- Functions take arguments and return a value
+- Methods are functions called on variables
+
+---
 
 #### INTRODUCE HOMEWORK

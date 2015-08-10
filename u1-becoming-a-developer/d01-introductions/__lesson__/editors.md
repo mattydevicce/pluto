@@ -25,20 +25,20 @@ should begin to develop our muscle memory so we can be as effective as possible.
 
 Instead of using the menus, let's practice using the most common keyboard shortcuts:
 
-| Shortcut | Function |
-|----------|----------|
-| Ctrl+S   | Save the current document |
-| Ctrl+O   | Open a file |
-| Ctrl+N   | Create a new file |
-| Ctrl+W   | Close the file |
-| Ctrl+[   | Switch to the previous tab |
-| Ctrl+]   | Switch to the next tab |
-| Shift+Arrow Keys | Make selection using the keyboard |
-| Ctrl+C   | Copy the selection to the clipboard |
-| Ctrl+V   | Paste the contents of the clipboard |
-| Cmd+A    | Select the entire file |
-| Cmd+T    | Open a file in by name |
-| Cmd+\    | Toggle File Pane |
+| Shortcut          | Function
+|-------------------|-------------
+| Cmd+S             | Save the current document
+| Cmd+O             | Open a file
+| Cmd+N             | Create a new file
+| Cmd+W             | Close the file
+| Cmd+[             | Switch to the previous tab
+| Cmd+]             | Switch to the next tab
+| Shift+Arrow Keys  | Make selection using the keyboard
+| Ctrl+C            | Copy the selection to the clipboard
+| Ctrl+V            | Paste the contents of the clipboard
+| Cmd+A             | Select the entire file
+| Cmd+T             | Open a file in by name
+| Cmd+\             | Toggle File Pane
 
 ## ACTIVITY: Shortcut Practice (15 minutes)
 `d01/student/shortcut-practice`
@@ -52,43 +52,3 @@ Instead of using the menus, let's practice using the most common keyboard shortc
 5. Open `file1.txt` and `file2.txt`
 6. Copy the entire contents of `file1.txt` and paste it into `file2.txt`
 7. Create a new file named "file3.txt", type your name, and close it.
-
-## STEP 4: Web Servers [W]
-
-Lets create a simple HTML project in Atom.  Let's start by creating a directory:
-
-```sh
-$ cd ~/code/wdi
-$ mkdir about-me
-$ cd about-me
-$ atom .
-```
-
-Because we opened atom with a current directory as the first argument, (`.`)
-the contents of that directory is visible in the pane on the left.
-
-Let's create a new file named "index.html".  Let's take a few minutes to build
-out a simple website for our neighbor.  (15 minutes)
-
-If we are going to be real web developers, we should get used to working behind a web server.
-
-In your terminal, type the words:
-
-```sh
-$ server
-```
-
-This command was setup by during installfest.  For the first few units, we will use this command to test our code.
-
-## STEP 5: How the Internet Works
-
-- In many business, DevOps will be responsible for handling a majority of the servers, but that isn't always the case.  Developers are expected to have a reasonable amount of understanding of Networking.
-
-##### Browsers
-- The browser is an application on the customers computer
-- The browser parses HTML and renders web pages
-- The browser connects as a client to a "Web Server"
-
-##### Servers
-##### IP Addresses
-##### DNS

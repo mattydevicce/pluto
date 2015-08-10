@@ -2,8 +2,8 @@
 
 1.  Computing Basics, Workflow, Problem Solving, Flowcharts, Git, Reps (Don't Panic), HTTP / DNS
 2.  Programming Fundamentals in JavaScript
-3.  HTML/CSS, Client Side Scripting
-4.  jQuery / React.js / Project 1
+3.  HTML/CSS, Client Side Scripting, jQuery
+4.  Underscore.js / SASS / Jasmine / React.js / Project 1
 5.  Ruby / Object Oriented Programming / Prototypal Inheritance
 6.  Sinatra / PostgreSQL / Databases / ERD
 7.  Ruby on Rails / ActiveRecord / Deployment / Security / Asset Pipeline
