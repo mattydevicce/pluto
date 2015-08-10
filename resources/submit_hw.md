@@ -6,7 +6,7 @@ Do the following from somewhere within your `code/wdi/pluto` directory.
 
 ```bash
 # ~/code/wdi/pluto/u2-how-the-internet-works
-git add -A :/
+git add -A .
 git commit -m 'submitting hw for w01d05 (or whatever week and day the hw was assigned)'
 ```
 

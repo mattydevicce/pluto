@@ -4,7 +4,7 @@
 
 ## Learning Objectives
 
-Today we want you to be comfortable traversign your way through a file system using the terminal.
+Today we want you to be comfortable traversing your way through a file system using the terminal.
 
 ![Terminal imabge](https://camo.githubusercontent.com/a5b3ba816df436e40d059312f25d388836d8890c/687474703a2f2f706978616261792e636f6d2f7374617469632f75706c6f6164732f70686f746f2f323031332f30372f31332f31332f34312f626173682d3136313338325f3634302e706e67)
 ## Setup
