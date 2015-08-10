@@ -1,12 +1,11 @@
 # The Simpsons Bash
 
-![Simpsons Intro](http://media.giphy.com/media/lBO4XJpgLBCN2/giphy.gif)
+![Simpsons Intro](images/simpsons.gif)
 
 ## Learning Objectives
 
 Today we want you to be comfortable traversing your way through a file system using the terminal.
-
-![Terminal imabge](https://camo.githubusercontent.com/a5b3ba816df436e40d059312f25d388836d8890c/687474703a2f2f706978616261792e636f6d2f7374617469632f75706c6f6164732f70686f746f2f323031332f30372f31332f31332f34312f626173682d3136313338325f3634302e706e67)
+![Terminal image](https://camo.githubusercontent.com/a5b3ba816df436e40d059312f25d388836d8890c/687474703a2f2f706978616261792e636f6d2f7374617469632f75706c6f6164732f70686f746f2f323031332f30372f31332f31332f34312f626173682d3136313338325f3634302e706e67)
 ## Setup
 Work in the `d01-introductions/student` directory. Create a new directory called `homework` where we will do all of the following work.
 
@@ -39,3 +38,6 @@ The Simpsons are your average American family living in Springfield. Let's creat
 
  #### Conclusion
  When the exercise has been completed you may have felt it was quite useless because now you have a bunch of empty directories and some arbitrary `.txt` files that don't even contain any text! This is all about getting reps and feeling comfortable in the environment. Keep practicing - this is now your life!
+
+##Bonus
+If you haven't finished your RPS, or if you still have mistakes, continue working on it.
