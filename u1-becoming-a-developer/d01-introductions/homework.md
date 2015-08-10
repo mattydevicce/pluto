@@ -1,6 +1,6 @@
 # The Simpsons Bash
 
-![Simpsons Intro](http://media.giphy.com/media/lBO4XJpgLBCN2/giphy.gif)
+![Simpsons Intro](images/simpsons.gif)
 
 ## Learning Objectives
 
