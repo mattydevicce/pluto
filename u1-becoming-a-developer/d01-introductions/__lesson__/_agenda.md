@@ -15,7 +15,7 @@
   - The emotional cycle [BK]
   - Dealing with uncertainty, [BK]
   - Be patient and focused on the task at hand [PW]  
-    Learning is a process that takes time. Don't expect to understand immediately. Everything we are going to learn are different fundamental parts of the puzzle. Once that's in place you'll notice what you could learn will increases dramatically. Crowbar curve.
+    Learning is a process that takes time. Don't expect to understand everything immediately. Everything we are going to learn are different fundamental parts of the puzzle. Once that's in place you'll notice what you could learn will increases dramatically. Crowbar curve.
   - Don't compare yourself to others; compare yourself to who you were. [PW]
     Unlike traditional learning models you don't have to compete with other students for a grade or a job. There is also more demand compared to supply for web developers. Really I would focusing on mastering the material and learning as much as you can. Anything else is background noise.
 - Health and Sustainability (30 minutes) [JC]
