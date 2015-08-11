@@ -30,7 +30,7 @@ Next the camera pans to the nuclear power plant where we find Homer mishandling 
 Then we find Marge and Maggie together in the super market. Create a `market` directory and move Marge and Maggie inside it.<br><br>
 -- **COMMIT** "Step 4" --
 
-#### STEP 6
+#### STEP 5
 
 The camera then pans to the band room in the school where we find Lisa crushing a sax solo. Traverse to the `school` directory, create a `band-room` directory, and move `Lisa.txt` into the `band-room` directory.<br><br>
 -- **COMMIT** "Step 5" --
