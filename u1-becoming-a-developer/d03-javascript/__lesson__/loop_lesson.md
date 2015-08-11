@@ -144,6 +144,8 @@ Now let's say I want to print all the names in the `names` array. Taking what we
 
 Oh wait how do we know the length of the array? Similar to a String there is a `length` property. Hmmm...that's interesting. Why does a String have a `length` property like an array. A String is an array of Characters.
 
+
+### We do _(5m)_
 Ok now we know what we need to start looping through the array and printing all the names in the `names` array.
 
 Let's use a `for` loop.
@@ -167,4 +169,4 @@ Why isn't a `do while` loop appropriate?
 ### You do _(20m)_
 Now can you use a `for` and `while` loop for the `blob` array.
 
-Write 
+Write a `while` loop
