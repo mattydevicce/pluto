@@ -81,19 +81,21 @@ The last type of loop is a `do while` loop. This type of loop executes the code 
 
 http://repl.it/BBIH
 
-A good use case for this is a user prompt.
+A good use case for this is a user prompt. We don't want to prompt for an input first then check what if the input is valid. If it is not valid, we re-prompt.
 
 ```js
-<script>
+myFunction();
+
 function myFunction() {
   do {
-      var input = prompt("Please enter your name", "Harry Potter");
-      alert(typeof input);
-      if (input.constructor() === 0) {
+      var input = prompt('Please enter your name');
+      if (input != null) {
           break;
+      } else {
+        alert('Invalid Input');
       }
-      alert("Invalid Input - " + input);
   } while(true);
-}
-</script>
+
+  return input;
+};
 ```
