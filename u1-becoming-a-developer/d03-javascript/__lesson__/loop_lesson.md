@@ -13,9 +13,10 @@
 > - If we think back to arrays wouldn't it great to have a loop that increments a index to access each element without having to write the manual code.
 
 ## Objectives
-- Learn about for & while loop and understand when to use one over the other
+- Learn about `for`, `while`, `do while` loops
+- Understand when to use one over the other
 - Understand how loops allows us to reduce code redundancy
-- Traverse through arrays with loops
+- Be able to traverse through arrays with loops
 
 ## Loops
 
