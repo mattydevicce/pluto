@@ -135,7 +135,13 @@ You're program should:
 - Alert "It should take you **[MINUTES]** minutes", where **[MINUTES]** is the number of bags multiplied by 5
 - Alert a random number between 1 and 10
 
-### STEP 7: Wrap Up
+### STEP 7: Output
+
+- alert('')
+- console.log('')
+- document.write('')
+
+### STEP 8: Wrap Up
 
 - JavaScript is the "language of the web"
 - "Strings" are sequences of text

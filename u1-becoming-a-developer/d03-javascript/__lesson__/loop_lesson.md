@@ -53,3 +53,49 @@ for(var i=0; i<5; i++) {
   console.log("throw " + i);
 }
 ```
+
+## I do _(10m)_
+Another type of loop is a `while` loop. Why do we have this loop? There are times when you want the loop to run for an indefinite amount of times and may or may not terminate.
+
+Let's look at an example to see what I mean. For example, if we have a self driving car that stops once it detects that it is in close proximity to a wall.
+
+If the self-driving car was in a desert, it would drive for a long time cause there are no walls any time soon.
+
+```js
+while(true) {
+  console.log('Drive...');
+}
+```
+
+How about in an urban setting?
+
+```js
+var distance = 5;
+while(distance < 8) {
+  console.log("Drive...");
+  distance += 1;
+}
+```
+
+The last type of loop is a `do while` loop. This type of loop executes the code least once then checks the condition.
+
+http://repl.it/BBIH
+
+A good use case for this is a user prompt. We don't want to prompt for an input first then check what if the input is valid. If it is not valid, we re-prompt.
+
+```js
+myFunction();
+
+function myFunction() {
+  do {
+      var input = prompt('Please enter your name');
+      if (input != null) {
+          break;
+      } else {
+        alert('Invalid Input');
+      }
+  } while(true);
+
+  return input;
+};
+```
