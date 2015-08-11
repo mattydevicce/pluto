@@ -1,17 +1,17 @@
 # Problem Solving with JavaScript
 
-Today we've covered the basics of JavaScript and Git.   
+
 
 ## Learning Objectives
 
 - Practice using variables in JavaScript
 - Practice problem solving problems in JavaScript
 - Practice using mathematical operators in JavaScript
-- Developing the good habit of committing our progress to Git often
+- Developing the good habit of committing our progress to   Git often
 
 ## Completion
 
-Completion to this homework is up to part 5. The bonus is not required, and you will never be required to finish it. As always, more is better, but healthy living is best.
+Completion to this homework is up to part 5. Everything after this part is bonus, and you will never be required to finish it. As always, more is better, but healthy living is best.
 
 ### Part 1 - Pounds to Kilograms
 
@@ -19,6 +19,7 @@ How would you convert 120lbs to kilograms?
 
 
 ### Part 2 - Kilograms to Pounds
+
 How would you convert 80 kilograms to pounds?
 
 ### Part 3 - Killer Caffeine
