@@ -167,6 +167,19 @@ Why isn't a `do while` loop appropriate?
 > runs a least once, but it could be problematic if the array doesn't exist
 
 ### You do _(20m)_
-Now can you use a `for` and `while` loop for the `blob` array.
+Now can you can use a `for` and `while` loop for the `blob` array.
 
-Write a `while` loop
+### I do _(10m)_
+Review solution
+
+### You do _(15m)_
+Now that we have combined loops with arrays, I'd like to go over an example that is a bit more appropriate for `while` loops. To review `while` loops are great for going over things for an indefinite amount of time that will eventually end.
+
+Given this array write a `while` loop that terminates when you detect an element with a value of `42`.
+```js
+var blob = [1, 'two', 3, false, 42 ,'four', true];
+```
+
+### I do _(10m)_
+Review solution
+
