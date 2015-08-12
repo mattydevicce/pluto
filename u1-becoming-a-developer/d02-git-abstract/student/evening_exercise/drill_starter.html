@@ -13,30 +13,49 @@
     sideA = prompt("What is the length of the first side?");
     sideB = prompt("What is the length of the second side?");
     calc = sideB * sideB + sideA * sideA;
-    alert("The length of the triangle with the sides of length " + sideA + " and " + sideB + " is " + Math.sqrt((sideA*sideA + sideB * sideB)));
+    alert("The length of the triangle with the sides of length " + sideA + " and " + sideB + " is " + (Math.sqrt((sideA*sideA + sideB * sideB))).toFixed(2));
 
     // 2. Weight from pounds to kg
     var weight, converted;
     weight = prompt("Give a weight in pounds");
-    converted = weight * 0.453592;
+    converted = (weight * 0.453592).toFixed(2);
     alert(weight + " pounds is equal to " + converted + "kg");
 
     // 3. Killer Caffeine
     var bodyWeight;
     bodyWeight = prompt("How much do you weigh?");
-    alert(bodyWeight * (6 / 100) * ((8 * 0.125) / (95 * .001)) + " cups of coffee will kill you");
+    alert((bodyWeight * (6 / 100) * ((8 * 0.125) / (95 * .001))).toFixed(2) + " cups of coffee will kill you");
 
     // 4. Old Modems
-    var speed = (25 * Math.pow(10, 6) * ( 1 / 56 ));
-    alert(speed + " seconds or " + speed/60 + " minutes");
+    var speed = (25 * Math.pow(10, 6) * ( 1 / 56 )).toFixed(2);
+    alert(speed + " seconds or " + (speed/60).toFixed(2) + " minutes to download that extremely large movie on that super slow modem");
 
     // 5. Long Long Long time
     var speed, distance, albumLength;
     speed = 55; //miles per hour
     distance = 3187; //miles
     albumLength = 1 + 33/60 + ((42/60)/60);//hours
-    alert(((distance / speed) / albumLength ) + " times you can listen to the White Album on the trip... wooo");
+    alert((((distance / speed) / albumLength )).toFixed(2) + " times you can listen to the White Album on the trip... wooo");
     
+    // 6. Adventure Time!
+    var typeOfPerson, vehicle, action, species, destination, clothes;
+    typeOfPerson = prompt("Give this person a nickname.");
+    vehicle = prompt("What kind of vehicle was s/he riding in?");
+    action = prompt("Adjective?");
+    species = prompt("Who was he with?");
+    destination = prompt("Where is s/he travelling to?");
+    clothes = prompt("What item of clothes were they wearing?");
+
+    alert("There once was a " + typeOfPerson + " on a " + vehicle + " full of business class " + species + "'s, but this " + typeOfPerson + " was wearing the " + typeOfPerson + "s " + clothes + ". He was a " + action + " person and travelling to a destination of " + destination + ". People on the train were sassy and not classy.");
+
+    // 7. Happy New Year Pluto
+    var messageTime, plutoDistance, speedOfRadio;
+    plutoDistance = 7.5 * Math.pow(10,9); // killometers
+    speedOfRadio = 300,000; //km/s
+    var signalTime = plutoDistance / speedOfRadio;
+    alert((((signalTime/60)/60)/24).toFixed(2) + " days for the signal to reach Earth via radio waves!");
+    messageTime = 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 14;
+    alert("That means your parents should wish you a happy new years on March 16 at 8:00pmish")
 
 
 
