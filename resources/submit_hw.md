@@ -10,6 +10,7 @@ At the end of each day, you'll be asked to pull from the class repo, which will 
 
 Complete all of the required parts, and if you finish early try to do the bonus parts. But remember that sleep is a priority and should not be sacrificed.
 
+When you're done, add and commit your code to git, and then push it to your Github repo.
 
 ## Don't Forget to Submit!
 
