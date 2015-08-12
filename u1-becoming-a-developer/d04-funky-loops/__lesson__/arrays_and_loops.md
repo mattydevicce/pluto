@@ -76,7 +76,7 @@ Review solution
 var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
 ```
 
-### I do _(10m)_
+### I do _(15m)_
 Review solution
 
 ```js
@@ -90,3 +90,7 @@ for(var i=0; i<names.length; i++) {
   }
 }
 ```
+
+Ask them to refactor.
+
+> # Break _(10m)_
