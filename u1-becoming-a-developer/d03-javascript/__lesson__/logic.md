@@ -88,19 +88,19 @@ Search: `mdn parseInt` - to pull up docs and discuss "Base"
 
 ##### Explain LOGIC  (write vocab)
 
-| NOT   | |
+| NOT | |
 |-------|
 | 1 | 0 |
 | 0 | 1 |
 
-| AND       | | |
+| AND   | | |
 |-----------|
 | 0 | 0 | 0 |
 | 0 | 1 | 0 |
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-| OR        | | |
+| OR    | | |
 |-----------|
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
