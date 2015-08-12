@@ -19,7 +19,7 @@ To get to you about the different types of loops, here is what I learned.
     var val1 = Math.floor(Math.random() * 6) + 1;
     var val2 = Math.floor(Math.random() * 6) + 1;
     
-    var input = parseInt(prompt('What is ' + va1 + ' * ' + val2 + ' ?'));
+    var input = parseInt(prompt('What is ' + val1 + ' * ' + val2 + ' ?'));
     
     if(input === (val1 * val2)) {
       alert('Correct!');
