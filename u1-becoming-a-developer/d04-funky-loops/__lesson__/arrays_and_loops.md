@@ -16,15 +16,18 @@ To get to you about the different types of loops, here is what I learned.
   ```js
   do {
     var play = prompt('Play multiplication? (y/n)');
-    var val1 = Math.floor(Math.random() * 6) + 1;
-    var val2 = Math.floor(Math.random() * 6) + 1;
     
-    var input = parseInt(prompt('What is ' + val1 + ' * ' + val2 + ' ?'));
-    
-    if(input === (val1 * val2)) {
-      alert('Correct!');
-    } else {
-      alert('Wrong!');
+    if(play === 'y') {
+      var val1 = Math.floor(Math.random() * 6) + 1;
+      var val2 = Math.floor(Math.random() * 6) + 1;
+      
+      var input = parseInt(prompt('What is ' + val1 + ' * ' + val2 + ' ?'));
+      
+      if(input === (val1 * val2)) {
+        alert('Correct!');
+      } else {
+        alert('Wrong!');
+      }
     }
   } while(play !== 'n');
   ```
