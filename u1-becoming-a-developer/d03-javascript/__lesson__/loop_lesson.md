@@ -184,3 +184,8 @@ var blob = [1, 'two', 3, false, 42 ,'four', true];
 ### I do _(10m)_
 Review solution
 
+### You do _(10m)_
+Create a playlist of songs that you want to play on repeat.
+
+### I do _(5m)_
+Review
