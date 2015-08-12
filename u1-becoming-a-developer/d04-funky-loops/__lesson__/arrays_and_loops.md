@@ -6,31 +6,7 @@ To get to you about the different types of loops, here is what I learned.
 - `while` loops are good for when you have to loop an indefinite amount of time. For example, Let's say we could only read one line of text of a book and want to store the text. A `while` loop would be helpful, since we don't know how many lines the book has.
 - `do while` loops are good for when you want to execute code at least once. For example, user prompts.
 
-### You do _(40m)_
-1. Write a `for` and `while` loop to print names that start with a vowel in the array below.
-  ```js
-  var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
-  ```
 
-2. Write code to generate a multiplication game
-  ```js
-  do {
-    var play = prompt('Play multiplication? (y/n)');
-    
-    if(play === 'y') {
-      var val1 = Math.floor(Math.random() * 6) + 1;
-      var val2 = Math.floor(Math.random() * 6) + 1;
-      
-      var input = parseInt(prompt('What is ' + val1 + ' * ' + val2 + ' ?'));
-      
-      if(input === (val1 * val2)) {
-        alert('Correct!');
-      } else {
-        alert('Wrong!');
-      }
-    }
-  } while(play !== 'n');
-  ```
 
 ## Arrays & Loops
 
@@ -76,18 +52,41 @@ Now can you can use a `for` and `while` loop for the `blob` array.
 Review solution
 
 ### You do _(15m)_
-Now that we have combined loops with arrays, I'd like to go over an example that is a bit more appropriate for `while` loops. To review `while` loops are great for going over things for an indefinite amount of time that will eventually end.
+Write a loop to add all numbers in the blob array to a new array
 
-Given this array write a `while` loop that terminates when you detect an element with a value of `42`.
 ```js
 var blob = [1, 'two', 3, false, 42 ,'four', true];
+var numbers = [];
+for(var i=0; i<blob.length; i++) {
+  if(typeof blob[i] === "number") {
+    numbers.push(blob[i]);
+  }
+}
 ```
 
 ### I do _(10m)_
 Review solution
 
-### You do _(10m)_
-Create a playlist of songs that you want to play on repeat.
+### You do _(40m)_
+1. Write a `for` and `while` loop to find names that start with a vowel
+2. Add these names to a new array called `vowelNames`
+3. If then name is a vowel remove it from the names array.
 
-### I do _(5m)_
-Review
+```js
+var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
+```
+
+### I do _(10m)_
+Review solution
+
+```js
+var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
+var vowelNames = [];
+for(var i=0; i<names.length; i++) {
+  if(names[i].substring(0,0) == 'a' || names[i].substring(0,0) == 'e' || names[i].substring(0,0) == 'i'
+      || names[i].substring(0,0) == '0' || names[i].substring(0,0) == 'u') {
+    vowelNames.push(names[i]);
+    names.splice(i, 1);
+  }
+}
+```
