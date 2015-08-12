@@ -1,12 +1,12 @@
 # Javascript Loops and Conditionals
 
-Today we continue our exploration of Javascript. The assignments below not only reinforce, but also build upon what we talked about in class. Therefore, __you will likely have to reference the docs for unfamiliar methods__ and be ***programming sleuths***.
+Today we continue our exploration of Javascript! The assignments below not only reinforces, but also builds upon what we talked about in class. Therefore, __you will likely have to reference the docs for unfamiliar methods__ and be ***programming sleuths***.
 
 ## Instructions
 
 ### Setup
 
-1. In the `w01/d05/student` directory, make a directory called `star-wars`. Make the assignment files in that directory.
+1. In the `d03-javascript/student` directory, make a directory called `star-wars`. Make the assignment files in that directory.
 1. Save your changes using `git` often! Use `git add ...` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
 1. Work for each part should be done in the files named in the part below.
 
@@ -20,7 +20,7 @@ Today we continue our exploration of Javascript. The assignments below not only 
 
 **File names:** `threepio.js` and `threepio.html`
 
-> C-3P0 is a well-known protocol droid from the Star Wars universe, famed for having frantic resolve and for his snappy emotional outbursts. Your task is to write a program modelling a simple interaction with C-3P0 as he searches for the reclusive Jedi Master, Obi-Wan Kenobi.
+> C-3P0 is a well-known protocol droid from the Star Wars universe, famed for having frantic resolve and for his snappy emotional outbursts. Your task is to write a program modeling a simple interaction with C-3P0 as he searches for the reclusive Jedi Master, Obi-Wan Kenobi.
 
 This file should have a function that when called in the console, makes a `window.alert`, that says:
 
