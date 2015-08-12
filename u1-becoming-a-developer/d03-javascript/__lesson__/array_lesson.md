@@ -156,14 +156,49 @@ var nirvana = ['kurt cobain', 'aaron burckhard', 'krist novoselic']
 ```
 
 1. Replace Aaron with Dale Crover
+  
+  `nirvana.splice(1, 1, 'dale crover');`
+
 2. Replace Dale with Dave Foster
+  
+  `nirvana.splice(1, 1, 'dave foster');`
+
 3. Replace Dave with Chad Channing
+  
+  `nirvana.splice(1, 1, 'chad channing');`
+
 4. Add Jason Everman to the band
+  
+  `nirvana.push('jason everman);`
+
 5. Remove Jason Everman
+
+  `nirvana.pop();`
+
 6. Replace Chad with Dan Peters
+  
+  `nirvana.splice(1, 1, 'dan peters');`
+
 7. Replace Dan with Dave Grohl (finally!)
+  
+  `nirvana.splice(1, 1, 'dave grohl');`
+
 8. Add John Duncan to the band
+  
+  `nirvana.push('john duncan');`
+
 9. Remove John
+  
+  `nirvana.splice(3, 1);`
+
 10. Add Lori Goldston to the band
+  
+  `nirvana.push('lori goldston');`
+
 11. Add Pat Smear
+  
+  `nirvana.push('lori goldston');`
+
 12. Remove Kurt Cobain
+  
+  `nirvana.shift();`
