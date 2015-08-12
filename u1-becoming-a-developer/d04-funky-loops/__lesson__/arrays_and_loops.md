@@ -56,6 +56,12 @@ Write a loop to add all numbers in the blob array to a new array
 
 ```js
 var blob = [1, 'two', 3, false, 42 ,'four', true];
+```
+
+### I do _(10m)_
+Review solution
+```js
+var blob = [1, 'two', 3, false, 42 ,'four', true];
 var numbers = [];
 for(var i=0; i<blob.length; i++) {
   if(typeof blob[i] === "number") {
@@ -64,8 +70,7 @@ for(var i=0; i<blob.length; i++) {
 }
 ```
 
-### I do _(10m)_
-Review solution
+> # Break
 
 ### You do _(40m)_
 1. Write a `for` and `while` loop to find names that start with a vowel
