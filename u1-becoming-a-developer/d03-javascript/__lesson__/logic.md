@@ -21,6 +21,20 @@ For each flowchart:
 
 ![Raining Flowchart](images/flowchart0.gif)
 
+```js
+var isItRaining;
+isItRaining = alert("Is it raining today?");
+
+if (isItRaining === "yes") {
+  alert("Take an umbrella.")
+} else {
+  alert("Leave umbrella at home.")
+}
+```
+
+- Discuss difference between `==` and `===`
+- What happens if I type `YES` instead?  Can we fix our code so it will understand?
+
 ---
 
 # GETTING TO CLASS [W]

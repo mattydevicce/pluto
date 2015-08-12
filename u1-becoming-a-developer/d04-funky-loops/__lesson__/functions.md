@@ -1,4 +1,4 @@
-# Intro to Functions and Scope
+# Intro to Functions
 
 ##### LEARNING OBJECTIVES
 - Define a function
@@ -6,7 +6,7 @@
 - Using JavaScript closures
 
 ##### Vocabulary
-- **scope** - the set of variables you have access to and where
+- **function** - a command, action or verb
 - **parameter** - a variable part of the method signature, the place holder
 
 ---
@@ -89,6 +89,4 @@ function toilAndTrouble() {
 
 Now, let's call them together: `doubleDouble(toilAndTrouble())`
 
----
-
-## STEP 3:
+> You guys feel like programmers yet?
