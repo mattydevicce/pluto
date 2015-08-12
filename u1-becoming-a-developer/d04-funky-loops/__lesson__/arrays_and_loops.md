@@ -8,26 +8,27 @@ To get to you about the different types of loops, here is what I learned.
 
 ### You do _(40m)_
 1. Write a `for` and `while` loop to print names that start with a vowel in the array below.
-
-```js
-var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
-```
+  ```js
+  var names = ['adam', 'bobby', 'kyle', 'jaden', 'catherine', 'emily', 'joey', 'elijah', 'denis'];
+  ```
 
 2. Write code to generate a multiplication game
+  ```js
+  do {
+    var play = prompt('Play multiplication? (y/n)');
+    var val1 = Math.floor(Math.random() * 6) + 1;
+    var val2 = Math.floor(Math.random() * 6) + 1;
+    
+    var input = parseInt(prompt('What is ' + va1 + ' * ' + val2 + ' ?'));
+    
+    if(input === (val1 * val2)) {
+      alert('Correct!');
+    } else {
+      alert('Wrong!');
+    }
+  } while(play !== 'n');
+  ```
 
-```js
-do {
-  var play = prompt('Play multiplication? (y/n)');
-  var val1 = Math.floor(Math.random() * 6) + 1;
-  var val2 = Math.floor(Math.random() * 6) + 1;
-  
-  var input = parseInt(prompt('What is ' + va1 + ' * ' + val2 + ' ?'));
-  
-  if(input === (val1 * val2)) {
-    alert('Correct!');
-  }
-} while(play !== 'n');
-```
 ## Arrays & Loops
 
 ### I do _(5m)_
