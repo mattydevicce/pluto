@@ -25,7 +25,29 @@ do {
 } while(practice !== 'n');
 ```
 
+### You do _(20m)_
 
+Implement fibonaci
+
+```js
+var end = 8;
+var sum = 0;
+var previous = 0;
+var current = 1;
+
+for(var i=2; i<=end; i++) {
+    if(end===0 || end===1) {
+        sum = end;
+        break;
+        // set sum to end value
+    }
+    sum = previous + current;
+    previous = current;
+    current = sum;
+}
+
+console.log(sum);
+```
 
 ## Arrays & Loops
 
@@ -119,26 +141,4 @@ Ask them to refactor.
 
 > # Break _(10m)_
 
-### You do _(20m)_
 
-Implement fibonaci
-
-```js
-var end = 8;
-var sum = 0;
-var previous = 0;
-var current = 1;
-
-for(var i=2; i<=end; i++) {
-    if(end===0 || end===1) {
-        sum = end;
-        break;
-        // set sum to end value
-    }
-    sum = previous + current;
-    previous = current;
-    current = sum;
-}
-
-console.log(sum);
-```
