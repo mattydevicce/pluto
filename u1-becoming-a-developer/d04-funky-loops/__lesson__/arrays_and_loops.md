@@ -72,7 +72,7 @@ for(var i=0; i<blob.length; i++) {
 
 > # Break
 
-### You do _(40m)_
+### You do _(30m)_
 1. Write a `for` and `while` loop to find names that start with a vowel
 2. Add these names to a new array called `vowelNames`
 3. If then name is a vowel remove it from the names array.
@@ -99,3 +99,27 @@ for(var i=0; i<names.length; i++) {
 Ask them to refactor.
 
 > # Break _(10m)_
+
+### You do _(20m)_
+
+Implement fibonaci
+
+```js
+var end = 8;
+var sum = 0;
+var previous = 0;
+var current = 1;
+
+for(var i=2; i<=end; i++) {
+    if(end===0 || end===1) {
+        sum = end;
+        break;
+        // set sum to end value
+    }
+    sum = previous + current;
+    previous = current;
+    current = sum;
+}
+
+console.log(sum);
+```
