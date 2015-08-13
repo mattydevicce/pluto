@@ -61,7 +61,7 @@ archer = [
 Now let's add another level. Loop through and print the meals and the ingredients in the following format
 
 ```js
--- omlet --
+## omlet ##
 eggs, garlic, onions
 -
 ```
@@ -77,7 +77,29 @@ var meals = [
 ### Review _(10m)_
 Review
 
-### You do _(15m)_
+### You do _(30m)_
+Now let's add another level. Loop through and print the cost of each ingredients and the total for all the ingredients
+
+```js
+## omlet ##
+- eggs: $5.00
+- garlic: $2.00
+- onions: $2.50
+Total: $9.50
+```
+
+```javascript
+var meals = [
+  ['omlet', [['eggs', 5], ['garlic', 2], ['onions', 2.50]]],
+  ['fried rice', [['rice', 3], ['eggs', 5], ['fish sauce', 5], ['garlic', 2], ['onion', 2.50], ['pork', 8.25], ['white pepper', 2.25]]],
+];
+```
+
+### Review _(10m)_
+
+
+
+### BONUS
 Given the following array of arrays:
 
 ```javascript
@@ -91,16 +113,4 @@ The console should log for each pokemon:
 
 ```
 Squirtle || HP: 44 || Attack: 48 || Defense: 65 || Speed: 43
-```
-
-```js
-for(var i=0; i<pokemons.length; i++) {
-  var name = pokemons[i][0];
-  var hp = pokemons[i][1][1][0];
-  var attack = pokemons[i][1][0][1][0];
-  var defense = pokemons[i][1][0][1][1][1][0];
-  var speed = pokemons[i][1][0][1][1][1][1][0];
-
-  console.log(name, "|| HP:", hp, "|| Attack:", attack, "|| Defense:", defense, "|| Speed:", speed);
-}
 ```
