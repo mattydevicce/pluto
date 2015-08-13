@@ -6,7 +6,48 @@ To get to you about the different types of loops, here is what I learned.
 - `while` loops are good for when you have to loop an indefinite amount of time. For example, Let's say we could only read one line of text of a book and want to store the text. A `while` loop would be helpful, since we don't know how many lines the book has.
 - `do while` loops are good for when you want to execute code at least once. For example, user prompts.
 
+### You do _(20m)_
+Write a mulitplication practice game. That randomly generates numbers between 1-10 to creat questions. After each time the user answer the question correct let them know. Otherwise tell them they are wrong and the correct answer. Then ask the user if they would like more practice.
 
+```js
+do {
+    var op1 = Math.floor(Math.random() * 10) + 1
+    var op2 = Math.floor(Math.random() * 10) + 1
+    var answer = op1 * op2;
+    var response = parseInt(prompt('What is '+ op1 +' * '+ op2 + '?'));
+    
+    if(answer === response) {
+        alert('Correct!');
+    } else {
+        alert('Wrong, the answer is '+ answer);
+    }
+    var practice = prompt('More Practice? (y/n)');
+} while(practice !== 'n');
+```
+
+### You do _(20m)_
+
+Implement fibonaci
+
+```js
+var end = 8;
+var sum = 0;
+var previous = 0;
+var current = 1;
+
+for(var i=2; i<=end; i++) {
+    if(end===0 || end===1) {
+        sum = end;
+        break;
+        // set sum to end value
+    }
+    sum = previous + current;
+    previous = current;
+    current = sum;
+}
+
+console.log(sum);
+```
 
 ## Arrays & Loops
 
@@ -100,26 +141,4 @@ Ask them to refactor.
 
 > # Break _(10m)_
 
-### You do _(20m)_
 
-Implement fibonaci
-
-```js
-var end = 8;
-var sum = 0;
-var previous = 0;
-var current = 1;
-
-for(var i=2; i<=end; i++) {
-    if(end===0 || end===1) {
-        sum = end;
-        break;
-        // set sum to end value
-    }
-    sum = previous + current;
-    previous = current;
-    current = sum;
-}
-
-console.log(sum);
-```
