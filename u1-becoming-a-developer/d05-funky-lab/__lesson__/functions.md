@@ -2,8 +2,8 @@
 
 ##### LEARNING OBJECTIVES
 - Define a function
-- Understand scope
-- Using JavaScript closures
+- Understand how arguments become parameters
+- Use return values
 
 ##### Vocabulary
 - **function** - a command, action or verb
@@ -54,7 +54,7 @@ Our functions can accept multiple arguments.  Let's modify our code so we can se
 
 ```
 function findAnything(haystack, thingToFind) {
-  // .. Modify your code above and so you can search for anything. Then see if you can find the "rock" in the haystack.
+  // Modify your code above and so you can search for anything. Then see if you can find the "rock" in the haystack.
 }
 ```
 
@@ -84,6 +84,8 @@ numbers
 
 ```
 function toilAndTrouble() {
+  // Write *another* function that creates an array of 5 random
+  numbers
 }
 ```
 
