@@ -9,9 +9,15 @@
 - REPS with functions on numbers, strings, arrays
 - REPS!!!
 
+### Completion
+
+Errything. Finish all of it over the weekend.
+
 ### Setup
 
 Files: `index.html`, `reps.js`
+
+Work in today's `homework` folder. Write your functions in `reps.js`, and load it into `index.html`. When your page is loaded in browser, simply call your functions in the JavaScript console(cmd+option+j).
 
 ## Round 0
 
