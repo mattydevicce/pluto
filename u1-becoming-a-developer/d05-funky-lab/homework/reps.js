@@ -41,11 +41,20 @@ function toonify(accent, sentence){
 function digitSum(num) {
   var numString;
   numString = (num).toString();
-  total = 0
+  total = 0;
   for (i=0; i<numString.length; i++){
     total += parseInt(numString[i])
   }
   return total
 }
 
-digitSum(42);
+function wordReverse( word ){
+  newWord=''
+  console.log(word)
+  for (i=0; i=word.length; i++){
+    console.log(word[i])
+  }
+  return newWord
+}
+
+wordReverse('abcd')
