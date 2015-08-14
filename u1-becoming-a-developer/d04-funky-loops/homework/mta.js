@@ -48,7 +48,6 @@ transfer at Union Square:  " + Math.abs(line2.indexOf('Union Square') - line2.in
   console.log('Your total trip time is ' + tripTime + " seconds.");
 }
 
-
 // This function gets what line they are riding on since we called it twice... dont wanna repear ourselves
 function getLine(line) {
   if ( line.toLowerCase() === 'n') {
