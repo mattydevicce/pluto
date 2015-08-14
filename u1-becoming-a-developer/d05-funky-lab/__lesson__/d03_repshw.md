@@ -9,11 +9,15 @@
 - REPS with functions on numbers, strings, arrays
 - REPS!!!
 
+### Setup
+
+Files: `index.html`, `reps.js`
+
 ## Round 0
 
 Write a function `lengths` that accepts a single parameter as an argument, namely
 an array of strings. The function should return an array of numbers where each
-number is the length of the corresponding string.
+number is the length of the corresponding string. By observing the input and output of a function we can mentally map what it does, and infer what the code within looks like.
 
 ```javascript
 var words = ["hello", "what", "is", "up", "dude"]
@@ -36,7 +40,7 @@ Write a function `fizzbuzzer` that accepts a single parameter as an argument, a 
 ## Round 2
 
 Write a Javascript function called `transmogrifier`
-This function should accept three arguments, which you can assume will be numbers. 
+This function should accept three arguments, which you can assume will be numbers.
 Your function should return the "transmogrified" result
 
 The transmogrified result of three numbers is the product of the first two numbers,
@@ -72,7 +76,7 @@ toonify("daffy", "so you smell like sausage")
 
 ### Round 4
 
-Write a function `digitSum` that accepts a number and returns the sum of its digits.  
+Write a function `digitSum` that accepts a number and returns the sum of its digits.
 
 ```javascript
 var num = 42;
@@ -117,7 +121,7 @@ longest(["bruce", "willis", "was", "in", "other", "movies"]) # => "willis"
 
 ### Final Round
 
-Write a function, called `repMaster`, that accepts two arguments, input and a function. Input should be able to be used with the function.  The function used as an argument must return a string.  `repMaster` should take the result of the string, passed as an argument to the argument function, and return this result with `' proves that I am the rep MASTER!'` concatenated to it.  
+Write a function, called `repMaster`, that accepts two arguments, input and a function. Input should be able to be used with the function.  The function used as an argument must return a string.  `repMaster` should take the result of the string, passed as an argument to the argument function, and return this result with `' proves that I am the rep MASTER!'` concatenated to it.
 
 ```javascript
 repMaster("Put Hans back on the line", wordReverse) # =>
@@ -125,13 +129,4 @@ repMaster("Put Hans back on the line", wordReverse) # =>
 repMaster("I finished this HW", toUpperCase);
 "I FINISHED THIS HW proves that I am the rep MASTER!"
 ```
-
-
-
-#### Submitting this Assignment
-
-To submit this assignment we will be using Gists on Github. [What's a gist you
-ask?](https://help.github.com/articles/creating-gists) When you have completed
-this assignment email your gist by **midnight** to your instructors, `hari@ga.co`, `mckenneth@ga.co`,`will.shaw@ga.co` & `tony.defreitas@ga.co`. In the subject line please include your name, comfort level(1-5) and completeness(1-5). It should have
-the code from steps 0 - Final Round.
 
