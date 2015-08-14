@@ -38,4 +38,14 @@ function toonify(accent, sentence){
   return newsentence
 }
 
-toonify('elmer', 'rekings balls');
+function digitSum(num) {
+  var numString;
+  numString = (num).toString();
+  total = 0
+  for (i=0; i<numString.length; i++){
+    total += parseInt(numString[i])
+  }
+  return total
+}
+
+digitSum(42);
