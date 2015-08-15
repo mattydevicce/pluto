@@ -6,13 +6,9 @@
   var b = a;
   a = "c"
   var c = b.toUpperCase();
+  ```
 
   What are the current values of `a`, `b`, and `c`?
-
-  currentValueOfA ==
-  currentValueOfB ==
-  currentValueOfC ==
-  ```
 
 1. Explain how a `for` loop works when used with an array. Please use an example.
 1. Demonstrate an `if - else if - else` control flow with a real example.
@@ -26,4 +22,3 @@
 1. How do you remove a directory and all it's contents from the Terminal?
 1. Diagram how you decide what to eat for lunch
 1. What does typeof do?
-1. 
