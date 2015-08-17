@@ -73,6 +73,7 @@ For example every time your car drives shouldn't the mileage increase. How can w
 
 Let's add a mileage attribute and modify the drive function to increment it each time it drives.
 
+
 ```js
 drive: function() {
   this.mileage++;
@@ -85,22 +86,32 @@ Update the car object to have a `fuel` and `breakPad` attribute. Every time the 
 
 ```js
 drive: function() {
-  this.mileage++;
-  this.gas--;
-  console.log('driving...');
+  if (fuel > 0) {
+    fuel--;
+    return 'Vroom!';
+  } else {
+    return 'out of gas';
+  }
+},
+refuel: function() {
+  fuel = 5;
 },
 
 break: function() {
   this.breakPad--;
   console.log('breaking...');
 },
-
-refuel: function() {
-  this.gas = 100;
-  console.log('refuled, tank is full');
-}
 ```
+## I do _(5m)_
+Let's say I bought a car from a really bad driver. The car woudl then have accident reports associated with the car. How could we represent it?
 
+```js
+incidents: [
+  { date: new Date(2012, 12, 28), description: 'drunk driving'},
+  { date: new Date(2013, 1, 28), description: 'drunk driving'},
+  { date: new Date(2014, 4, 30), description: 'rear ended'}
+]
+```
 
 ## I do _(10m)_
 Object Factory
