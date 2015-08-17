@@ -15,7 +15,7 @@ account.
 
 ### Completion
 
-Completion for this hw is part 4. As always, the bonus is bonus!
+Finish all 7 parts of this homework. As always, the bonus is bonus!
 
 ### Submission
 
@@ -89,8 +89,6 @@ linkedin profile and a blog if you have one.
 Create an additional page called `about.html` that includes additional
 information about you. Make sure that your `index` and `about` pages are both
 linked to each other with relative links. Ask yourself, whats a good place to put these links?
-
-# Bonus Line
 
 ## Part Five
 
