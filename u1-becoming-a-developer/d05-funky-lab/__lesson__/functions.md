@@ -3,22 +3,22 @@
 ##### LEARNING OBJECTIVES
 - Define a function
 - Understand how arguments become parameters
-- Use return values
+- Use return values in function definitions
 
 ##### Vocabulary
-- **function** - a command, action or verb
+- **function** - the definition of a command, action or verb
 - **parameter** - a variable part of the method signature, the place holder
 
 ---
 
-## STEP 1: Why we create functions
+## STEP 1: Why we create functions [I]
 
 - Creating Abstraction
 - Hiding Details
 - Isolating Logical Pieces
 - Documentation / Naming
 
-## STEP 2: Defining Functions
+## STEP 2: Defining Functions [I]
 
 ```
 function speak() {
