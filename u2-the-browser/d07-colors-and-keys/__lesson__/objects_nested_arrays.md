@@ -11,57 +11,101 @@
 
 ## Outline
 
-* Personal info example
-  * Simple arrays are not good enough!!
-* propertyName-propertyValue PAIRS
-* The key is the "locator" for each element
-* Example of the web (form data)!
+### I do _(10m)_
+Personal info example
+#### Simple arrays are not good enough!!
+  * propertyName-propertyValue PAIRS
+  * The key is the "locator" for each element
+  * Example of the web (form data)!
 
-* Create a personal info hash
+#### Create a personal info hash
   * name
   * age
   * occupation
   * favoriteFood
-* Things to cover in this process
+
+#### Things to cover in this process
   * Creating a obj
   * Syntax of a obj
   * Adding properties
   * Accessing properties (dot and bracket notation!!)
 
-* We're going to make cars
-* index and cars.js
-* In cars.js
+### We do _(15m)_
+ * We're going to make cars
   * create a car object called `mustang` with the following properties
     * color - red
     * class - muscle
     * horsepower - 435
-  * create a car object called `tt` with the following properties
+  * create a car object called `tesla` with the following properties
     * color - silver
     * class - sport
     * horsepower - 211
-  * create a car object called `gallardo`
+  * create a car object called `ferrari`
     * color - black
     * class - exotic
     * horsepower - 543
 * In your console
   * Find out what class car the mustang is (use both notations)
-  * Find out how many horsepower the gallardo has (use both notations)
-  * Find out what color the tt is
-  * Give the gallardo a paint job (make it orange)
+  * Find out how many horsepower the ferrari has (use both notations)
+  * Find out what color the tesla is
+  * Give the ferrari a paint job (make it orange)
   * Give the mustang a suite tune-up. Change its horsepower to 500
-  * The TT goes super-saiyan. Change its class to "dbz", and change its
-    horsepower to 9001
+  * The Tesla goes super-saiyan. Change its class to "dbz", and change its horsepower to 9001
 
-**What questions do you guys have?!?!?!**
+### You do _(15m)_
+Create your own car object model
 
-**BREAK**
+> ### BREAK _(15m)_
 
-**I do**
+### We do _(10m)_
+Currently the cars has only attributes and no functionality. What can we do about that? Yesterday we learned that function is data as well. What can object attributes store?
+  * Add a drive function
+  * Add a break function
+
+
+### I do _(5m)_
+#### `this`
+Functions for an object can reference itself as well. Why would we want to do that?
+
+> To access the object's attributes, such as mileage: `this.mileage`
+
+For example every time your car drives shouldn't the mileage increase. How can we do that?
+
+Let's add a mileage attribute and modify the drive function to increment it each time it drives.
+
+```js
+drive: function() {
+  this.mileage++;
+  console.log('driving...');
+}
+```
+
+### You do _(15m)_
+Update the car object to have a `fuel` and `breakPad` attribute. Every time the car drives the `fuel` should decrease and every time the car breaks the `breakPad` should decrease. If the fuel is low, you should also have a way to add fuel.
+
+```js
+drive: function() {
+  this.mileage++;
+  this.gas--;
+  console.log('driving...');
+},
+
+break: function() {
+  this.breakPad--;
+  console.log('breaking...');
+},
+
+refuel: function() {
+  this.gas = 100;
+  console.log('refuled, tank is full');
+}
+```
+
+### I do _(5m)_
 
 OOP - Problem Modeling Time
 
 * Nouns and verbs, attributes and behaviors
-* Oh, I don't know, a PET SHELTER
 
 * pet
   * species
@@ -80,8 +124,7 @@ OOP - Problem Modeling Time
   * pet
   * returnPet()
 
-**You do in pairs**
-
+### You do _(15m)_
 * Model an apartment building
 * Go crazy
 * What are the nouns in this problem domain?
