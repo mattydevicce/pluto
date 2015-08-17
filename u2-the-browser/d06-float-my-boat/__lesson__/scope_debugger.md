@@ -34,8 +34,9 @@ debugger;
 ### STEP 2: Function Scope
 
 ```js
+var outsideVariable = "I'm outside of a function!";
 function() {
-  var someVariable = "I'm in a function!";
+  var insideVariable = "I'm in a function!";
   debugger;
 }
 debugger;

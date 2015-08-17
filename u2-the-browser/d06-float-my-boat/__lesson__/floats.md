@@ -43,3 +43,7 @@ Div Tags:
 &lt;div&gt;&lt;/div&gt;
 
 ---
+
+## ACTIVITY: Float My Boat
+
+Build a webpage in HTML containing an image of a boat.  Look up the HTML `img align` property or better, use the CSS `float` property.
