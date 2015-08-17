@@ -1,3 +1,4 @@
+// Round 1
 function fizzbuzzer(number){
   if ( number % 3 === 0 && number % 5 == 0 ){
     return 'FizzBuzz';
@@ -10,10 +11,14 @@ function fizzbuzzer(number){
   }
 }
 
+
+// Round 2
 function transmogrifier(num1, num2, num3){
   return Math.pow((num1 * num2),num3);
 }
 
+
+// Round 3
 function toonify(accent, sentence){
   var newsentence='';
   if ( accent === 'daffy' ){
@@ -38,6 +43,8 @@ function toonify(accent, sentence){
   return newsentence
 }
 
+
+// Round 4
 function digitSum(num) {
   var numString;
   numString = (num).toString();
@@ -48,13 +55,63 @@ function digitSum(num) {
   return total
 }
 
+
+//Round 5
 function wordReverse( word ){
-  newWord=''
-  console.log(word)
-  for (i=0; i=word.length; i++){
-    console.log(word[i])
+  var newWord=''
+  for (i=word.length-1; i>-1; i--){
+    newWord += word[i];
   }
   return newWord
 }
 
-wordReverse('abcd')
+
+// Round 6... first one creates an unknown inifinte loop
+// function letterReverse( sentence ){
+//   var newSentence = '';
+//   var wordToBeReversed ='';
+//   for (i=0; i<sentence.length; i++){
+//     if (sentence[i] === ' '){
+//       newSentence += wordReverse(wordToBeReversed);
+//       wordToBeReversed = '';
+//     }
+//   wordToBeReversed += sentence[i];
+//   }
+//   return newSentence;
+// }
+
+// Round 6 that works
+function letterReverse( sentence ){
+  var wordArray = [];
+  var word = '';
+  for (i=0; i<sentence.length; i++){
+    if (sentence[i] === ' '){
+      wordArray.push(word);
+      word='';
+    } else {
+      word += sentence[i];
+    }
+  }
+  var newSentence = '';
+  wordArray.push(word)
+  console.log(wordArray.length)
+  for( j=0; j<wordArray.length; j++){
+      newSentence += wordReverse(wordArray[j]);
+      newSentence += ' ';
+  }
+  return newSentence;
+}
+
+
+// Round 7
+function longest( wordsInArray ){
+  var longJohnSilver = '';
+  for (i=0; i<wordsInArray.length; i++){
+    if (wordsInArray[i] > longJohnSilver){
+      longJohnSilver = wordsInArray[i];
+    }
+  }
+  return longJohnSilver;
+}
+
+
