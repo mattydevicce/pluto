@@ -86,15 +86,15 @@ linkedin profile and a blog if you have one.
 
 ## Part Four
 
-Create an additional page called `about.html` that inclues additional
+Create an additional page called `about.html` that includes additional
 information about you. Make sure that your `index` and `about` pages are both
-linked to eachother with relative links. Ask yourself, whats a good place to put these links?
+linked to each other with relative links. Ask yourself, whats a good place to put these links?
 
 # Bonus Line
 
 ## Part Five
 
-Create and add a stylesheet for your styles. Use either CSS Reset or Normalize and your own stylesheet to softly style your information. We will return to this and make it better throughout the course!
+Create and add a stylesheet for your styles. Use either [CSS Reset](http://meyerweb.com/eric/tools/css/reset/reset.css) or [Normalize](http://cdnjs.com/libraries/normalize) and your own stylesheet to softly style your information. We will return to this and make it better throughout the course!
 
 ## Part Six
 
