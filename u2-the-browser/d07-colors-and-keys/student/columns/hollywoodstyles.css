@@ -1,0 +1,42 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column {
+  width: 33%;
+  float: left;
+  border: 1px solid gray;
+  height: 33%;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+}
+
+.footer {
+  background-color: green;
+  color: white;
+}
+
+.squares {
+  max-width: 75%;
+  margin: 0 auto;
+  height: 75%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
