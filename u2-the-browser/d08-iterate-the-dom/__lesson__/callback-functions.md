@@ -31,6 +31,30 @@ Importantly, you can pass a function as an argument to another function. Check o
 
 Maddingly, there soooo many different ways to declare a function: http://davidbcalhoun.com/2011/different-ways-of-defining-functions-in-javascript-this-is-madness/
 
+## I do _(5m)_
+setTimeOut
+
+```js
+var goCrazy = function() {
+  alert('Going crazy');
+};
+
+setTimeout(goCrazy, 3000);
+
+// Alternatively
+setTimeout(function() {
+  alert('Going crazy');
+}, 3000);
+```
+
+setInterval
+
+```js
+setInterval(function(){ alert("Hello"); }, 3000);
+```
+
+
+
 ## Arrays and ```for``` loops
 A ```for``` loop is an excellent tool for repeating code. Arrays are excellent tools for organizing lists of related data. The two often go hand-in-hand.
 
@@ -41,7 +65,6 @@ Some array operations are so common that JavaScript provides built-in ways of ex
 - You can apply an operation to every element in an  array by using the **```foreach```** method.
 - The ```foreach``` method takes an *operation* as an argument.
 - In other words, the ```foreach``` method requires a *function* as an argument. That function gets applied to every element in the array.
-- Documentation: https://msdn.microsoft.com/library/ff679980(v=vs.94).aspx
 
 ## Other Array Methods that take Callback Functions
 These methods are more specific than the ```foreach``` method. Each of the following methods modify data from the original array and return a new array with transformed data .
