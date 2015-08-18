@@ -31,6 +31,30 @@ Importantly, you can pass a function as an argument to another function. Check o
 
 Maddingly, there soooo many different ways to declare a function: http://davidbcalhoun.com/2011/different-ways-of-defining-functions-in-javascript-this-is-madness/
 
+## I do _(5m)_
+setTimeOut
+
+```js
+var goCrazy = function() {
+  alert('Going crazy');
+};
+
+setTimeout(goCrazy, 3000);
+
+// Alternatively
+setTimeout(function() {
+  alert('Going crazy');
+}, 3000);
+```
+
+setInterval
+
+```js
+setInterval(function(){ alert("Hello"); }, 3000);
+```
+
+
+
 ## Arrays and ```for``` loops
 A ```for``` loop is an excellent tool for repeating code. Arrays are excellent tools for organizing lists of related data. The two often go hand-in-hand.
 
