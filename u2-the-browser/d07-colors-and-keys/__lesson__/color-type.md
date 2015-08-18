@@ -18,7 +18,7 @@
 - Demo CSS Absolute Positioning
 - Demo CSS Fixed Positioning
 
-## STEP 4: Prepare Hollywood Squares
+## STEP 4: Hollywood Squares [W]
 
 > Let's make Hollywood Squares!
 
