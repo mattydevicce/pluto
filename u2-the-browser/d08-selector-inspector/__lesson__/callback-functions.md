@@ -31,30 +31,6 @@ Importantly, you can pass a function as an argument to another function. Check o
 
 Maddingly, there soooo many different ways to declare a function: http://davidbcalhoun.com/2011/different-ways-of-defining-functions-in-javascript-this-is-madness/
 
-## I do _(5m)_
-setTimeOut
-
-```js
-var goCrazy = function() {
-  alert('Going crazy');
-};
-
-setTimeout(goCrazy, 3000);
-
-// Alternatively
-setTimeout(function() {
-  alert('Going crazy');
-}, 3000);
-```
-
-setInterval
-
-```js
-setInterval(function(){ alert("Hello"); }, 3000);
-```
-
-
-
 ## Arrays and ```for``` loops
 A ```for``` loop is an excellent tool for repeating code. Arrays are excellent tools for organizing lists of related data. The two often go hand-in-hand.
 
@@ -74,6 +50,123 @@ These methods are more specific than the ```foreach``` method. Each of the follo
 
 2) **```map```**
 - The ```map``` method returns an array with the *transformed* results of the original array, according to the operation specified as an argument
+
+### Filtering through Nested Arrays
+
+> **Review** - Filter returns a new array with all elements that passes a test implemented by your provided function
+```javascript
+someArray.filter(function() {
+ if(something) {
+  return true;
+ }
+ return false;
+});
+```
+**Check Understanding** - check understanding.
+
+**You do (15 minutes)** - Individually, filter for a all meals with sauce
+
+**Outcome**
+```javascript
+// Array Within Array Manipulation
+var meals = [
+    ['milk', 'cereal'],
+    ['meat', 'sauce', 'bread'],
+    ['pasta', 'sauce', 'meat']
+];
+
+// Obtain all meals with sauce
+var saucyMeals = meals.filter(function(thatMeal){
+    for(var i=0; i<thatMeal.length; i++){
+        if (thatMeal[i] === 'sauce'){
+            return true
+        }
+    }
+    return false;
+});
+```
+
+### Objects within Arrays
+
+> **Code along** - Often we work with many types of objects. If we wanted to group them, how would we do that? (Ask class)
+**Review** - JavaScript Objects are key value pairs
+
+> `{name: 'lichard', age: 3}`.
+
+**Show code**
+```javascript
+// Object Within Array Manipulation
+var people = [
+    {name: 'lichard', age: 3},
+    {name: 'kathew', age: 33},
+    {name: 'omily', age: 13}
+];
+```
+
+> **Review**
+```javascript
+myArray.map(function(element, index) {
+ // do something...
+});
+```
+
+> **You do (10 minutes)** - update each person object to have a club attribute set to Koalas using map
+
+**Outcome**
+```javascript
+// Object Within Array Manipulation
+var people = [
+    {name: 'lichard', age: 3},
+    {name: 'kathew', age: 33},
+    {name: 'omily', age: 13}
+];
+
+// Each is in the koala club! Place that in their attributes
+var koalaClub = people.map(function(person){
+    person.club = 'Koalas';
+    return person;
+});
+```
+
+> **Check understanding**
+
+<br>
+
+> **I do** - based on what we know about objects we could also store any type of data in an object as well.
+As a person I have many hobbies. How do you think we could represent that in an object? Hint hint, remember **inception**.
+
+**Outcome**
+```javascript
+// Array Within Object Within Array Manipulation
+var people =[
+    {name: 'lichard', age: 3, hobbies: ['bug picking', 'eating', 'music']},
+    {name: 'kathew', age: 33, hobbies: ['fencing', 'dat bass']},
+    {name: 'omily', age: 13, hobbies: ['skateboarding', 'music']}
+];
+```
+
+> **Acivitity (20 minutes)** - In groups of two or three filter through an array of people for people who like music
+
+**Outcome**
+```javascript
+// Array Within Object Within Array Manipulation
+var people =[
+    {name: 'lichard', age: 3, hobbies: ['bug picking', 'eating', 'music']},
+    {name: 'kathew', age: 33, hobbies: ['fencing', 'dat bass']},
+    {name: 'omily', age: 13, hobbies: ['skateboarding', 'music']}
+];
+
+// Find all the music fans
+var musicFans = people.filter(function(person){
+    var hobbies = person.hobbies;
+    for(var i=0; i<hobbies.length; i++){
+        if (hobbies[i]==='music'){
+            return true;
+        }
+    }
+    return false;
+});
+```
 
 ## Other Resources
 - http://colintoh.com/blog/5-array-methods-that-you-should-use-today
