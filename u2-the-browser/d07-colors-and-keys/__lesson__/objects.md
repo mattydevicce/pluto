@@ -55,7 +55,7 @@ Personal info example
 ### You do _(15m)_
 Create your own car object model
 
-> ### BREAK _(15m)_
+> ### BREAK _(10m)_
 
 ### We do _(10m)_
 Currently the cars has only attributes and no functionality. What can we do about that? Yesterday we learned that function is data as well. What can object attributes store?
@@ -73,6 +73,7 @@ For example every time your car drives shouldn't the mileage increase. How can w
 
 Let's add a mileage attribute and modify the drive function to increment it each time it drives.
 
+
 ```js
 drive: function() {
   this.mileage++;
@@ -85,92 +86,71 @@ Update the car object to have a `fuel` and `breakPad` attribute. Every time the 
 
 ```js
 drive: function() {
-  this.mileage++;
-  this.gas--;
-  console.log('driving...');
+  if (fuel > 0) {
+    fuel--;
+    return 'Vroom!';
+  } else {
+    return 'out of gas';
+  }
+},
+refuel: function() {
+  fuel = 5;
 },
 
 break: function() {
   this.breakPad--;
   console.log('breaking...');
 },
-
-refuel: function() {
-  this.gas = 100;
-  console.log('refuled, tank is full');
-}
 ```
-
-### I do _(5m)_
-
-OOP - Problem Modeling Time
-
-* Nouns and verbs, attributes and behaviors
-
-* pet
-  * species
-  * name
-  * color
-  * introduce
-* shelter
-  * name
-  * animals
-  * catalog
-  * performAdoption()
-* owner
-  * name
-  * address
-  * ph no
-  * pet
-  * returnPet()
-
-### You do _(15m)_
-* Model an apartment building
-* Go crazy
-* What are the nouns in this problem domain?
-* Be conscious of your attributes vs your behaviors
-
-**I do**
-
-* Let's model cars again
-  * color
-  * class
-  * horsepower
-  * fuel
-  * drive()
-  * brake()
-
-* Suite! We have a car that we can drive around town! In our computer! Yeah!
-
-### THIS
-
-* Let's model cars again
-  * color
-  * class
-  * horsepower
-  * fuel
-  * drive()
-  * refuel()
-  * paint()
-  * tuneup()
+## I do _(5m)_
+Let's say I bought a car from a really bad driver. The car woudl then have accident reports associated with the car. How could we represent it?
 
 ```js
-var mustang = {
-  prop: 'val',
-  behavior: function() {
-    console.log(mustang.prop);
-  }
-}
+incidents: [
+  { date: new Date(2012, 12, 28), description: 'drunk driving'},
+  { date: new Date(2013, 1, 28), description: 'drunk driving'},
+  { date: new Date(2014, 4, 30), description: 'rear ended'}
+]
 ```
 
-* Seems redundant, doesn't it? How do I say "change MY property"? this!!!
-* console.log(this)
-* Use that to re-write these methods
+## I do _(10m)_
+Object Factory
+* Let's make two cars
+* What sucks about this?
+* How can we DRY up this code?
+* Car Factory!
 
-**WHAT QUESTIONS DO YOU GUYS HAVE?**
+```js
+var carFactory = function(color, class, horsepower) {
+  return {
+    color: color,
+    class: class,
+    horsepower: horsepower,
+    fuel: 5,
+    drive: function() {
+      if (fuel > 0) {
+        fuel--;
+        return 'Vroom!';
+      } else {
+        return 'out of gas';
+      }
+    },
+    refuel: function() {
+      fuel = 5;
+    },
+    paint: function(color) {
+      this.color = color;
+    },
+    tuneup: function() {
+      this.horsepower += 10;
+    }
+  }
+};
+```
 
-**You do**
+> Break _(10m)_
 
+## We do _(10m)_
 * Model a lamp! - `lamp.js`
   * wattage - number
   * on - boolean
@@ -202,6 +182,7 @@ var lamp = {
 };
 ```
 
+## You do _(20m)_
 * Model a pokemon! - `pokemon.js`
   * number - number
   * name - string
@@ -246,39 +227,10 @@ var bulbasaur = {
 }
 ```
 
-**Break**
+### You do _(20m)_
+* Model an apartment building
+* Go crazy
+* What are the nouns in this problem domain?
+* Be conscious of your attributes vs your behaviors
 
-### Object Factory
-
-* Let's make two cars
-* What sucks about this?
-* How can we DRY up this code?
-* Car Factory!
-
-```js
-var carFactory = function(color, class, horsepower) {
-  return {
-    color: color,
-    class: class,
-    horsepower: horsepower,
-    fuel: 5,
-    drive: function() {
-      if (fuel > 0) {
-        fuel--;
-        return 'Vroom!';
-      } else {
-        return 'out of gas';
-      }
-    },
-    refuel: function() {
-      fuel = 5;
-    },
-    paint: function(color) {
-      this.color = color;
-    },
-    tuneup: function() {
-      this.horsepower += 10;
-    }
-  }
-};
-```
+> Show and tell _(10m)_
