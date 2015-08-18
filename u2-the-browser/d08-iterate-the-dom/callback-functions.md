@@ -41,7 +41,6 @@ Some array operations are so common that JavaScript provides built-in ways of ex
 - You can apply an operation to every element in an  array by using the **```foreach```** method.
 - The ```foreach``` method takes an *operation* as an argument.
 - In other words, the ```foreach``` method requires a *function* as an argument. That function gets applied to every element in the array.
-- Documentation: https://msdn.microsoft.com/library/ff679980(v=vs.94).aspx
 
 ## Other Array Methods that take Callback Functions
 These methods are more specific than the ```foreach``` method. Each of the following methods modify data from the original array and return a new array with transformed data .
