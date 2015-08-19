@@ -22,6 +22,7 @@
   * Change the text of one
   * Make staten island blue
   * Add a class
+  * do it both in the console and as a JS file that is attached
 * Review - tag, attributes, text content
 * Add Brooklyn
 
