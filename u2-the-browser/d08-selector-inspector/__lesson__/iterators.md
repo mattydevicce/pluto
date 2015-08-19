@@ -1,6 +1,18 @@
-# Callbacks - Passing Procedures as Arguments
+# Iterators
 
-## Function Review
+## Agenda
+- Review functions
+- Review array
+- Review nested arrays
+- Review array of objects
+- Introduce iterators (`forEach`, `for in`, `map`, `filter`, `sort`)
+
+## Learning Objectives
+- combine a mix of array, nested array, objects, and functions concepts (don't freak out)
+- utilize iterators learned to perform procedures on arrays and objects
+
+## I do _(10m)_
+Function Review
 - Functions are procedures/subprograms/subroutines/methods. They allow programmers to to create well-defined code *modules*.
 - Functions help programmers split a large problem into small chunks.
 - Functions allow a programmer to use a well-defined routine multiple times.
@@ -18,14 +30,6 @@
 ##Functions are First-Class Objects
 In JavaScript, functions are first-class objects. That means that you can treat them as other objects:
 
- ```js
-var procedure = function outputPoem(){
-    alert("Mary Had a Little Lamb");
-}
-console.log("data type of the procedure variable:", typeof(procedure));
-console.log("contents of the procedure variable:", procedure);
-console.log("name of the procedure referenced by the procedure variable:", procedure.name);
-```
 
 Importantly, you can pass a function as an argument to another function. Check out callback_demo.js
 
@@ -38,9 +42,15 @@ Some array operations are so common that JavaScript provides built-in ways of ex
 
 ## The ```foreach``` Array Method
 
-- You can apply an operation to every element in an  array by using the **```foreach```** method.
+- You can apply an operation to every element in an  array by using the **```forEach```** method.
 - The ```foreach``` method takes an *operation* as an argument.
 - In other words, the ```foreach``` method requires a *function* as an argument. That function gets applied to every element in the array.
+
+```js
+ARRAY.forEach(function(element, index, array) {
+
+});
+```
 
 ## Other Array Methods that take Callback Functions
 These methods are more specific than the ```foreach``` method. Each of the following methods modify data from the original array and return a new array with transformed data .
@@ -48,8 +58,24 @@ These methods are more specific than the ```foreach``` method. Each of the follo
 1) **```filter```**
 - The ```filter``` method returns an array filled only with elements from the original array that pass a specific test
 
+```js
+ARRAY.filter(function(element) {
+  if(something is true) {
+    return true;
+  } else {
+    return false
+  }
+})
+```
+
 2) **```map```**
 - The ```map``` method returns an array with the *transformed* results of the original array, according to the operation specified as an argument
+
+```js
+ARRAY.map(function(element, index, array) {
+
+});
+```
 
 ### Filtering through Nested Arrays
 
