@@ -2,9 +2,8 @@
 
 ## Agenda
 - Review functions
-- Review array
-- Review nested arrays
-- Review array of objects
+- Review objects
+- Review array, nested array, array of objects
 - Introduce iterators (`forEach`, `for in`, `map`, `filter`, `sort`)
 
 ## Learning Objectives
@@ -12,16 +11,49 @@
 - Combine a mix of array, nested array, objects, and functions concepts (don't freak out)
 - Utilize iterators learned to perform procedures on arrays and objects
 
+## Big Picture
+Almost all apps will require you to work with data in some form. These exercises will provide you with tools to organize and manipulate data.
 
 ## Annoucement
-- We will get a guest lecture from Jeff in the afternoon
+- We will get a guest lecture from Jeff in the afternoon. He's the Big Boss.
 
 ## I do _(20m)_
 
-### Array Review
+### Object Review
+- A list of Key-Value pairs aka `attribute`
+- A key could be assigned any type of object.
 ```js
-var encouragingArray = ['Keep Calm']
+var person = {
+  name: 'Pan',
+  gender: 'male',
+  isAwesome: true
+}
 ```
+
+### Array Review
+
+- 1D Array
+  ```js
+  var pansTips = ['Focus on the BIG Picture!', 'Stay FOCUS!', 'Work hard', 'Keep Calm!']
+  ```
+- 2D Array
+  Think Inception the move. A dream within a dream. An array within an array.
+  ```js
+  var roomLayout = [
+    ['Esther', 'Andres', 'Raquel', 'Matt', 'Joy'],
+    ['Toti', 'Josh', 'Brian', 'Harry', 'Ed'],
+    ['Yuka', 'Steph', 'Zoe', 'Eric', 'Calvin'];
+  ];
+  ```
+- Array of Objects
+  Think Inception again. Not too different.
+  ```js
+  var students = [
+    { name: 'Toti', gender: 'male', isAwesome: true },
+    { name: 'Raquel', gender: 'female', isAwesome: false },
+    { name: 'Jacob', gender: 'male', isAwesome: true }
+  ]
+  ```
 
 ### Function Review
 - Functions are procedures/subprograms/subroutines/methods. They allow programmers to to create well-defined code *modules*.
