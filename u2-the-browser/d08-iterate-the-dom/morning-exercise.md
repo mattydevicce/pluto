@@ -14,7 +14,7 @@
 
   You'll be working in your own code snippets for this assignment, but when you're done save your work in today's `student` directory in a file called `dino-digging.js`
 
-### Part 1 - Fixing the Data
+### Part 1 - Fixing the Data (20 minutes)
 
 Phew! We still have the financial data we need to manage dig site expenses. Unfortunately it's not very user friendly. Copy the code below into a code snippet, and check out this JavaScript [style guide](https://github.com/airbnb/javascript#objects) to format the **objects** and **arrays** below so that you and your dev team can better understand the data. The easier it is to read visually the easier it is to work with.
 
@@ -29,9 +29,24 @@ var nicaragua = { location: "Nicaragua",depthInMeters: "200",annualBudget: 15000
 
   - Calculate the average depth of all dig sites.
 
-### Part 2 - Get Assets in Order
+  - ***Bonus*** Push each variable above into a new array called `hammondsMines` and create a function called that will print (use `console.log` for this) out ALL of the specimen of EVERY dig site in this fashion:
 
-Push each variable above into a new array called `hammondsMines`.
+  ```
+  location1:
+  dino1
+  dino2
+
+  location2:
+  dino1
+  dino2
+  dino3
+
+  ...
+  ```
+
+### Part 2 - Get Assets in Order (20 minutes)
+
+If you haven't already, push each variable above into a new array called `hammondsMines`
 
 Now that we have some usable data, continue working in your code snippet and help us crunch some numbers!
 
