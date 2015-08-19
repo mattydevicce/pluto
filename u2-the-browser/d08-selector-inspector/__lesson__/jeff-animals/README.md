@@ -23,8 +23,8 @@
   * Make staten island blue
   * Add a class
   * do it both in the console and as a JS file that is attached
-* Review - tag, attributes, text content
 * Add Brooklyn
+* Review - tag, attributes, text content - going to use these properties to 'target' DOM elements
 
 ### WE DO - Pair (30 mins)
 
@@ -32,7 +32,7 @@ jQuery Docs
 
 #### NYC
 
-* Using jQuery, add a new `ul` with landmarks
+* Using jQuery, add a new `ul` with your favorite landmarks.
 
 #### Hack Google
 - go to google.com
@@ -43,14 +43,14 @@ jQuery Docs
 - remove the sheep
 - move all of the mammals to the end of the list
 - remove the class `.fish` from all of the applicable `li`s
-- sort the trees by alphabetical order
+- remove plants with the word 'tree' in them
 
 #### Smiley Time
 
-Write a function, `buildSmileys` that takes a number and pixel size as arguments. It should return divs of smiley faces - *_*. Append them to the DOM.
+Write a function, `buildSmileys` that takes a number and font size as arguments. It should return divs of smiley faces - *_*. Append them to the DOM.
 
 ```javascript
-function buildSmileys(number, pixelSize) {
+function buildSmileys(number, fontSize) {
   // ... your code here
 }
 
@@ -64,12 +64,11 @@ $('body').append(smileys);
 * Talk about callbacks.
 * Blinking box (codealong)
 
-
 ### WE DO - Pair (15 mins)
 
 #### 99 Bottles of Juice
 
-Create a page that prints the lyrics to 99 bottles of juice on the wall line by line, printing a new line every .5 seconds.
+Create a page that prints the lyrics to 99 bottles of juice on the wall verse by verse, printing a new verse every 2 seconds.
 
 ### YOU DO - Assessment (15 mins)
 
