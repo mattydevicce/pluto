@@ -8,32 +8,60 @@
 - Introduce iterators (`forEach`, `for in`, `map`, `filter`, `sort`)
 
 ## Learning Objectives
-- combine a mix of array, nested array, objects, and functions concepts (don't freak out)
-- utilize iterators learned to perform procedures on arrays and objects
+- Know that everything in JS is an object
+- Combine a mix of array, nested array, objects, and functions concepts (don't freak out)
+- Utilize iterators learned to perform procedures on arrays and objects
 
-## I do _(10m)_
-Function Review
+
+## Annoucement
+- We will get a guest lecture from Jeff in the afternoon
+
+## I do _(20m)_
+
+### Array Review
+```js
+var encouragingArray = ['Keep Calm']
+```
+
+### Function Review
 - Functions are procedures/subprograms/subroutines/methods. They allow programmers to to create well-defined code *modules*.
 - Functions help programmers split a large problem into small chunks.
 - Functions allow a programmer to use a well-defined routine multiple times.
 - Functions use arguments to accept necessary **"input"**.
 - If required, functions use a ```return``` statement to communicate **"output"** (not the *see it on the screen* type of output). Data that should be returned to the location that invoked the method should be sent via a ```return``` statement
+- JavaScript treats functions as first-class citizens aka they are treated like every other object, so quite the contrary. That means that you can treat them as other objects and can pass a function as an argument to another function.
 
+```js
+// There are many ways to declare functions
 
-## Review Problem
-- Write a Mean function that expects an array of numbers as an argument.
-- Add an array of grades to each student in the Classroom object included in the Exercises folder.
-- Use the Mean function to output the average grade for each student. You should use descriptive output, i.e. "Student name in soandso class has an average grade of XXX"
+// Hoisting occurs
+function messageToClass(isCalm) {
+  if(isCalm) {
+    return 'Carry On';
+  } else {
+      return 'Keep Calm and Code On';
+  }
+}
 
+// No hoisting declaration
+var messageToClass = function(isCalm) {
+  if(isCalm) {
+    return 'Carry On';
+  } else {
+      return 'Keep Calm and Code On';
+  }
+}
 
+// Anonymously. We'll be using this way a lot in this lesson.
+function(isCalm) {
+  if(isCalm) {
+    return 'Carry On';
+  } else {
+      return 'Keep Calm and Code On';
+  }
+}
+```
 
-##Functions are First-Class Objects
-In JavaScript, functions are first-class objects. That means that you can treat them as other objects:
-
-
-Importantly, you can pass a function as an argument to another function. Check out callback_demo.js
-
-Maddingly, there soooo many different ways to declare a function: http://davidbcalhoun.com/2011/different-ways-of-defining-functions-in-javascript-this-is-madness/
 
 ## Arrays and ```for``` loops
 A ```for``` loop is an excellent tool for repeating code. Arrays are excellent tools for organizing lists of related data. The two often go hand-in-hand.
