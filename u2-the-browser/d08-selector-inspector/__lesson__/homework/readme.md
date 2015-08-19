@@ -12,6 +12,17 @@ soundtrack.
 - implement event listeners to make your pages more interactive
 - practice self-directed learning with a new language
 
+#### Completion
+
+Completion for this exercise is **Part 7**. Remember, more is better, **healthy living is best**.
+
+#### Resources
+
+- [Official jQuery Documentation](http://jquery.com)
+- [MDN](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference)
+- [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
+- [LOTR](http://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
+
 #### Setup
 
 Write your functions in `fellowship.js`
@@ -58,6 +69,9 @@ var keepItSecretKeepItSafe = function() {
   // Give div#the-ring a class of 'magic-imbued-jewelry'
   // Add an event listener so that when a user clicks on the ring,
   // The nazgulScreech function (provided in index.html) is invoked
+  // look up .click() - https://api.jquery.com/click/ in the jQuery docs to see how this works
+  // it'll look like target.click(nazgulScreech)
+  // bit of a freebie since we're not covering events until tomorrow
   // Add div#the-ring as a child element of the li.hobbit representing "Frodo"
   // Use setTimeout to delay the execution of the next function
 }
@@ -71,7 +85,7 @@ var makeBuddies = function() {
   // Create a ul tag with an id of "buddies" and append it to the aside tag
   // Create li tags for each buddy in the buddies array in characters.js
   // give each li tag a class of "buddy" and append them to "ul#buddies"
-  // Insert the aside tag as a child element of the secion.land representing "Rivendell"
+  // Insert the aside tag as a child element of the section.land representing "Rivendell"
   // Use setTimeout to delay the execution of the next function
 }
 ```
@@ -173,10 +187,3 @@ with the text "The Ring has been returned to Sauron and the world is over."
 
 - Add a 'Pause' button to the page. Give it an event listener that stops the
 execution of the page, regardless of where in the storyline you are.
-
-#### Resources
-
-- [Official jQuery Documentation](http://jquery.com)
-- [MDN](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference)
-- [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
-- [LOTR](http://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
