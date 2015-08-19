@@ -17,7 +17,7 @@ Almost all apps will require you to work with data in some form. These exercises
 ## Annoucement
 - We will get a guest lecture from Jeff in the afternoon. He's the Big Boss.
 
-## I do _(20m)_
+## I do / We do _(20m)_
 
 ### Object Review
 - A list of Key-Value pairs aka `attribute`
@@ -34,7 +34,7 @@ var person = {
 
 - 1D Array
   ```js
-  var pansTips = ['Focus on the BIG Picture!', 'Stay FOCUS!', 'Work hard', 'Keep Calm!']
+  var pansTips = ['Focus on the BIG Picture!', 'Stay FOCUS!', 'Work hard', 'Keep Calm!'];
   ```
 - 2D Array
   Think Inception the move. A dream within a dream. An array within an array.
@@ -51,7 +51,8 @@ var person = {
   var students = [
     { name: 'Toti', gender: 'male', isAwesome: true },
     { name: 'Raquel', gender: 'female', isAwesome: false },
-    { name: 'Jacob', gender: 'male', isAwesome: true }
+    { name: 'Jacob', gender: 'male', isAwesome: true },
+    { name: 'Brian', gender: 'male', isAwesome: true },
   ]
   ```
 
@@ -71,7 +72,7 @@ function messageToClass(isCalm) {
   if(isCalm) {
     return 'Carry On';
   } else {
-      return 'Keep Calm and Code On';
+    return 'Keep Calm and Code On';
   }
 }
 
@@ -80,7 +81,7 @@ var messageToClass = function(isCalm) {
   if(isCalm) {
     return 'Carry On';
   } else {
-      return 'Keep Calm and Code On';
+    return 'Keep Calm and Code On';
   }
 }
 
@@ -89,18 +90,14 @@ function(isCalm) {
   if(isCalm) {
     return 'Carry On';
   } else {
-      return 'Keep Calm and Code On';
+    return 'Keep Calm and Code On';
   }
 }
 ```
 
+## I do _(5m)_
 
-## Arrays and ```for``` loops
-A ```for``` loop is an excellent tool for repeating code. Arrays are excellent tools for organizing lists of related data. The two often go hand-in-hand.
-
-Some array operations are so common that JavaScript provides built-in ways of expressing them succinctly:
-
-## The ```foreach``` Array Method
+### `forEach`
 
 - You can apply an operation to every element in an  array by using the **```forEach```** method.
 - The ```foreach``` method takes an *operation* as an argument.
@@ -115,20 +112,7 @@ ARRAY.forEach(function(element, index, array) {
 ## Other Array Methods that take Callback Functions
 These methods are more specific than the ```foreach``` method. Each of the following methods modify data from the original array and return a new array with transformed data .
 
-1) **```filter```**
-- The ```filter``` method returns an array filled only with elements from the original array that pass a specific test
-
-```js
-ARRAY.filter(function(element) {
-  if(something is true) {
-    return true;
-  } else {
-    return false
-  }
-})
-```
-
-2) **```map```**
+### `map`
 - The ```map``` method returns an array with the *transformed* results of the original array, according to the operation specified as an argument
 
 ```js
@@ -137,10 +121,10 @@ ARRAY.map(function(element, index, array) {
 });
 ```
 
-### Filtering through Nested Arrays
 
-> **Review** - Filter returns a new array with all elements that passes a test implemented by your provided function
-```javascript
+### `filter`
+- Filter returns a new array with all elements that passes a test implemented by your provided function
+```js
 someArray.filter(function() {
  if(something) {
   return true;
@@ -148,7 +132,8 @@ someArray.filter(function() {
  return false;
 });
 ```
-**Check Understanding** - check understanding.
+
+### Filtering through Nested Arrays
 
 **You do (15 minutes)** - Individually, filter for a all meals with sauce
 
