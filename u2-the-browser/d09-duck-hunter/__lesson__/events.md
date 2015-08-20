@@ -26,11 +26,20 @@
 - Add a "hover" event to the div that changes the div's color
 - Add second callback to reset div's color
 
-### STEP 4: Review "append" [W]
-- Modify div click event to append a new div
-
 ### STEP 5: Review "[add/remove/toggle]Class" [W]
 - Move the style to a CSS file
 - Modify JS so it works again
 
 ### STEP 6: Duck Hunt [Y]
+
+### STEP 7: Delegation [W]
+- Review "append"
+- Modify div click event to append a new div
+- How can me make the new div's also respond to clicks?
+- Introduce jQuery event Delegation
+
+```js
+$(document).on('click', 'div', function() {
+  alert('I AM A DIV');
+}
+```
