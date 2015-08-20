@@ -15,3 +15,12 @@ body, html {
 .duck.flap {
   background-position: -430px -160px;
 }
+
+.duck {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}

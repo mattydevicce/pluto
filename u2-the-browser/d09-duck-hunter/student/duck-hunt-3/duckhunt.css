@@ -31,3 +31,14 @@ body, html {
   background-position: center;
   background-image: url('/images/shot.png');
 }
+
+.minigun {  
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
+.container{
+  max-height: 100%;
+  max-width: 100%
+}

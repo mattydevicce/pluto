@@ -6,7 +6,6 @@ jQuery(function() {
   // This is just for fun... I couldn't help myself ;D
   var game_start = new Audio('/audio/start-round.mp3');
   game_start.play();
-
   var body = $('body');
 
   // 6. Defines a createDuck function that returns a duck
@@ -31,31 +30,54 @@ jQuery(function() {
       duck.css("left", Math.random() * window.innerWidth);
     }, 2000)
 
+    duck.on("click", function() {
+      duck.toggleClass("shot");
+      setTimeout(function() {
+        duck.remove()
+        checkForWinner();
+      }, 1000)
+    })
+
     return duck;
   }
 
   // 7. Creates 5 ducks
-  for(var i=0; i<5; i++) {
+  for(var i=0; i<2; i++) {
     createDuck();
   }
 
-  // 10. ------ We're almost there! ------
+  function checkForWinner() {
+    if (($(".duck")).length==0){
+      alert("You win!!")
+    };
+  };
 
-  // 11. BOOM. Attach a "click" handler that adds the "shot" class to
-  //     the duck when you click on it!
+  function miniGun(xCoord, yCoord) {
+    if (!mosueStillDown) { return };
+    if (mosueStillDown) {
+      var bulletHole = $("<image src='/images/Bullet-Hole-20.png' class='minigun'>");
+      bulletHole.css("top", yCoord);
+      bulletHole.css("left", xCoord);
+      body.append(bulletHole);
+      setTimeout(function(){
+        bulletHole.remove();
+      }, 1000);
+    }
+  }
 
-  // 12. After a duck has been clicked on, remove it from the DOM after
-  //     a short delay (1 second)
+  var mosueStillDown = false;
 
-  // 13. Create a new function named checkForWinner() that reads the DOM
-  //     to see if there are any ducks left. If not, alert "YOU WIN!"
+  $('body').on('mouseover', function(e) {
+    mosueStillDown = true;
+    var pageX = e.pageX;
+    var pageY = e.pageY
+    miniGun(pageX, pageY);
+  });
+  $('body').on('mouseup', function(e) {
+    mosueStillDown = false;
+  });
 
-  // 14. BONUS: The ducks are moving pretty erratically, can you think
-  //     of a way to adjust the ducks speed based on how far needs to move?
 
-  // 15. BONUS: Add the "left" and "right" class to the duck based on the
-  //     direction the duck is flying
 
-  // FIN. You win 1 trillion tokens.  Play the day away!
 
 })

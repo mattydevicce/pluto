@@ -6,6 +6,7 @@ var makeMiddleEarth = function(){
     // Makes the article tag and adds land as a class
     actualTag = $("<article>");
     actualTag.addClass("land");
+    actualTag.addClass(lands[i])
 
     // Makes an h1 tag with the name of the land in it
     hone = $("<h1>");
@@ -28,6 +29,7 @@ var makeHobbits = function(){
   for(var i=0; i<hobbits.length; i++){
     hobbit = $("<li>");
     hobbit.addClass("hobbit");
+    hobbit.addClass(hobbits[i])
     hobbit.text(hobbits[i]);
     hobbitUL.append(hobbit);
   }
@@ -52,6 +54,7 @@ var makeBuddies = function(){
   for(var i=0; i<buddies.length; i++){
     lITag = $("<li>");
     lITag.addClass("buddy");
+    lITag.addClass(buddies[i])
     lITag.text(buddies[i]);
     uLTag.append(lITag);
   }
@@ -83,17 +86,58 @@ var forgeTheFellowShip = function(){
 
   for(var i=0; i<buddies.length; i++){
     elloFellow.append(buddies[i]);
-    alert("A buddy moved to the fellowship");
   }
+  alert("All buddies moved to the fellowship");
 
   for(var j=0; j<hobbits.length; j++){
     elloFellow.append(hobbits[j]);
-    alert("A hobbit moved to the fellowship");
   }
+  alert("All hobbits moved to the fellowship");
+
+  setTimeout(theBalrog, 1000);
 }
 
+var theBalrog = function() {
+  gandalf = $(".Gandalf").text('Gandalf the white');
+  gandalf.css('border', '3px solid white');
+  setTimeout(boromir, 1000);
+}
 
+var boromir = function() {
+  alert("Horn of Gondor has been blown");
+  boro = $(".Boromir");
+  boro.css('text-decoration', 'line-through');
+  boro.css('opacity', 0.3);
+  setTimeout(itsDangerousToGoAlone, 1000);
+}
 
+var itsDangerousToGoAlone = function() {
+  fro = $(".Frodo");
+  sammy = $(".Samwise");
+  modor = $(".Mordor");
+  modor.append(fro);
+  modor.append(sammy);
+  doom = $("<div id='mount-doom'></div>");
+  modor.append(doom);
+  setTimeout(weWantsIt, 1000);
+}
 
+var weWantsIt = function() {
+  gol = $("<div id='gollum'>Smeagol</div>");
+  modor = $(".Mordor");
+  doom = $("#mount-doom");
+  familyJewels = $(".magic-imbued-jewelry");
+  modor.append(gol);
+  gol.append(familyJewels);
+  doom.append(gol);
+  setTimeout(thereAndBackAgain, 1000);
+}
+
+var thereAndBackAgain = function() {
+  $("#gollum").remove();
+  $("#the-ring").remove();
+  $(".Shire").append($(".hobbit")); 
+  $(".Mordor").addClass("collapse") 
+}
 
 
