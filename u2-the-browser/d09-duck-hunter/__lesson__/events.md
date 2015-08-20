@@ -4,7 +4,7 @@
 - Demonstrate Browser Incompatibility
 - jQuery Events
 - Event Bubbling
-- jQuery Animation
 
 ##### LEARNING OBJECTIVES
+- SWBAT bind events to DOM elements
 - SWBAT 
