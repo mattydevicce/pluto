@@ -18,7 +18,7 @@
 ### STEP 2: Introduce jQuery's click event [W]
 - Create a button
 - Attach alert event to button
-- Create a div
+- Review "append"
 - Attach alert event to div
 - Modify button event to change div color when clicked
 
@@ -30,16 +30,16 @@
 - Move the style to a CSS file
 - Modify JS so it works again
 
-### STEP 6: Duck Hunt [Y]
-
-### STEP 7: Delegation [W]
-- Review "append"
+### STEP 6: Delegation [W]
+- Create a div
 - Modify div click event to append a new div
 - How can me make the new div's also respond to clicks?
-- Introduce jQuery event Delegation
+- Introduce jQuery event delegation
 
 ```js
 $(document).on('click', 'div', function() {
   alert('I AM A DIV');
 }
 ```
+
+### STEP 7: Duck Hunt [Y]
