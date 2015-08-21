@@ -1,6 +1,6 @@
 #  Homework
 
-![gif of key_translator](instructor/translate.gif)
+![gif of key_translator](instructor/images/translate.gif)
 
 ## The Premise
 Sometimes we say "press `command` `option` L" and we have to write out the whole word - which is tiresome. Your computer conveniently has nice icons for those words. Wouldn't it be great if you had an app that translated for you? Luckily, you're a web developer, so you can build that! Tonight you are going to build a single page app that translates from English to icon. This is where it starts getting real.
