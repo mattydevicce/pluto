@@ -14,14 +14,15 @@ jQuery(function() {
 
       checkbox.on("click", function() {
         if(checkbox.is(":checked")) {
-          listItem.remove();
+          // listItem.remove();
+          listItem.addClass("didIt");
           alert("You're Not Going to Stop there!!!");
         }
       });
 
       listItem.append(checkbox);
       listItem.append(taskInput.val());
-      taskList.append(listItem);
+      taskList.prepend(listItem);
       taskInput.val("");
     }
   };
