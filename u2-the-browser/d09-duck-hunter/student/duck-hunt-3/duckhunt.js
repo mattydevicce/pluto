@@ -7,6 +7,18 @@ jQuery(function() {
   var game_start = new Audio('/audio/start-round.mp3');
   game_start.play();
   var body = $('body');
+  var currentTime = 0;
+  var timeDiv = $("<div id='time'>0</div>");
+  timeDiv.text(currentTime)
+  body.append(timeDiv);
+  var refreshIntervalId = setInterval(timer, 1000);
+
+  function timer() {
+    timeDiv.remove();
+    currentTime += 1;
+    timeDiv.text(currentTime);
+    body.append(timeDiv)
+  }
 
   // 6. Defines a createDuck function that returns a duck
   function createDuck() {
@@ -31,13 +43,12 @@ jQuery(function() {
     }, 2000)
 
     duck.on("click", function() {
-      duck.toggleClass("shot");
+      duck.addClass("shot");
       setTimeout(function() {
         duck.remove()
         checkForWinner();
       }, 1000)
     })
-
     return duck;
   }
 
@@ -48,35 +59,25 @@ jQuery(function() {
 
   function checkForWinner() {
     if (($(".duck")).length==0){
-      alert("You win!!")
+      alert("You win!!");
+      clearInterval(refreshIntervalId);
     };
   };
 
   function miniGun(xCoord, yCoord) {
-    if (!mosueStillDown) { return };
-    if (mosueStillDown) {
-      var bulletHole = $("<image src='/images/Bullet-Hole-20.png' class='minigun'>");
-      bulletHole.css("top", yCoord);
-      bulletHole.css("left", xCoord);
-      body.append(bulletHole);
-      setTimeout(function(){
-        bulletHole.remove();
-      }, 1000);
-    }
+    var bulletHole = $("<image src='/images/Bullet-Hole-20.png' class='minigun'>");
+    bulletHole.css("top", yCoord);
+    bulletHole.css("left", xCoord);
+    body.append(bulletHole);
+    setTimeout(function(){
+      bulletHole.remove();
+    }, 1000);
   }
-
-  var mosueStillDown = false;
-
-  $('body').on('mouseover', function(e) {
-    mosueStillDown = true;
+  $('body').on('click', function(e) {
     var pageX = e.pageX;
     var pageY = e.pageY
     miniGun(pageX, pageY);
   });
-  $('body').on('mouseup', function(e) {
-    mosueStillDown = false;
-  });
-
 
 
 

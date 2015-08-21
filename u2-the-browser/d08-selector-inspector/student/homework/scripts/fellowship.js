@@ -141,3 +141,22 @@ var thereAndBackAgain = function() {
 }
 
 
+// This fadeout doesnt work.. idk why
+var theRingIsOn = 3;
+$("#the-ring").on("click", function() {
+  if (theRingIsOn % 2 == 0) {
+    hideFrodo();
+  } else {
+    showFrodo();
+  }
+  theRingIsOn += 1;
+})
+
+function hideFrodo() {
+  $(".Frodo").fadeOut("slow");
+}
+
+function showFrodo() {
+  $(".Frodo").fadeIn("slow");  
+}
+
