@@ -7,7 +7,7 @@ Sometimes we say "press `command` `option` L" and we have to write out the whole
 
 ## Setup
 
-Work in the `u2-thebrowser/d10-do-it/student` directory. Make a `homework` directory in which you put your work. Touch a `key_translator.html` file and `key_translator.js` file. Link one to the other (you know which one!)
+Work in the `u2-the-browser/d10-do-it/student` directory. Make a `homework` directory in which you put your work. Touch a `key_translator.html` file and `key_translator.js` file. Link one to the other (you know which one!)
 
 ## Completion
 Complete all 4 parts.
