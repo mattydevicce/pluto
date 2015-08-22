@@ -42,7 +42,7 @@ jQuery(function() {
       duck.css("left", Math.random() * window.innerWidth);
     }, 2000)
 
-    duck.on("click", function() {
+    duck.on("mouseover", function() {
       duck.addClass("shot");
       setTimeout(function() {
         duck.remove()
@@ -53,7 +53,7 @@ jQuery(function() {
   }
 
   // 7. Creates 5 ducks
-  for(var i=0; i<2; i++) {
+  for(var i=0; i<20; i++) {
     createDuck();
   }
 
@@ -71,14 +71,17 @@ jQuery(function() {
     body.append(bulletHole);
     setTimeout(function(){
       bulletHole.remove();
-    }, 1000);
+    }, 100);
   }
-  $('body').on('click', function(e) {
-    var pageX = e.pageX;
-    var pageY = e.pageY
-    miniGun(pageX, pageY);
-  });
 
-
+  var displayBullets = function() {
+    $('body').on('mouseover', function(e) {
+      var pageX = e.pageX;
+      var pageY = e.pageY
+      setInterval(miniGun(pageX, pageY), 100);
+    });
+  }
+  
+  displayBullets();
 
 })

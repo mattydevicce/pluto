@@ -1,1 +1,28 @@
+header {
+  background-image: url("./image/doitt.gif");
+  background-size: 100% 100%;
+  height: 200px;
+  max-width: 100%;
+}
 
+h1 {
+  color: gray;
+  text-align: center;
+  padding-top: 30px;
+}
+
+main {
+  max-width: 80%;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+  font-size: 2em;
+}
+
+.did-it {
+  text-decoration: line-through;
+}
