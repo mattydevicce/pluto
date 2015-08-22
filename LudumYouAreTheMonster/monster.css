@@ -1,0 +1,44 @@
+.spin {
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  font-size:1.3em;
+  line-height:100px;
+  text-align:center;
+  background:red;
+  float: left;
+}
+
+.game {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.pointer {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 100px;
+  border-color: transparent transparent transparent #007bff;
+  transform: rotate(0deg);
+  margin: auto;
+  background: none;
+  text-align: center;
+  position: relative;
+  top: 185px;
+}
+
+.title {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
