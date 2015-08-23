@@ -25,13 +25,17 @@
 
 **BREAK**
 
-### STEP 4: Loading Spinner [Y]
-- Creating a loading spinner
-
-### STEP 5: Animate it! [W]
-- Walk through setting up Velocity [W]
+### STEP 5: Animate it! [I]
+- Demonstrate jQuery Animate [I]
+- Walk through setting up Velocity [I]
 - Demonstrate how to SVG can be copy and pasted from the internet [I]
-- Make the wheel spin [W]
+- Make the wheel spin [I]
 
-### STEP 6: Activity: Animal Farm
+### STEP 6: Try it! [Y]
+- Students setup Velocity
+- Students animate their SVG from earlier
+
+### STEP 6: Activity: Animal Farm [I]
 - Animate the eyes of the cute animals
+- Review JavaScript Events, and Timers
+- Use JavaScript "chaining"
