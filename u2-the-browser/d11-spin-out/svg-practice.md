@@ -48,6 +48,7 @@ Writing SVG is really easy, once you get the hang of the tags and attributes.
 1. Use SVG `<ellipse />` to draw an ovals
 	- https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse
 1. To specify the color, use the `fill` and `stroke` attributes.
+1. To give a `<rect />` rounded corners, set `rx="10"` and ` ry="10"`.
 1. Get creative!  Otherwise, see if you can create something like this (9 shapes):
 
 ![](images/simple-monkey.png)
