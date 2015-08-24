@@ -7,6 +7,7 @@
 ## Learning Objectives
 
 - Gettin' heavilly metallic with jQuery events
+- Gettin' the net of CSS selectors
 
 ## Setup
 
