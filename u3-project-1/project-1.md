@@ -114,7 +114,7 @@ While finishing the MVP is the primary goal of the project, there are further re
 - All of your code must be properly formatted and validated.
 - You should present your work to the class on the final day of the sprint.
 - You should participate in the class retrospective.
-- You should not focus on using frameworks that other people have written, like Bootstrap. This project should be all you, handrolled code, only (except jQuery)!
+- You should not focus on using frameworks that other people have written, like Bootstrap. This project should be all you, handrolled code only (except for jQuery and Velocity.js)!
 
 ## Resources
 
