@@ -3,12 +3,12 @@
 | Tic-Tac-Toe       | Point of Sales    | Black Jack       |
 |-------------------|-------------------|------------------|
 | Zoe Sachs         | Andres Carter     | Mohamed Elgendy  |
-| Nick Marshall     | Steph Nathai      | Jennifer Yien    |
-| Esther Zinn       | Yuka Nagai        | Joy Morgan       |
-| Harrison Riddell  | Meiji Chen        | Josh Bubis       |
-| Raquel Hosein     | Pierre Cajuste    | Eric Kim         |
-| Matt Morrisey     | Brian Deutsch     | Salvatore Fanara |
-| Christopher Smith | Pamela Nevins     | Calvin Yeung     |
+| Esther Zinn       | Josh Bubis        | Jennifer Yien    |
+| Brian Deutsch     | Yuka Nagai        | Joy Morgan       |
+| Harrison Riddell  | Meiji Chen        | Steph Nathai     |
+| Pamela Nevins     | Pierre Cajuste    | Eric Kim         |
+| Matt Morrisey     | Calvin Yeung      | Salvatore Fanara |
+| Christopher Smith | Raquel Hosein     | Nick Marshall    |
 | Jacob Shemkovitz  | Jaskaranjit Singh | Edward Petner    |
 | Victoria Donnelly |
 
@@ -95,6 +95,7 @@ Create an interface for a cashier for a fictional restaurant.
 - Create a menu of food items with prices.
 - The application should allow the user to add items to a receipt.
 - The application should display and update the running total and tax.
+- Cashiers should be able to switch between multiple orders/tables.
 - The application should be nicely styled.
 
 #### Reach goals
