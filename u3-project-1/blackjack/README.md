@@ -1,5 +1,5 @@
 # Black Jack (21)
-![](images/suits.svg)
+![](images/suits.png)
 
 ---
 
