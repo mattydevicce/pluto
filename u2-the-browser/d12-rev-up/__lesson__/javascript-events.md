@@ -1,14 +1,21 @@
 # Events
 
 ## Learning Objectives
+- remember to add event object to each callback function
 - understand the difference between native javascript and jQuery event objects are not the same
 - use event delegation and its benefits
 
-## Intro
-When we were previously learned about event handlers there is a event parameter that is passed
+## Review
+When we were previously learned about event handlers there was an event parameter that was passed
 into the callback function. Does anyone know what is that event parameter?
-It's an object and we can see that if we log it out.
 
-> Tell class to goto example
+> Tell class to goto example: http://codepen.io/anon/pen/jPgmmZ
 
-We learned about event.preventDefault()
+Everything in JavaScript is an object, so an `event` is also an object.
+
+Some useful attribute and method for event are
+  * event.preventDefault()
+  * event.which
+  * event.currentTarget
+
+## Event delegation
