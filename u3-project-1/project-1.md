@@ -108,7 +108,7 @@ Create an interface for a cashier for a fictional restaurant.
 
 While finishing the MVP is the primary goal of the project, there are further requirements that must be completed before or immediately after the project is due.
 
-- Your project should be hosted on Github in its own **NEW** repository. This repo must be **OUTSIDE** of your Melville repo. If you make a repo inside a repo, you're gonna have a bad time.
+- Your project should be hosted on Github in its own **NEW** repository. This repo must be **OUTSIDE** of your class repo. If you make a repo inside a repo, you're gonna have a bad time.
 - Your project should be publicly available using GitHub Pages and include a `README.md` that has your name and instructions about how to play your game or use your app.
 - The `README.md` should include the project's name and description.
 - All of your code must be properly formatted and validated.
