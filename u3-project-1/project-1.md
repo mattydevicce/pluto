@@ -63,7 +63,7 @@ Build a web version of Tic-Tac-Toe for the Modern Age.
 - The computer can act as a player, generating X's or O's, alternating with the real human player, and potentially winning.
 - Add a winner board that winners can add their name to.
 - Add a timer that counts down after each player makes their mark. The other player has to take their turn before the time runs out, or they lose.
-- Use Snap.svg to animate the "X"s and "O"s
+- Use Velocity.js to animate the "X"s and "O"s
 
 ### Black Jack
 
