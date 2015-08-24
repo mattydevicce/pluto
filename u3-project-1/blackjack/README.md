@@ -37,9 +37,9 @@ After setting up the decks, create functions for displaying them on the screen. 
 
 ### STEP 4: Game Logic
 
-Using `deck.pop()` populate the players and the dealers hands. Be sure not to reveal the first card in each hand. Then, display two buttons, "Hit" or "Stand". If the player chooses "Hit", draw another card from the deck/shoe and recalculate the value of the hand.  Continue until the total is greater than 21, in which case the player loses.
+Using `deck.pop()` populate the players and the dealers hands. Then, display two buttons, "Hit" or "Stand". If the player chooses "Hit", draw another card from the deck/shoe and recalculate the value of the hand.  Continue until the total is greater than 21, in which case the player loses.
 
-If the player hits "Stand", deal cards to the dealer, until the total of the visible cards >= 17. Then, award points to the highest party.
+If the player hits "Stand", deal cards to the dealer, until the total of cards >= 17. Then, award points to the highest party.
 
 ### Step 5: Animate it
 

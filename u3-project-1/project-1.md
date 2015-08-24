@@ -39,7 +39,7 @@ Each student will be responsible for their own project. This means the student h
 You have been randomly assigned one of these projects, each one has its own unique challenges.
 
 - [Tic-Tac-Toe](http://en.wikipedia.org/wiki/Tic-tac-toe)
-- [Black Jack](http://en.wikipedia.org/wiki/Simon_%28game%29)
+- [Black Jack](https://www.youtube.com/watch?v=tQJGbbk3WUs)
 - [Point of Sale for Fictional Restaurant](http://en.wikipedia.org/wiki/Point_of_sale)
 
 You should plan out the basic pieces you will need for your project and estimate the amount of time required.  Estimates can help you make effective use of your time and avoid falling into time-sinks.
@@ -65,11 +65,11 @@ Build a web version of Tic-Tac-Toe for the Modern Age.
 - Add a timer that counts down after each player makes their mark. The other player has to take their turn before the time runs out, or they lose.
 - Use Snap.svg to animate the "X"s and "O"s
 
-### [Black Jack](https://www.youtube.com/watch?v=tQJGbbk3WUs)
+### Black Jack
 
 Build a web version of the is the most widely played casino banking game in the world.
 
-> Also known as twenty-one,  Blackjack is a comparing card game between a player and dealer, meaning players compete against the dealer but not against other players. It is played with one decks of 52 cards.
+> Also known as twenty-one,  Blackjack is a comparing card game between a player and dealer, meaning players compete against the dealer but not against other players. It is played with a deck of 52 cards.
 
 #### Necessary for MVP
 
