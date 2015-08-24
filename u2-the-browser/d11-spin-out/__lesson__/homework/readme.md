@@ -57,8 +57,13 @@ Add an event listener on "keypress" to "input.input-phrase" so that when you typ
 
 Update the above event listener on "input.input-names" so that when a new p tag is created an event listener is added so that when you "click" on a p tag, the text "... NOT" is added to the end of the text.
 
-# Excellent
+# Excellent -  Bonus
 
-Update your code so that if 5 p tags have had "... NOT" appened to them
-- add the class "show" to "div.flash"
-- remove the class "show" after 3 seconds.
+- Update your code so that if 5 p tags have had "... NOT" appened to them
+  - add the class "show" to "div.flash"
+  - remove the class "show" after 3 seconds.
+- Go to [caniuse.com](http://www.caniuse.com), and search the `transform` rule. What browsers is this incompatible with? Think on this for a while...
+
+- Bonus Readings on CSS:
+  - [Absolute vs. Relative Positioning](https://codemyviews.com/blog/the-lowdown-on-absolute-vs-relative-positioning)
+  - [What is display:inline-block?](http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
