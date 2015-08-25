@@ -8,5 +8,11 @@
 // have a reputation to uphold, so make sure your shots do not bubble to other rings.
 
 $(function() {
-  // Fire away
+  // Leave this event listener to ensure that when you hit ring #1 it does not\
+  // buble up to the body
+  $('body').click(function() {
+    alert('You hit <body>');
+  });
+
+  // Fire your code away
 });
