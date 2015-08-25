@@ -32,7 +32,7 @@
   background: none;
   text-align: center;
   position: relative;
-  top: 185px;
+  top: 135px;
 }
 
 .title {
@@ -41,4 +41,26 @@
 
 li {
   list-style: none;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.sect {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 300px solid red;
+  border-top: 300px solid red; 
+  transform-origin: bottom left;
+}
+.sect:nth-child(2) {
+  transform: rotate(180deg);
+  border-top: 150px solid blue;
 }

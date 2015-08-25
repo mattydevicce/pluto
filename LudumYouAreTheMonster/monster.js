@@ -37,7 +37,7 @@ jQuery(function(){
     if (ruleText.val() == '') {
       return
     }
-    var makeRule = $("<li></li>");
+    var makeRule = $("<li class='rule-single'></li>");
     makeRule.text(ruleText.val() + '  ');
     
     // Making a checkbox to add to use a rule
@@ -55,14 +55,20 @@ jQuery(function(){
       deleteEvent.preventDefault();
       makeRule.remove();
     });
+  
+    // Lets split the circle up
+    var circle        = $(".circle");
+    var numberOfRules = $(".rule-single").length;
+    var makeASection = $("<div class='sect'></div>");
+    if (numberOfRules == 1){
+      circle.prepend(makeASection);
+    } else if (numberOfRules == 2) {
+      $(".sect:first-child").css('border-top','300px solid transparent')
+    } 
+
   });
-
-
-
 
   $(".spin").on("click", function() {
     spin(0);
   });
-
-
 })

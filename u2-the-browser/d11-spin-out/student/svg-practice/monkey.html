@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Monkey!</title>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js"> </script>      
+</head>
+<body>
+<svg width="1000" height="1000">
+  <g id="monkey">
+    <circle id="left-ear" cx="550" cy="250px" r="75" fill="#D2B48C" />
+    <circle id="right-ear" cx="150" cy="250px" r="75" fill="#D2B48C"  />
+    <circle id="head" cx="350" cy="300" r="200" fill="#926239" />
+    <circle id="left-eye" cx="265" cy="240" r="75" fill="#FFFFFF" stroke="#000000" />
+    <circle id="right-eye" cx="445" cy="240" r="75" fill="#FFFFFF" stroke="#000000" />
+    <ellipse id="mouth" cx="350" cy="400" rx="250" ry="105" fill="#D2B48C" />
+    <circle id="left-pupil" cx="265" cy="240" r="20" fill="#000000"/>
+    <circle id="right-pupil" cx="445" cy="240" r="20" fill="#000000" />
+    <rect id="lips" height="10" width="350" x="175" y="400" fill="#926239" />
+    <ellipse id="cigar" rx="20" ry="100" cx="275" cy="500" fill="#926239" />
+    <ellipse id="char-on-cigar" rx=20
+  </g>
+</svg>
+
+<script type="text/javascript">
+  
+var eyesize = 20;
+var earsize = 100;
+var getBigger = true;
+setInterval(function() {
+  var shiftX = Math.random()*40-20;
+  var shiftY = Math.random()*40-20;
+  if (getBigger) {
+    eyesize += 5;
+    earsize += 15;
+    $("#left-pupil").css('r', eyesize);
+    $("#right-pupil").css('r', eyesize);
+    $("#right-pupil").velocity({translateX: shiftX, translateY: shiftY});
+    $("#left-pupil").velocity({translateX: shiftX, translateY: shiftY});
+
+  } else {
+    eyesize -= 5;
+    earsize -= 15;
+    $("#left-pupil").css('r', eyesize);
+    $("#right-pupil").css('r', eyesize);
+  }
+
+  if (eyesize == 75){
+    getBigger = false;
+  }
+  if (eyesize == 15) {
+    getBigger = true;
+  }
+}, 100);
+
+
+
+</script>
+</body>
+</html>
