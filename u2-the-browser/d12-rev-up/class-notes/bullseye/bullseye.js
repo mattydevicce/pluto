@@ -15,4 +15,30 @@ $(function() {
   });
 
   // Fire your code away
+  $("#d3").click(function(event) {
+    event.stopPropagation();
+    alert("clicked on " + $(event.currentTarget).attr('id'));
+    highlight($("#d3"))
+  })
+
+  $("#d2").click(function(event) {
+    event.stopPropagation();
+    alert("You hit a 2");
+    highlight($("#d2"))
+  });
+  $("#d1").click(function(event) {
+    event.stopPropagation();
+    alert("You hit a 1.. ");
+    highlight($("#d1"))    
+  });
+
+  function highlight(ring) {
+    var originalColor = ring.css('background-color');
+    ring.css('background-color', 'yellow');
+    setTimeout(function() {
+      ring.css('background-color', originalColor)
+    }, 2000)
+    ring.stopPropagation();
+  }
+
 });
