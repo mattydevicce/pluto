@@ -12,6 +12,12 @@ $(function() {
   });
 
   $('span#level3').click(function(event) {
-    alert('Clicked on level3')
+    highlight(event.currentTarget);
   });
+
+  var highlight = function(element) {
+    $(element).css('background-color', 'yellow');
+    alert($(element).attr('id'));
+    $(element).css('background-color', '');
+  }
 });
