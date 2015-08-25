@@ -1,8 +1,4 @@
 $(function() {
-  $('window').click(function(event) {
-    alert('Bubbled up to <window>');
-  });
-
   $('body').click(function(event) {
     alert('Bubbled up to <body>');
   });
