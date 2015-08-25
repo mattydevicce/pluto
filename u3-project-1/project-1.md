@@ -12,6 +12,10 @@
 | Jacob Shemkovitz  | Jaskaranjit Singh | Edward Petner    |
 | Victoria Donnelly |
 
+If you would like to switch projects, you may swap places with another student.
+If both of you are happy to do so, we'll update the register.  However, you **MUST**
+let us know on or before Wednesday.
+
 ---
 
 ##### OBJECTIVES
