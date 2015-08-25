@@ -1,11 +1,10 @@
-Morning Exercise 05-13-2015
+# Clocks!!!!
+##### cue Coldplay
 
 #### Learning Objectives
 - Practice using JavaScript to manipulate the DOM
 - Practice using JavaScript Timers
 
-# Clocks!!!!
-##### cue Coldplay
 
 Today you are going to build a clock!
 
