@@ -1,10 +1,24 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Average);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+=======
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Average);
+
+>>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
 body {
   background-color: #FFFFFF;
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   font-family: 'Average', serif;
+=======
+  font-family: 'Average', 'Times New Roman', 'Times', sans-serif;
+}
+
+h1 {
+  font-family: 'Fjalla One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+>>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
 }
 
 img {
@@ -49,13 +63,39 @@ div.column {
   float: left;
 }
 
+<<<<<<< HEAD
 @media(max-width: 767px) {
+=======
+p:first-letter {
+  font-size: 3em;
+  float: left;
+  line-height: 0.75em;
+  /*font-family: 'Fjalla One', sans-serif;*/
+  border: solid black 1px;
+  margin-right: 0.1em;
+}
+
+@media only screen and (max-width: 767px) {
+>>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
   div.column {
     float: none;
     width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
   img {
     display: none;
   }
 }
+<<<<<<< HEAD
+=======
+
+
+@media print {
+  div.column {
+    width: 48%;
+  }
+}
+>>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
