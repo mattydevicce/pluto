@@ -12,6 +12,8 @@
 - SWBAT Follow Agile standup and retrospective best practices
 - SWBAT Deploy JS/HTML pages to GitHub Pages
 - SWBAT Write unit-tests for JavaScript functions
+- SWBAT Write unit-tests for JavaScript functions
+- SWBAT Deploy JS/HTML pages to GitHub Pages
 
 ## STEP 1: What is Agile
 - Give Presentation
