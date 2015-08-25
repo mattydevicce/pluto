@@ -4,10 +4,10 @@
 |-------------------|-------------------|------------------|
 | Zoe Sachs         | Andres Carter     | Mohamed Elgendy  |
 | Esther Zinn       | Nick Marshall     | Jennifer Yien    |
-| Brian Deutsch     | Yuka Nagai        | Joy Morgan       |
+| Brian Deutsch     | Yuka Nagai        | Matt Morrisey    |
 | Harrison Riddell  | Meiji Chen        | Steph Nathai     |
 | Pamela Nevins     | Pierre Cajuste    | Eric Kim         |
-| Matt Morrisey     | Calvin Yeung      | Salvatore Fanara |
+| Joy Morgan        | Calvin Yeung      | Salvatore Fanara |
 | Christopher Smith | Raquel Hosein     | Josh Bubis       |
 | Jacob Shemkovitz  | Jaskaranjit Singh | Edward Petner    |
 | Victoria Donnelly |
