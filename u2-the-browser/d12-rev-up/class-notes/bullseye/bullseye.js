@@ -7,16 +7,38 @@
 // world your shot could bubble to other rings in the bullseye. Remember you
 // have a reputation to uphold, so make sure your shots do not bubble to other rings.
 
+
+// ** BONUS ** //
+// Write a function to highlight the ring you hit with the color yellow.
+
 $(function() {
   // Leave this event listener to ensure that when you hit ring #1 it does not
-  // buble up to the body
-  $('body').click(function() {
-    alert('You hit <body>');
+  // bubble up to the body
+  var highlight = function(element) {
+    $(element).css('background-color', 'yellow');
+    alert($(element).attr('id'));
+    $(element).css('background-color', '');
+  };
+
+  $('body').click(function(event) {
+    event.stopPropagation();
+    highlight(event.currentTarget);
   });
 
   // Fire your code away
   $('#t3').click(function(event) {
-    var target = $(event.currentTarget).attr('id');
-    alert('You hit '+ target);
+    event.stopPropagation();
+    highlight(event.currentTarget);
   });
+
+  $('#t2').click(function(event) {
+    event.stopPropagation();
+    highlight(event.currentTarget);
+  });
+
+  $('#t1').click(function(event) {
+    event.stopPropagation();
+    highlight(event.currentTarget);
+  });
+
 });

@@ -45,9 +45,9 @@ jQuery(function() {
     // While we have access to the checkbox let's also add an event listener
     // that listens for the click event. When a click occurs on a checkbox
     // toggleClass did-it to apply a strike through style to the completed task
-    checkbox.on('click', function() {
-      newTask.toggleClass("did-it");
-    });
+    // checkbox.on('click', function() {
+    //   newTask.toggleClass("did-it");
+    // });
   });
 
   // Add an event listener for the keydown event on the <input type="text" id="task">
@@ -65,6 +65,35 @@ jQuery(function() {
       addTaskButton.click();
     }
   });
+
+  // ** Event Delegation to <ul> ** //
+
+  // Implementation #1
+  $('ul#task-list').on('click', function(event) {
+    var clickedCheckbox = $(event.currentTarget).children('input[type="checkbox"]:checked');
+    var clickedTask = clickedCheckbox.parent();
+    clickedTask.toggleClass("did-it");
+  });
+
+  // Implementation #2
+  // $('#task-list').on('click', 'li', function(event) {
+  //
+  //   // console.log($(this));
+  //   // if($(this).find('input[type="checkbox"]:checked')){
+  //   //     $(this).toggleClass("did-it");
+  //   // }
+  // });
+
+
+
+
+
+
+
+
+
+
+
 
 
 });
