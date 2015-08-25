@@ -15,3 +15,4 @@
 - Create a two-column print version
 
 # STEP 3: Google Web Fonts
+- Add Google Web Fonts to the mix
