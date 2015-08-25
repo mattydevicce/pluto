@@ -3,12 +3,12 @@
 | Tic-Tac-Toe       | Point of Sales    | Black Jack       |
 |-------------------|-------------------|------------------|
 | Zoe Sachs         | Andres Carter     | Mohamed Elgendy  |
-| Esther Zinn       | Josh Bubis        | Jennifer Yien    |
+| Esther Zinn       | Nick Marshall     | Jennifer Yien    |
 | Brian Deutsch     | Yuka Nagai        | Joy Morgan       |
 | Harrison Riddell  | Meiji Chen        | Steph Nathai     |
 | Pamela Nevins     | Pierre Cajuste    | Eric Kim         |
 | Matt Morrisey     | Calvin Yeung      | Salvatore Fanara |
-| Christopher Smith | Raquel Hosein     | Nick Marshall    |
+| Christopher Smith | Raquel Hosein     | Josh Bubis       |
 | Jacob Shemkovitz  | Jaskaranjit Singh | Edward Petner    |
 | Victoria Donnelly |
 
