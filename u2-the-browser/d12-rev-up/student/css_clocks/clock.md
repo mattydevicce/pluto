@@ -24,7 +24,7 @@ Define 3 variables and grab the associated element from the DOM using JavaScript
 
 ### Step 2
 - In order to rotate each hand, you will have to utilize the css attribute [`transform - rotate`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#rotate).
-- Practice setting the angle of any hand in the console using the DOM method `style`, just to see if you can get the hands spinning.
+- Practice setting the angle of any hand in the console using the DOM method `.css()`, just to see if you can get the hands spinning.
 
 ### Step 3
 - Use `setInterval` to make the `secondHand` complete full rotation in 60 seconds.
