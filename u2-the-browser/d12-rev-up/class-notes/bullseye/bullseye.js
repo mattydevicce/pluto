@@ -15,5 +15,8 @@ $(function() {
   });
 
   // Fire your code away
-  $('')
+  $('#t3').click(function(event) {
+    var target = $(event.currentTarget).attr('id');
+    alert('You hit '+ target);
+  });
 });
