@@ -77,7 +77,7 @@ Build a web version of the is the most widely played casino banking game in the 
 
 #### Necessary for MVP
 
-- The game should generate two random cards per player, and display one of them.
+- The game should generate two random cards per player.
 - The game should ask the player, "Hit" or "Stand"
 - The game should generate another card for the players hand if a player chooses to "Hit"
 - The game should generate random cards for the dealer until the cards total 17 or more points
