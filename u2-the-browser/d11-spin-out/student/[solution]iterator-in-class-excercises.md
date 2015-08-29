@@ -315,15 +315,22 @@ var lastIndexOf = function(array, element) {
 
     ```js
     var flatten = function(array) {
-      var splicedArray = array.map(function(element, parentIndex, parentArray) {
+      array.forEach(function(element, parentCurrentIndex, parentArray) {
         if(Array.isArray(element)) {
-          for(var i=0; i<element.length; i++) {
-            parentArray.splice(parentIndex, 0, element[i]);
-          }
-          parentArray.splice(parentIndex, 1);
+          var subArray = element;
+          var indexOfSubArray = parentCurrentIndex;
+          var movedIndex;
+          subArray.forEach(function(subElem, subIndex, subArray) {
+
+            movedIndex = parentCurrentIndex + subIndex;
+            parentArray.splice(movedIndex, 0, subElem);
+
+            if(subIndex == subArray.length-1) {
+                parentArray.splice(movedIndex+1, 1);
+            }
+          });
         }
       });
-
-      return splicedArray;
+      return array;
     };
     ```
