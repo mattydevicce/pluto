@@ -4,10 +4,11 @@
 - SWBAT Conceptualize Computer Networking
 - SWBAT Describe the Components of a URL
 - SWBAT Inspect raw HTTP requests/responses
-- 
+- SWBAT
 
 ### Terminology
 - IP Address
-- DNS Server
+- Domain Name
+- 
 
 ### Networking
