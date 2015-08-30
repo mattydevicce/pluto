@@ -4,7 +4,7 @@
 
 Students will be able to:
 
-* articulate the difference between JavaScript and Ruby
+* articulate the benefits of Ruby
 * apply programming concepts that they learned with JavaScript to Ruby
 * translate JavaScript String, Boolean, Int, Float, Conditional, Array, Hash, Loops, Symbol
 * use Ruby Enumerables (.times, .each, .upto, .downto, .map)
@@ -63,37 +63,22 @@ gem install pry
 * Variables
 	* How do we declare variables?
 	* Notice we also don't need semi colons
-	* Local Variable
-		* Local to a method
-	* Instance Variable
-		* `@varname`
-	* Constant
 
-		```
-		SOME_CONSTANT = "donuts" # "donuts"
-
-		def some_method
-		  SOME_CONSTANT
-		end
-
-		SOME_CONSTANT # => "donuts"
-		some_method # => "donuts"
-
-		SOME_CONSTANT = "awesome" # warning: already initialized constant
+		```ruby
+		some_var = "donuts"
 		```
 * String Interpolation
 	* JS - first + " " + last
 	* Ruby - "#{first} #{last}"
 
-***Students Do***
+## You do String Interpolation _(10m)_
 
 * "My favorite color is _______"
 * "My favorite ninja turtle is _______ and his weapon is ______"
 * "______ is a great movie star. My favorite movie of theirs is ________"
 
 
-## Part Three: Control Flow
-***15 minutes***
+## Control Flow _(15m)_
 
 **Students:** Code Along / Follow Lecture
 
