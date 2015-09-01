@@ -3,128 +3,128 @@
 ### Learning Objectives
 
 Students will be able to:
-
-* articulate the benefits of Ruby
-* apply programming concepts that they learned with JavaScript to Ruby
-* translate JavaScript String, Boolean, Int, Float, Conditional, Array, Hash, Loops, Symbol
-* use Ruby Enumerables (.times, .each, .upto, .downto, .map)
-
+* See parallels between JavaScript and Ruby
+* Apply programming concepts from JavaScript to Ruby
+* Declare Ruby variables with different datatypes and scopes
+* Utilize Ruby conditionals
+* Use loops and enumerables
 
 ## Intro _(5m)_
-I worked for startup and established companies. For each of the companies I program based on the stack that the company was using. This included Java, C/C++, C#, Ruby, Python, JavaScript, and PHP. Going into the job I definitely did not know some of the languages before hand. In school I only studied C++ and Java. The other languages, I had to pick up myself on the job and start getting things done. I was able to do this because I applied the programming fundamentals that I learned from C++ and Java.
+Today we are going to learn a new language called Ruby. This maybe daunting at first, but it's going to become a normal as a developer. Let me tell you a little about my experience.
 
-Today we are going to learn Ruby by applying programming fundamentals that we acquired from developing in JavaScript. Ruby and JavaScript are not going to be identical, otherwise there we wouldn't need different languages, but they are both built upon the same principles.
+I have worked for several companies and so far each company has used a different set of technology. As a developer joining I can't go around telling companies I only know JavaScript and will only do work in that language. If that's your attitude you probably wouldn't get hired. Companies want people that can learn new things since technology is changing so quickly, so your ability to learn is a huge asset. Me for example, I had to pickup C#, Ruby, Python, and JavaScript.
 
+You could think of it like learning to operate a Black and Decker power drill then a Milwaukee drill. They will fundamentally be the same with some small differences.
 
-## Why JavaScript Discussion _(5m)_
+Today we are going to do just that, we are going to add Ruby to our tool box. We are going to translate the fundamentals we acquired from JavaScript and apply it to Ruby. Ruby and JavaScript are not going to be identical, but we'll be going over all that today.
+
+> Go to Learning Objectives
+
+## Big Picture for JavaScript and Ruby
+
+### Why Did We Learn JavaScript Then? _(5m)_
 Before we get into Ruby, let's discuss why we even want to learn JavaScript.
-* It's the defacto language of the web
-* It could be used for both the client and server
-* There is a huge community around it
-* There are many tools built for it
-* Good signals from the dev community. Every browser implemented it, although differently many different ideas emerged and competed. That allows the best ideas to bubble up (ha bubble up). JavaScript also has the most amount of people working on it.
+* It's the defacto language of the web. Without it we can't make very interactive websites.
+* It is also a battle tested language. Literally there was a huge browser war about how JavaScript should work where every browser implemented things differently. It's more standardized now, but things still aren't 100% standard, which is why we need tools like jQuery. This competition is good and different ideas emerged. That allows the best ideas to bubble up (ha bubble up). JavaScript also has the most amount of developer time spent working on it.
 
-## Why learn Ruby then _(5m)_
+### Why learn Ruby then _(5m)_
 JavaScript sounds pretty good, so why learn Ruby then?
-* Beginner friendly
-* Like JavaScript there is a large community and tools built for it
-* The language is designed to give developer a way to humanly express commands to computers. Some would say that allows developers to think clearer and creatively.
-* The syntactly sweet, so developer could be more productive and more easily collaborate with each other.
-* Has functionality of a classical Object Oriented Language, such as Java without the complexity
+* Currently, you can't do everything with JavaScript.
+* Ruby gives developer a way to humanly express ideas to a computer. Some would say that allows developers to think clearer and creatively.
+* It has a higher level of abstraction, so developers could be more productive and easily collaborate with others.
+* Follows a classical Object Oriented Programming paradigm, so concepts are less weird compared to JavaScript which is an OOP language as well, but it takes prototype approach. Keep that thought in mind because we'll be visiting that very soon.
 * There is also a very popular framework called Ruby on Rails, which as you could imagine is built on Ruby. This framework increases productivity and workflow.
 
-## Install pry _(5m)_
-If pry is not already install have everyone do it
-
-```ruby
-gem install pry
-```
-
-## Data types and Variables _(10m)_
-
-**Students:** Code Along / Follow Lecture
-
-**Instructor:** Code Along / Give Lecture
-
-* Similarities and differences in JS
-* Write on the board: What data types did you guys have in JS
+## Part Two: Data types and Variables
+* Similarities and differences in JS _(15m)_
+* JavaScript
 	* Booleans
 	* Numbers
 	* Strings
 	* Arrays
 	* Objects
+
 * Ruby
+Run pry in terminal. This is a gem installed on your system. If this wasn't installed it would be irb (interactive ruby). pry gives us more functionality.
+
 	* Booleans - true and false
 	* Integer - 12 (a whole number)
 	* Floats - 9.45 (decimal)
 	* Strings - "You Are Beautiful"
-	* Arrays - ['x', 'y', 'z']
-	* Hashes - {key: value, key2: value2} (Objects with key value pairs)
+	* Hashes - {key => value} {key: value, key2: value2} (No dot notation)
+	* Symbol - `:name` used to describe a noun, but not proper noun e.g. Atlanta
+	* Objects - are not key-value pairs like JavaScript
+	* Arrays - [100, 'hello', true, 10.5, [1,2,3], {name: 'Pan'}]
+
 * Variables
 	* How do we declare variables?
 	* Notice we also don't need semi colons
-
+  * Ruby convention is snake case unlike JS which was camel case.
 		```ruby
 		some_var = "donuts"
 		```
+	* Local variables - all variables declared are local by default
+	* Global variables - declared with $
+	* Constants - declared using all UPPERCASE
+
 * String Interpolation
 	* JS - first + " " + last
 	* Ruby - "#{first} #{last}"
+  * puts gives you a new line after the string
 
-## You do String Interpolation _(10m)_
-
+#### Students Do _(10m)_
+Declare variables and print out the following sentence filling in the blank using string interpolation in pry
 * "My favorite color is _______"
 * "My favorite ninja turtle is _______ and his weapon is ______"
 * "______ is a great movie star. My favorite movie of theirs is ________"
 
+> # Break _(10m)_
 
-## Control Flow _(15m)_
-
-**Students:** Code Along / Follow Lecture
-
-**Instructor:** Code Along / Give Lecture
-
-* Enough pry for now, lets go into our classwork folder and make a new file to play around with.
-	* Anybody know what the type of the file should be?
-	* Make a `test.rb` file and open it up
-* Talk about `put`, `print`, `gets`
-	* puts: gives you a new line after the string
-	* print: prints out the string without a new line afterwards
+## Part Three: Control Flow
+Enough pry for now, lets go into our classwork folder and make a new file to play around with.
+* Anybody know what the type of the file should be?
+* Make a `test.rb` file and open it up
+* Talk about gets`, `chomp`
 	* gets: gets input from a user
+	* chomp: removes the extra new line
 
+#### Code Along _(5m)_
 ```
 puts "Hey You"
 me = gets.chomp
 puts me
 ```
 
-**Students Do**
-
+#### Students Do _(10m)_
 * Write a command line app that starts with "Welcome to the personality interview game, what is your name?"
 * Returns "Hello Name, what is your favorite color?"
 * Returns "______ really brings out your eyes, do you have a favorite cartoon?"
 * Returns "What? No way, _______ is my favorite cartoon also. Okay last question, if you could have one super power what would it be?"
 * Returns "Well thank you (name), you sound like you would make a great superhero using (power) for good"
 
-* Lets cover some if/else statements
+### if/else statements
 	* Logically the if else statement works exactly as in JS
 	* BUT as I mentioned earlier Ruby is a development language trying to mirror english
 	* So lets take a look at the syntax
 
-```
-name = "Jason"
+#### Code Along _(5m)_
+```ruby
+name = "Pan"
 
-if name == "Jason"
-	puts "You are so handsome"
+if name == "Pan"
+	puts "FOCUS!!!"
 else
-	puts "You wish you were Jason"
+	puts "FOCUS ON FOUCSING!!!"
 end
 ```
-* Booleans and if/elsifs
+
+### Booleans and if/elsifs
 * We know that the boolean operators are the same in JS
 	* Write out the booleans on the board
+  * Explain the that `===` does not work like JS, so refrain from using it.
 
-```
+#### Code Along _(5m)_
+```ruby
 a = 10
 b = 20
 
@@ -137,8 +137,7 @@ else
 end
 ```
 
-**Student Do**
-
+#### Students Do _(15m)_
 * Build a command line application that asks the user for a number between 1 and 100. Take the number and run it through fizz buzz
 * Forgot what fizz buzz is? Here's a refresher.
 	* If the number is divisible by five print out "Fizz"
@@ -146,73 +145,89 @@ end
 	* If the number is divisible by both five and three print out "Fizz Buzz"
 	* If the number is not divisible by either five or three print out "(num) is not fizzable"
 
+* starter code
+```ruby
+1.upto(100) do |i|
+  # add logic
+end
+```
+
 ###### Answer for Fizz Buzz
 
+```ruby
+1.upto(100) do |i|
+  if i % 5 == 0 and i % 3 == 0
+    puts "FizzBuzz"
+  elsif i % 5 == 0
+    puts "Buzz"
+  elsif i % 3 == 0
+    puts "Fizz"
+  else
+    puts i
+  end
+end
 ```
-    1.upto(100) do |i|
-      if i % 5 == 0 and i % 3 == 0
-        puts "FizzBuzz"
-      elsif i % 5 == 0
-        puts "Buzz"
-      elsif i % 3 == 0
-        puts "Fizz"
-      else
-        puts i
-      end
-    end
-```
 
-## Part Four: Loops / Arrays / Hashes
-***15 minutes***
+> # Break _(10m)_
 
-**Students:** Code Along / Follow Lecture
-
-**Instructor:** Code Along / Give Lecture
+## Loops _(5m)_
 
 * For Loops
 	* using ".." gives you up to and including the last number
 	* using "..." gives you up to BUT NOT including the last number
-```
+```ruby
 for x in 1..5
 	puts x
 end
 ```
 * While Loops
-	* Mention incrementation and decrementation are more strict
+```ruby
+# while loops
+i = 0
+num = 5
 
-```
-x = 0
-while x < 10
-	puts x
-	x += 1
+while i < num  do
+   puts("Inside the loop i = #{i}" )
+   i +=1
 end
+
+begin
+	puts("Inside the loop i = #{i}" )
+	i +=1
+end while i < num
 ```
+
+#### Students do _(10m)_
+Using each type of loop write code to print 1 - 10
+
+## Arrays _(5m)_
 * Arrays are the same in Ruby and JS
 	* Many similar methods
 	* Index is the same as JS
 	* Arrays nested into Arrays are the same
 	* .push is different
 
-```
+```ruby
 turtles = ["Donny", "Leo", "Mikey"]
 
-turtles << "Raph"
+turtles.push("Raph") OR turtles << "Raph"
 
 puts turtles
 ```
 
-**Students Do**
-
+#### Students Do _(15m)_
 * Write a command line app that takes in a variable with arrays nested as values inside another array. Print out sentences for each of them.
 
 ```
-people = [["Jason", "Maria", "Justin"], ["Red", "Blue", "Green"], ["Limp Bizkit", "3 Doors Down", "Papa Roach"]]
+people = [["Bobby", "Jaden", "Denis"], ["Red", "Blue", "Green"], ["Limp Bizkit", "3 Doors Down", "Papa Roach"]]
 
-The sentence will look like "Jason's favorite color is Red, and he loves Limp Bizkit"
+The sentence will look like "Bobby's favorite color is Red, and he loves Limp Bizkit"
 ```
-***
 
-* Hashes are like the Objects in JS.
+> # Break _(10m)_
+
+## Hashes _(10m)_
+  * Are like the Objects in JS.
 	* They are written in snake case (my_hash)
 	* They can be written in several ways
 
@@ -271,7 +286,7 @@ food["fruit"] = "apple"
 food["meat"] = "bacon"
 ```
 
-**Student Do**
+#### Student Do _(10m)_
 
 * Build a command line application that will loop through the tmnt hash below and create two new arrays. One called "turtleName" and one called "turtleColor". Print these arrays
 * Lets take it a step further. Print out a sentence such as "Raphael wears a Red bandana"
@@ -288,18 +303,15 @@ tmnt = {
 
 ##### Answer
 
-```
-tmnt.keys
+```ruby
+tmnt.keys.each do |turtle|
+  puts "#{turtle} wears a #{tmnt[turtle]} bandana"
+end
 ```
 
 ***
 
-## Part Five: Enumerables
-***15 minutes***
-
-**Students:** Code Along / Follow Lecture
-
-**Instructor:** Code Along / Give Lecture
+## Enumerables _(15m)_
 
 * Was that annoying to write? Ruby gives us a lot of methods which will reduce the need for loops
 * Enumerables: .times, .each, .upto, .downto, .map(the big one)
@@ -311,7 +323,7 @@ tmnt.keys
 	* What happens when you only put one argument in?
 	* What happens when you put two arguments in?
 
-```
+```ruby
 tomCruz = {
   "Pilot" => "Top Gun",
   "Racer" => "Days of Thunder",
@@ -342,7 +354,7 @@ end
 ```
 
 
-**Student Do**
+#### Student Do _(20m)_
 
 * Comment out your current code for the previous exercise. Do the same thing using the .each method.
 * A Hash of Hashes
@@ -357,7 +369,7 @@ end
 ***
 
 
-* Other enumerables
+### Other enumerables _(15m)_
 * .times
 * The times method: iterate something a specific number of times
 	* number.times{do this}
@@ -375,7 +387,7 @@ end
 	arr.collect {|x| x+10} //does not mutate original array
 	```
 
-* now lets move to the `.map` method
+### map
 
 ```
 arr.map { |a| 2*a }   #=> [2, 4, 6, 8, 10]
@@ -385,3 +397,24 @@ arr                   #=> [1, 4, 9, 16, 25]
 ```
 * The map method will return a new array with the new values. The original array is not changed
 * if we use the map! it will mutate the original array
+
+## Functions _(10m)_
+
+### Declaring a function
+```ruby
+def method_name
+  # return value is last value or use explicit return
+end
+
+def method_name(parameters)
+
+end
+```
+### Calling a function
+```ruby
+method_name
+
+method_name()
+
+method_name(parameters)
+```
