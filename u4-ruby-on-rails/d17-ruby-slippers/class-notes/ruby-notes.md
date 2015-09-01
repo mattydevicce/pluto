@@ -27,7 +27,6 @@
 
 ## Exercise
 
-
 * "My favorite color is (color variable)"
 * "My favorite ninja turtle is (turtle name) and his weapon is (turtle weapon)"
 * "(actor name) is a great movie star. My favorite movie of theirs is (movie title)"

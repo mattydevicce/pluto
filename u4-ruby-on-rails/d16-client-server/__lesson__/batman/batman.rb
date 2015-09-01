@@ -2,8 +2,8 @@ require 'sinatra'
 
 class Batman < Sinatra::Base
 
-  BATMAN_HOST = "http://a6d56d8d.ngrok.io"
-  JOKER_HOST = "http://da9a40e7.ngrok.io"
+  BATMAN_HOST = "http://44ee8e1a.ngrok.io"
+  JOKER_HOST = "http://2ec199e9.ngrok.io"
 
   get '/' do
     redirect to BATMAN_HOST+'/batman'
