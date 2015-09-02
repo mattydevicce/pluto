@@ -28,29 +28,69 @@
 #     puts i
 #   end
 # end
-
-# for x in 1..5
+# puts 'for'
+# for x in 1..10
 #   puts x
 # end
 
-# while
+# # while
 # i = 0
+# j = 0
 # terminate = 10
-
+# puts 'while'
 # while i<terminate do
-#   puts i
 #   i += 1
+#   puts i
 # end
 
-#do while
+# #do while
+# puts 'do while'
 # begin
-#   puts i
-#   i+=1
-# end while i < terminate
+#   j+=1
+#   puts j
+# end while j < terminate
 
-turtles = ['Donny', 'Leo', 'Mikey']
-turtles << 'Raph'
-puts turtles
+# turtles = ['Donny', 'Leo', 'Mikey']
+# turtles << 'Raph'
+# puts turtles
+
+# people = [["Bobby", "Jaden", "Denis"], ["Red", "Blue", "Green"], ["Limp Bizkit", "3 Doors Down", "Papa Roach"]]
+
+# for yolo in 0..2 do
+#   puts "#{people[0][yolo]}'s favorite color is #{people[1][yolo]}, and he loves #{people[2][yolo]}"
+# end
 
 
+# Hash
+# my_self = {
+#   'name' => 'Pan',
+#   'gender' => 'male',
+#   'hungry' => true
+# }
+
+# puts my_self['name']
+
+# my_self = {
+#   'not a good way' => 'this way is bad',
+#   :name => 'Pan',
+#   :gender => 'male',
+#   :hungry => true,
+#   # this is the best way
+#   dood:'falalala'
+# }
+
+# tmnt = {
+#  Raph: 'Red',
+#  Don: 'Purple',
+#  Leo: 'Blue',
+#  Mich: 'Orange'
+# }
+
+# tmnt.each do |x,y|
+#   puts "#{x} wears a #{y} bandana"
+# end
+
+def method_name(param1, param2)
+  
+end
 
