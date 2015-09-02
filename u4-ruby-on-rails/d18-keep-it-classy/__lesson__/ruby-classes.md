@@ -36,4 +36,4 @@
 - Attempt to get one of the attributes
   - Woops! Ruby protects it's attributes, you must expose them using a getter
 - Attempt to set one of the attributes
-  - Woops! Ruby doesn't let you change attributes without exposing a setter
+  - Woops! Ruby doesn't let you change attributes without exposing a setter.
