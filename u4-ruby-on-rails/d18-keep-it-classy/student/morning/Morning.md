@@ -2,6 +2,14 @@
 
 ![image](https://media.giphy.com/media/vRHWs7vYa2lCE/giphy.gif)
 
+## Learning Objectives
+
+- Tracing the progress of a live Ruby program
+- Fixing executional bugs
+- What is the "testing" programming pattern?
+
+## Getting Started
+
 Take a look at `morning.rb`
 
 **It needs some fixing up!**
@@ -19,5 +27,3 @@ The above line says
 The `sing` method definition is currently empty so it doesn't return `"♬I stay out too late♬"`. Instead the program exits.
 
 It's up to you to **write all the missing code** to make the program continue.
-
-
