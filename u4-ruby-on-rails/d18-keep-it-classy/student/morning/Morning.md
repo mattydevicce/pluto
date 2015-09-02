@@ -7,6 +7,7 @@
 - Tracing the progress of a live Ruby program
 - Fixing executional bugs
 - What is the "testing" programming pattern?
+- [Loading Code Libraries](https://practicingruby.com/articles/ways-to-load-code)
 
 ## Getting Started
 
