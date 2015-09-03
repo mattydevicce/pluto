@@ -1,36 +1,33 @@
-Delivery Tips:
-
-* Think about how long you're talking
-* Move quicker sooner, slower later
-* Cold Call more often
-* Revisit LOs
-* Defer questions when appropriate
-
 # Constructors and Prototypes
 
 ## Learning Objectives
 
+- See parallels with Ruby classes from previous lesson
 - Define a constructor function in JavaScript
 - Use a constructor to create multiple objects
 - Use a constructor's prototype to store common functionality
 
 ## Outline
 
-# Before
+### Overview
+- Yesterday we learned about Ruby class and we created an instances of some class, such as the Dog class
+- Today we will be learning how to do it in JavaScript
 
+### Review
+- What are objects in JavaScript? Everything and they are key-value pairs.
+  * Write out some example objects of Dennis and Bobby
 - Made multiple object literals, each with their own attributes and behaviors
+  * Point out that it isn't DRY - it's MOIST...ew
 
-### What was wrong with this?
+### Constructors
 
-- MOIST...ew
-
-## Constructors
-
-- A constructor is a function in javascript that is used to crate multiple objects that possess unique attributes, but with the same behaviors
+- A constructor is a function in javascript that is used to create multiple objects that possess unique attributes, but with the same behaviors
+- This is the equivalent of a Ruby class
+- Acknowledge that declaring a constructor with a function is uncommon, but this is how JS does it
 
 **I Do**
 
-```
+```js
 var Person = function(firstName, lastName, age) {
 	this.firstName = firstName;
 	this.lastName = lastName;
@@ -41,7 +38,7 @@ var Person = function(firstName, lastName, age) {
 };
 ```
 
-```
+```js
 var dennis = new Person('Dennis', 'Liaw', 9001);
 dennis.fullName();
 dennis.age;
@@ -51,24 +48,25 @@ bobby.fullName();
 bobby.age;
 ```
 
-#### Conventions
-- capitalize the function (will work without it but CONVENTION)
-- to make an object we use a keyword `new`
+> Conventions
+- capitalize the function (will work without it, but follow CONVENTION)
+- to make an object we use a keyword `new` similarly to Ruby
 
-**You do** 10 minutes
+**You do** 15 minutes
 
-* Using the dog example from the Ruby classes example, define a constructor for a dog
-* Create 3 different dogs and make sure that they have different attributes and add a bark function to each dog.
+* Taking the concept of Ruby classes and the Dog example, define a constructor for a fish
+* Create 3 different types of fish. One of them must be an Anglerfish. Make sure that they have different attributes and add a swim function to each fish.
+* Explain what's an Anglerfish
 
-**REVIEW 10 minutes SEND ME YOUR MINION**
+**REVIEW 10 minutes SEND ME YOUR FISH**
 
 # BREAK
 
 We have a problem. When we run our constructor function, we are creating new instances of the objects. Each object gets its own set of attributes, and its own set of behaviors. This means every time we make an object, it will create a new copy of every behavior function we define.
 
-If we make 10 minions, we make ten minion objects, and ten revert functions, and ten mutate functions.
+If we make 10 fish, we make ten minion objects, and ten revert functions, and ten mutate functions.
 
-What if we make 10000 dogs. That's 10000 copies of the same function stored in memory. This is memory intensive.
+What if we make 10000 fish. That's 10000 copies of the same function stored in memory. This is memory intensive.
 
 **Note**
 Keep in mind that Ruby will not have this behavior because it is not prototype-based programming language.
@@ -77,8 +75,10 @@ Keep in mind that Ruby will not have this behavior because it is not prototype-b
   * A style of Object Oriented Programming
   * It clones objects to reuse or inherit behaviors
   * Each clone can share attributes and methods through their prototype
+  * Why is JS like this? Because this approach is much more light weight compared to Java or Ruby? If anyone remembers Java Applets, they were slow and the experience sucked.
 
 ### How can we fix this?
+Let's get back to our problem. We need to better abstract Person prototype.
 
 ## Prototypes
 
@@ -100,7 +100,6 @@ Person.prototype.fullName = function() {
 Person.prototype.introduce = function() {
 	return 'Hi my name is ' + this.fullName() + '!';
 };
-
 ```
 
 #### Now let's discuss
@@ -123,10 +122,11 @@ For example, every String object has access to several methods and attributes de
 
 - When an object is made, a connection is made to the prototype
 
-**You do** 5 minutes
+**You do** 10 minutes
 
-refactor your do constructor to use a prototype
-- add a bark function that returns the dogs type and bark noise
+Refactor your fish constructor to use a prototype
+- add a swim function that returns the fish type and size
+- for the Anglerfish add a fused attribute that is a boolean
 
 # BREAK
 
@@ -150,10 +150,6 @@ Make a `Car` constructor and a `lot` object literal.
 
 **DOES THIS MEAN WE SHOULD CHANGE AND ADD PROPERTIES TO JAVASCRIPT STRING, NUMBER, ARRAY AND OBJECT CLASSES** NO!
 
-# Lesson Plan - Review Notes
-
-Are learning objectives present and complete?
-What is the ratio of talking vs. doing? (60/40, TT/ST-wg vs ST-sg / individual)
-What is the level of engagement?
-Are exercise plans present?
-Any pitfalls with the exercises?
+## Conclusion
+- JavaScript is OOP as well, but in a different fashion
+- It is different or even weird, but with the benefit of running really fast in browser it's worth it.
