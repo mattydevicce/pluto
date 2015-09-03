@@ -10,9 +10,9 @@ Students will be able to:
 * Use loops and enumerables
 
 ## Intro _(5m)_
-Today we are going to learn a new language called Ruby. This maybe daunting at first, but it's going to become a normal as a developer. Let me tell you a little about my experience.
+Today we are going to learn a new language called Ruby beyond that it's about utilizing the programming fundamentals we acquired. This maybe daunting at first, but it's going to become a normal as a developer. Let me tell you a little about my experience.
 
-I have worked for several companies and so far each company has used a different set of technology. As a developer joining I can't go around telling companies I only know JavaScript and will only do work in that language. If that's your attitude you probably wouldn't get hired. Companies want people that can learn new things since technology is changing so quickly, so your ability to learn is a huge asset. Me for example, I had to pickup C#, Ruby, Python, and JavaScript.
+I have worked for several companies and so far each company I have worked for has used a different technology stack. As a developer joining I can't go around telling companies I only know JavaScript and will only do work in that language. If that's my attitude I probably wouldn't get hired to begin with. Companies want people that can learn new things since technology is changing so quickly, so your ability to learn is a huge asset. Me for example, I had to pickup C#, Ruby, Python, and JavaScript.
 
 You could think of it like learning to operate a Black and Decker power drill then a Milwaukee drill. They will fundamentally be the same with some small differences.
 
