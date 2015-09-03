@@ -25,21 +25,21 @@ One of GA's core principals is "bring data to the conversation."  Our problem is
 
 1. Write a method, `get_gross_for`, that takes a movie title ( a `string`) and the `array` of `MOVIE_DATA` as inputs and returns the gross of that movie as an `integer`. Use it on several films to ensure that it works as intended.
 
-1. Combine your knowledge of iteration and arithmetic to determine the total cumulative gross of the Bond franchise. Save it to a sensibly-named variable.
+2. Combine your knowledge of iteration and arithmetic to determine the total cumulative gross of the Bond franchise. Save it to a sensibly-named variable.
 
-1. Create a new array with the names of the all actors who have ever played Bond, but with no duplicates. (One Roger Moore is more than enough.) Assign it to a sensibly-named variable.
+3. Create a new array with the names of the all actors who have ever played Bond, but with no duplicates. (One Roger Moore is more than enough.) Assign it to a sensibly-named variable.
 
-1. Create a new array of strings from `MOVIE_DATA` with the names of al the Bond films. Assign it to a sensibly-named variable.
+4. Create a new array of strings from `MOVIE_DATA` with the names of al the Bond films. Assign it to a sensibly-named variable.
 
-1. Create a new array of hashes of only the bond films released on odd-numbered years. Assign it to a sensibly-named variable.
+5. Create a new array of hashes of only the bond films released on odd-numbered years. Assign it to a sensibly-named variable.
 
-1. Create a variable called `worst_grossing_bond`. Use all the tools at your disposal (and perhaps one or two you have yet to discover) to iterate through all the films and return the film with the lowest gross. Store the returned film hash in the variable `worst_grossing_bond`.
+6. Create a variable called `worst_grossing_bond`. Use all the tools at your disposal (and perhaps one or two you have yet to discover) to iterate through all the films and return the film with the lowest gross. Store the returned film hash in the variable `worst_grossing_bond`.
 
-1. Similarly, create a variable called `highest_grossing_bond` and use your programming powers to return the highest grossing film hash, storing it to `highest_grossing_bond`.
+7. Similarly, create a variable called `highest_grossing_bond` and use your programming powers to return the highest grossing film hash, storing it to `highest_grossing_bond`.
 
-1. Create a new array, `movies_per_actor`, where each value in the array is a hash where the key is the Bond actor's name and the value is their total number of films.  For example `{ "Daniel Craig" => 3 }`
+8. Create a new array, `movies_per_actor`, where each value in the array is a hash where the key is the Bond actor's name and the value is their total number of films.  For example `{ "Daniel Craig" => 3 }`
 
-1. Sort the `MOVIE_DATA` array by year of release, with the earliest films first. Store it in a variable called `sorted_by_release`
+9. Sort the `MOVIE_DATA` array by year of release, with the earliest films first. Store it in a variable called `sorted_by_release`
 
 #### Bonus
 1. Find a method to use on your `movies_per_actor` array that identifies __and returns__ the hash of the actor who starred in the least number of films.
