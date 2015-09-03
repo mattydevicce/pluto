@@ -2,14 +2,15 @@ require "sinatra"
 
 class WineryWebsite < Sinatra::Base
   get '/' do
-    "<h1>Hello World</h1>"
+
+    File.read('homepage.html')
   end
 
-  get '/blog' do
-    '<html><head><link rel="stylesheet" href="/style.css"></head><body><h1>Hello</h1></body></html>'
+  get '/add/:num1/:num2' do |num1, num2|
+    (num1.to_i+num2.to_i).to_s
   end
 
-  get '/style.css' do
-    "body { font-size: #{rand(100)}px; }"
+  get '/search' do
+    "#{params["search"].upcase}"
   end
 end
