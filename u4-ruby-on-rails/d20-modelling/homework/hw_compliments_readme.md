@@ -19,7 +19,7 @@ Completion for tonight's assignment is to get through part 3. More is better, bu
 
 #### Part 1: Directory Setup
 
-Within your `wdi_pick_me_up` directory, add the following files and __make sure you can start your server before moving on:__
+Within your `homework` directory, add the following files and __make sure you can start your server before moving on:__
 
 - `server.rb`
 - `config.ru`
