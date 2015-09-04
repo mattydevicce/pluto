@@ -6,6 +6,6 @@ class WineryWebsite < Sinatra::Base
   end
 
   get '/search' do
-
+    "<p> #{params[:x]} #{params[:y]}"
   end
 end
