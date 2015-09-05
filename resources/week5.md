@@ -11,9 +11,9 @@
 | 24 Th| Rails Models        | Jaden      | *TBA*   |
 |      | MVC / Controllers   | Pan        | *TBA*   |
 | 25 F | Asset Pipeline      | Jaden      | @RailsGuides [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)   |
-
-| Day  | Topic               | Instructor |  Resource         |
-| :--- | :------------------ | :--------- |-------------------|
+|||||
+|||||
+| **Day**  | **Topic**               | **Instructor** | **Resource**         |
 | 26 M | Helpers             | Pan        | [Rails Helpers](http://api.rubyonrails.org/classes/ActionController/Helpers.html)   |
 |      | Form Helpers        | Jaden      | @RailsGuides [Form Helpers](http://guides.rubyonrails.org/form_helpers.html)   |
 | 27 T | Heroku Deployment   | Pan        | [Heroku Guide](https://devcenter.heroku.com/articles/rails4)   |
