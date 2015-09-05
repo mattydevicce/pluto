@@ -5,11 +5,11 @@
 | Day  | Topic               | Instructor | Resource
 |:---- |:------------------- |:---------- |
 | 22 T | ERB Review          | Pan        | http://squids-flounders.herokuapp.com
-|      | Forms & CRUD        | Jaden      | @MDN [How to structure a HTML form](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form), [Native Form Widgets](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets)
+| -    | Forms & CRUD        | Jaden      | @MDN [How to structure a HTML form](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form), [Native Form Widgets](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets)
 | 23 W | SQL Models (AR)     | Jaden      | [ActiveRecord Pattern](https://en.wikipedia.org/wiki/Active_record_pattern) in [Ruby](https://en.wikipedia.org/wiki/Active_record_pattern#Ruby), using [SQL](https://en.wikipedia.org/wiki/SQL)
-|      | Bedrock Bloggers    | Pan/Jaden  | All of the Above
+| -    | Bedrock Bloggers    | Pan/Jaden  | All of the Above
 | 24 Th| Rails Models        | Jaden      | *TBA*
-|      | MVC / Controllers   | Pan        | *TBA*
+| -    | MVC / Controllers   | Pan        | *TBA*
 | 25 F | Asset Pipeline      | Jaden      | @RailsGuides [Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)
 
 | Day  | Topic               | Instructor | Resource
