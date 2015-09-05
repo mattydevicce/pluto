@@ -4,7 +4,7 @@
 
 | Day  | Topic               | Instructor | Resource         |
 |:-----|:--------------------|:-----------|------------------|
-| 22 T | ERB Review          | Pan        | http://squids-flounders.herokuapp.com   |
+| 22 T | ERB Review          | Pan        | [Squids & Flounders](http://squids-flounders.herokuapp.com)   |
 |      | Forms & CRUD        | Jaden      | @MDN [How to structure a HTML form](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form), [Native Form Widgets](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets)   |
 | 23 W | SQL Models (AR)     | Jaden      | [ActiveRecord Pattern](https://en.wikipedia.org/wiki/Active_record_pattern) in [Ruby](https://en.wikipedia.org/wiki/Active_record_pattern#Ruby), using [SQL](https://en.wikipedia.org/wiki/SQL)   |
 |      | Bedrock Bloggers    | Pan/Jaden  | All of the Above   |
