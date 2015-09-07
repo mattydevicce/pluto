@@ -99,10 +99,12 @@ We are using Postgres which is a flavor of SQL (Structured Query Language).
 ## From viewing my profile page you know nothing about me - I do _(10m)_
   * Introduce Atler table to add about me column to people
   * Ask them to watch me first then they'll have a chance to do it
+  * `ALTER TABLE people ADD about_me TEXT;`
 
 ## Let students add about me and update it - You do _(10m)_
   * Ask students to add new column called about_me
   * Afterwards ask them to update the about_me column with some information about themselves
+  * `UPDATE people SET about_me='I am awesome!!!' WHERE first_name='Pan';`
 
 # Closing
   * Today we reviewed how to build a Sinatra app with Postgres DB
