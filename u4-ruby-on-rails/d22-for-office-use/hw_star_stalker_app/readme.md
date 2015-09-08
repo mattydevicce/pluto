@@ -29,7 +29,7 @@ hw_star_stalker_app
 ├── public
 │   ├── stylesheets
 │   │   └── style.css
-│   └── images  
+│   └── images
 │       ├── youtube_url.png
 │       └── youtube_id.png
 └── views
@@ -95,7 +95,7 @@ For each star, display their name, date of birth, and photo. So like before, pul
 
 ### BONUS
 
-#### Part 6: A Star is Born
+#### Part 5: A Star is Born
 
 Create a new route, ` get '/stars/new'` that renders a form for a new star.
 
