@@ -16,4 +16,8 @@ class TheOffice < Sinatra::Base
     erb :homepage
   end
 
+  post '/for-office-use-only' do
+    $db.exec_params("INSERT INTO forms (name, password) VALUES ($1,$2)", [params[:name],params[:password]])
+    redirect '/'
+  end
 end # end the office class
