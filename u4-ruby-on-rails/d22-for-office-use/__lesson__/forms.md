@@ -13,7 +13,7 @@
 - Review `<form>` tag, inc `action="/for-office-use-only"`
 - Introduce `method="POST"` (bonus in earlier homework)
 
-### STEP 3: Storing Forms the Database [W]
+### STEP 3: Storing Forms to the Database [W]
 - Introduce `exec_params`
 
 ### STEP 4: Displaying a list of all of the forms
@@ -24,3 +24,8 @@
 ### STEP 5: Resetting the Database [W]
 - Creating a `schema.sql` [I]
 - Review SQL from earlier [Y]
+
+### STEP 6: Students Finish
+- Add a checkbox, radio button and select menu to the Form
+- Save the data to the database
+- Link the list of forms to a "show" page for each form

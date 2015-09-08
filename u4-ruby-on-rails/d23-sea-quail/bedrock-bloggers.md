@@ -25,19 +25,20 @@ and Mr. Slate had finally had enough.  Out of a job, they decided to dive into
 the fast paced world of professional blogging!
 
 Back in school, Barney had learned some Ruby (ha) and all about the importance
-of testing was to maintaining a programming project.  With Fred by his side,
+of testing to maintaining a programming project.  With Fred by his side,
 the two of them began to work.
 
 A few days later, Fred received a call from Barney.
 
-"Hey Fred, I have great news!"<br>
-"What's that Barn?  Did you break your bowling finger?"<br>
-"No Fred, I got a Job!"<br>
-"Well, that's great for you Barney, but what about me?"<br>
-"I'm sorry Fred, but I think you'll have to finish the website without me. It's almost finished, you just need to fix the tests!"<br>
-"Well Barney, I'll get back to you when I figure out what that means."
+> "Hey Fred, I have great news!"<br>
+> "What's that Barn?  Did you find some stones on the sidewalk?"<br>
+> "No Fred, I got a Job!"<br>
+> "Well, that's great for you Barney, but what about me?"<br>
+> "I'm sorry Fred, but I think you'll have to finish the website without me.
+>  It's almost finished, you just need to fix the tests!"<br>
+> "Well Barney, I'll get back to you when I figure out what that means."
 
-*(whomp whomp whomp whomp)*
+*(whomp whomp - whomp whomp)*
 
 #### ACTIVITY
 
@@ -54,7 +55,7 @@ this activity.  Barney left us some notes though:
 
 > **ActiveRecord Pattern**
 >
-> `@instance.find(id)` - this method should query the database and return an
+> `Instance.find(id)` - this method should query the database and return an
 > object whos attributes correspond to columns in the record.
 >
 > `Instance.all` - this is a *class method* that should return all of the
@@ -62,6 +63,12 @@ this activity.  Barney left us some notes though:
 >
 > `Instance.create({:key => value})` - this is a *class method* that should
 > create a new record and return an instance.
+>
+> `@instance.destroy` - this is an *instance method* that should delete the
+> record from the database.
+
+**DON'T change any files in (`./spec`, `./views`, or `./bedrock_bloggers.rb`) until
+you have the tests passing!**
 
 ---
 
@@ -82,3 +89,5 @@ One thing that Fred was really excited about was having the ability for people
 to leave comments on his posts.  If you feel up to the challenge, create a
 `Comment` model, form and routes so his readers can leave nasty messages instead
 of throwing sticks and stones at his head.
+
+Remember! It's not finished unless it has tests!
