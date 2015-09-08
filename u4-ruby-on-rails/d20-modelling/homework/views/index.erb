@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Compliments</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <div id="container">
+    <% if @namesies %>
+      <h1>Welcome <%= @namesies.capitalize %>, <%= @compliments[rand(@compliments.length)] %></h1>
+    <% else %>
+      <h1><%= @compliments[rand(@compliments.length)] %></h1>
+    <% end %>
+    <a id="bottom-button1" href="/">I'm still emotionally vacant. Give me another compliment.</a>
+    <a id="bottom-button2" href="http://ruby-doc.org/core-2.2.0/">I'm ready to soldier on.</a>
+    <div style="clear: both;"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#container {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(244,0,39);
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+
+a {
+  margin-top: 30px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 8px;
+  color: white;
+}
+#bottom-button1 {
+  float:left;
+  margin-left: 10px;
+}
+
+#bottom-button2 {
+  float: right;
+  margin-right: 10px;
+}
