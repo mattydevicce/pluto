@@ -39,7 +39,16 @@ class Blogger
   end
 
   def blogs
-    []
+    blogs = Blog.all
+    blog_array = []
+    blogs.map do |blog|
+      if blog.blogger_id.to_i == id.to_i
+        blog_array << blog
+      end
+    end
+    blog_array
+
+
   end
 
 end
