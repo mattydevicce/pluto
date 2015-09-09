@@ -14,7 +14,7 @@
 ##### STEP 3: MVC
 - Controller > Model > View
 
-##### STEP 4: Value Objects
+##### STEP 4: Value Objects [I]
 - Create an EmailAddress class
 - Operator Overloading in Ruby
 

@@ -44,6 +44,10 @@ RSpec.describe Blogger do
     blogger = create_blogger
     expect(blogger.id).to be_an(Integer),
       'please fix "Blogger creates bloggers"'
+    Blog.create(blogger, {
+      title: FFaker::BaconIpsum.sentence,
+      content: '<p>'+FFaker::BaconIpsum.paragraphs(6).join('</p><p>')+'</p>'
+    })
     blogs = blogger.blogs
     expect(blogs).to be_an Array
     expect(blogs.first).to be_a Blog
