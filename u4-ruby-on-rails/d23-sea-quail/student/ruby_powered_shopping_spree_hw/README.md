@@ -1,6 +1,6 @@
 # The Ruby-Powered Shopping Spree
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/1722/thumb_DSC_6771.JPG" height="200px" width="200px" style="margin: 0 auto;">
+<img src="https://pbs.twimg.com/profile_images/483757281931046913/788jiE7O_400x400.jpeg" height="200px" width="200px" style="margin: 0 auto;">
 
 The Year is 2015, and Pan Wangperawong is shopping like a madman. As his family accountant, you must make the appropriate changes to the `shopping_db` database that tracks his purchases. Thankfully, you can update your postgres database with your favorite programming language using the powerful 'pg' gem.
 
