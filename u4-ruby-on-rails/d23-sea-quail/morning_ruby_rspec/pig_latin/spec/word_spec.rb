@@ -55,8 +55,8 @@ end #Word
 
 # Bonus
 
-xdescribe "Word" do
+describe "Word" do
   it 'inherits from String' do
-    expect(  Word < String ).to be_true
+    expect(  Word < String ).to be true
   end
 end

@@ -4,11 +4,11 @@
   <img src="<%= person['image_url'] %>">
 <% end %>
 
-<form>
+<form action="/star_sub" method="post">
     <h2>Create a new star!</h2>
     <div class="field">
       <label for="star_name">Enter star name: </label>
-      <input type="text" name="name" value="" id="star_name" />
+      <input type="text" name="name" id="star_name" />
     </div>
     <div class="field">
       <label for="alive">Is he still with us? </label>
@@ -20,12 +20,12 @@
       <input type="date" name="bday" id="dob" />
     </div>
     <div class="field">
-      <label for="office_name">Enter your name: </label>
-      <input type="text" name="name" value="" id="office_name" />
+      <label for="image">Enter an image url: </label>
+      <input type="text" name="pic" value="" id="image" />
     </div>
     <div class="field">
-      <label for="office_name">Enter your name: </label>
-      <input type="text" name="name" value="" id="office_name" />
+      <label for="idd">Enter an id of some sort: </label>
+      <input type="text" name="weirdId" value="" id="idd" />
     </div>
     <div class="actions">
       <input type="submit">
