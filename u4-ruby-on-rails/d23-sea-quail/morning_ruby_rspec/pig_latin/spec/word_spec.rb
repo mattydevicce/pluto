@@ -12,7 +12,7 @@ describe "Word" do
     end
 
     # these tests are pending. remove the X to continue
-    xdescribe 'when word begins with one consonant' do
+    describe 'when word begins with one consonant' do
       it "returns the consonant sound plus 'ay' moved to the back" do
         word = Word.new('happy')
         expect(word.to_pig).to eq('appyhay')
@@ -20,7 +20,7 @@ describe "Word" do
     end
 
     # these tests are pending. remove the X to continue
-    xdescribe 'when word begins with multiple consonants' do
+    describe 'when word begins with multiple consonants' do
       it "returns the consonant sound plus 'ay' moved to the back" do
         word = Word.new('glove')
         expect(word.to_pig).to eq('oveglay')
@@ -28,7 +28,7 @@ describe "Word" do
     end
 
     # these tests are pending. remove the X to continue
-    xdescribe "The letter 'y'" do
+    describe "The letter 'y'" do
       it "can play the role of consonant" do
         word = Word.new("yellow")
         expect(word.to_pig).to eq("ellowyay")
@@ -39,7 +39,7 @@ describe "Word" do
       end
     end
 
-    xdescribe "words starting with 'qu' or 'squ'" do
+    describe "words starting with 'qu' or 'squ'" do
       it "moves all the letters up to u" do
         word = Word.new("queen")
         expect(word.to_pig).to eq("eenquay")
