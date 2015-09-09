@@ -67,22 +67,22 @@ describe "WaterBottle" do
 
   end
 
-  describe "#to_json" do
+  # describe "#to_json" do
 
-    it "returns a string" do
-      wb = WaterBottle.new("Off-Brand", 10)
-      expect(wb.to_json.class).to eq(String)
-    end
+  #   it "returns a string" do
+  #     wb = WaterBottle.new("Off-Brand", 10)
+  #     expect(wb.to_json.class).to eq(String)
+  #   end
 
-    it "returns a parsible JSON string" do
-      wb = WaterBottle.new("n/a", 10)
-      json_string = wb.to_json
-      object = JSON.parse(json_string)
-      expect(object["brand"]).to eq("n/a")
-      expect(object["capacity"]).to eq(10)
-      expect(object["measure"].class).to eq(Fixnum)
-    end
+  #   it "returns a parsible JSON string" do
+  #     wb = WaterBottle.new("n/a", 10)
+  #     json_string = wb.to_json
+  #     object = JSON.parse(json_string)
+  #     expect(object["brand"]).to eq("n/a")
+  #     expect(object["capacity"]).to eq(10)
+  #     expect(object["measure"].class).to eq(Fixnum)
+  #   end
 
-  end
+  # end
 
 end
