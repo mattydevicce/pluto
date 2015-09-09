@@ -1,0 +1,33 @@
+<% @actors.each do |person| %>
+  <h1>Name: <%= person['name'] %></h1>
+  <h1>DOB: <%= person['born_on'] %></h1>
+  <img src="<%= person['image_url'] %>">
+<% end %>
+
+<form>
+    <h2>Create a new star!</h2>
+    <div class="field">
+      <label for="star_name">Enter star name: </label>
+      <input type="text" name="name" value="" id="star_name" />
+    </div>
+    <div class="field">
+      <label for="alive">Is he still with us? </label>
+      <input type="radio" name="here" value="alive" checked> Alive
+      <input type="radio" name="gone" value="dead"> Dead
+    </div>
+    <div class="field">
+      <label for="dob">Enter star date of birth: </label>
+      <input type="date" name="bday" id="dob" />
+    </div>
+    <div class="field">
+      <label for="office_name">Enter your name: </label>
+      <input type="text" name="name" value="" id="office_name" />
+    </div>
+    <div class="field">
+      <label for="office_name">Enter your name: </label>
+      <input type="text" name="name" value="" id="office_name" />
+    </div>
+    <div class="actions">
+      <input type="submit">
+    </div>
+</form>

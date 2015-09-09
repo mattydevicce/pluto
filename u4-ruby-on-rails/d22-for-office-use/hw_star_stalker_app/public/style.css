@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  background-color: #EEEEEE;
+}
+nav {
+  height: 100px;
+  background-color: white;
+}
+
+nav .home {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.home a {
+  float: left;
+  margin-top: 10px;
+  margin-right: 40px;
+  font-size: 3em;
+}
+
+.links {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.links li {
+  list-style: none;
+  float: left;
+  margin-right: 40px;
+  font-size: 3em;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  background-color: #EEEEEE;
+  text-align: center;
+}
