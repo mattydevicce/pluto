@@ -16,6 +16,10 @@ Once that file has been modified, run this line from your terminal:
 -`psql -d nba_db -f seeds.sql`<br>
 Navigate to your nba_db using the PSQL CLI and then move onto the exercise.
 
+## Completion
+
+Complete all **AND** at least 1 of the Bonus
+
 ## Activity
 
 Keeping track of your answers (and the SQL query that gave you the answer) in a file called `nba_queries.sql`, figure out the appropriate SQL commands to return the following:
@@ -27,3 +31,9 @@ Keeping track of your answers (and the SQL query that gave you the answer) in a 
 1. The average age for all players.
 1. The average age for all players on the Oklahoma City Thunder (OKC).
 1. The average age for all players who played more than 40 games.
+
+## Bonus
+1. The team and total points scored from all players on that
+team (team points) ordered from most team points to least.
+1. The age and the average points per game for that age, ordered from oldest to youngest for all ages.
+1. The team and the the number of players who score above 12 points per game on that team, ordered from the most number of players to the least number of players.
