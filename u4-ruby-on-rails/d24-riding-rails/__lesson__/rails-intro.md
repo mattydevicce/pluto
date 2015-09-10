@@ -3,55 +3,38 @@
 ##### LEARNING OBJECTIVES
 - SWBAT Start a Rails Server/Console
 - SWBAT Create ActiveRecord Models
-- SWBAT Implement Login Functionality
+- SWBAT Create and Run Database Migrations
 
 ### STEP 1: Riding Rails
+- `rails new -Td postgresql`
 - `rails server`
 - `rails console`
+- `rails generate model`
 - `rake db:create`
 - `rake db:migrate`
-- `rails generate model`
-- `rails generate scaffold_controller`
-- `rails generate controller`
 
 ### STEP 2: ActiveRecord
 
 ```
-class User < ActiveRecord::Base
+class Blogger < ActiveRecord::Base
+end
+```
 
-  def activate!
-    self.actived_at = Time.now
-    # TODO: Send Confirmation Email
-    save!
-  end
-
+```
+class Blog < ActiveRecord::Base
 end
 ```
 
 ### STEP 3: ActiveRecord Associations
 
 ```
-class User < ActiveRecord::Base
-  has_many :friendships
-  has_many :friends, through: :friendships
+class Blogger < ActiveRecord::Base
+  has_many :blogs
 end
 ```
 
 ```
-class Friendship < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :friend, class_name: 'User'
+class Blogs < ActiveRecord::Base
+  belongs_to :blogger
 end
-```
-
-### STEP 4: Authentication
-
-```
-class User < ActiveRecord::Base
-  has_secure_password
-end
-```
-
-```
-  @user.authenticate(params[:password])
 ```
