@@ -12,7 +12,8 @@ Using the `pwd` command, find the path to your current working directory, copy t
 *(Note: this is the path on MY computer, not yours so don't use that exact path)*
 Once that file has been modified, run this line from your terminal:
 <br>
-`psql -d nba_db -f seeds.sql`<br>
+-`createdb nba_db`<br>
+-`psql -d nba_db -f seeds.sql`<br>
 Navigate to your nba_db using the PSQL CLI and then move onto the exercise.
 
 ## Activity
