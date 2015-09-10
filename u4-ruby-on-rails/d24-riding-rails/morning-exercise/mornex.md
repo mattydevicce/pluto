@@ -4,8 +4,18 @@
 
 # Setup
 Using the files provided(`nba_season_2011-12.csv` & `seeds.sql`) while working in the correct directory do the following:
-1. Using the `pwd` command, find the path to your current working directory, copy the path, and paste it into `seeds.sql` on line 17 so it should say something along the lines of `FROM '/Users/Bobby_King/code/wdi/pluto/u4-ruby-on-rails/d24-riding-rails/morning-exercise/nba_season_2011-12.csv'` *(Note: this is the path on MY computer, not yours so don't use that exact path)*
-1. Once that file has been modified, run this line from your terminal: `psql -d nba_db -f seeds.sql`
+<br>
+1. Using the `pwd` command, find the path to your current working directory, copy the path, and paste it into `seeds.sql` on line 17 so it should say something along the lines of 
+<br>
+`FROM '/Users/Bobby_King/code/wdi/pluto/u4-ruby-on-rails/d24-riding-rails/morning-exercise/nba_season_2011-12.csv'` 
+<br>
+*(Note: this is the path on MY computer, not yours so don't use that exact path)*
+
+1. Once that file has been modified, run this line from your terminal:
+
+<br>
+`psql -d nba_db -f seeds.sql`
+
 1. Navigate to your nba_db using the PSQL CLI and then move onto the exercise.
 
 ## Activity
