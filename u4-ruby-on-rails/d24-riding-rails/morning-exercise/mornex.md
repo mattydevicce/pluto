@@ -1,0 +1,19 @@
+# Morning SQL reps!
+
+# Setup
+Using the files provided(`nba_season_2011-12.csv` & `seeds.sql`) while working in the correct directory do the following:
+1. Using the `pwd` command, find the path to your current working directory, copy the path, and paste it into `seeds.sql` on line 17 so it should say something along the lines of `FROM '/Users/Bobby_King/code/wdi/pluto/u4-ruby-on-rails/d24-riding-rails/morning-exercise/nba_season_2011-12.csv'` *(Note: this is the path on MY computer, not yours so don't use that exact path)*
+1. Once that file has been modified, run this line from your terminal: `psql -d nba_db -f seeds.sql`
+1. Navigate to your nba_db using the PSQL CLI and then move onto the exercise.
+
+## Activity
+
+Keeping track of your answers (and the SQL query that gave you the answer) in a file called `nba_queries.sql`, figure out the appropriate SQL commands to return the following:
+
+1. All columns for all players from the New York Knicks (NYK).
+1. All columns for all players from the Indiana Packers (IND) who are under 26 years old.
+1. All columns for all players, ordered from least points scored to most points scored.
+1. Name and Points per game (points/games), for the players with the top 20 points per game.
+1. The average age for all players.
+1. The average age for all players on the Oklahoma City Thunder (OKC).
+1. The average age for all players who played more than 40 games.
