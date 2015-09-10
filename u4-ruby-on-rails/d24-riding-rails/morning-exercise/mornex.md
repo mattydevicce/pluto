@@ -1,7 +1,7 @@
 # Afternoon SQL reps!
 
-![NYK Historical Moment](http://38.media.tumblr.com/e18de6a5234322bfa3e3f3718a7f7a1c/tumblr_mhdrol7U281r9ngjbo1_500.gif)
-
+![NYK Historical Moment](http://38.media.tumblr.com/e18de6a5234322bfa3e3f3718a7f7a1c/tumblr_mhdrol7U281r9ngjbo1_500.gif)<br>
+_(If you don't recognize this dunk, you're not a real Knicks fan)_
 # Setup
 Using the files provided(`nba_season_2011-12.csv` & `seeds.sql`) while working in the correct directory do the following:
 <br>
@@ -21,7 +21,7 @@ Navigate to your nba_db using the PSQL CLI and then move onto the exercise.
 Keeping track of your answers (and the SQL query that gave you the answer) in a file called `nba_queries.sql`, figure out the appropriate SQL commands to return the following:
 
 1. All columns for all players from the New York Knicks (NYK).
-1. All columns for all players from the Indiana Packers (IND) who are under 26 years old.
+1. All columns for all players from the Indiana Pacers (IND) who are under 26 years old.
 1. All columns for all players, ordered from least points scored to most points scored.
 1. Name and Points per game (points/games), for the players with the top 20 points per game.
 1. The average age for all players.
