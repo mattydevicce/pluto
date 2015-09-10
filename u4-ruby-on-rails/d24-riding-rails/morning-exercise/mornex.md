@@ -1,4 +1,4 @@
-# Morning SQL reps!
+# Afternoon SQL reps!
 
 ![NYK Historical Moment](http://38.media.tumblr.com/e18de6a5234322bfa3e3f3718a7f7a1c/tumblr_mhdrol7U281r9ngjbo1_500.gif)
 
