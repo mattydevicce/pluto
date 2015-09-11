@@ -1,0 +1,11 @@
+<h1>Listing of Bloggers</h1>
+<% @bloggers.each do |blogger| %>
+  <p><!-- <a href='/bloggers/<%= blogger.id %>'><%= blogger.name %></a> -->
+  <%= link_to blogger.name, blogger %></p>
+<% end %>
+<form action="/bloggers/show">
+  
+<h1>What is the id of your blogger?</h1>
+  <input type="text" name="x">
+  <input type="submit">
+</form>

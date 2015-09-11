@@ -24,9 +24,8 @@ class Star < Sinatra::Base
   end
 
   post '/star_sub' do
-    $db.exec_params("INSER INTO stars (name, alive, born_on, image_url, embed_id) VALUES ($1, $2, $3, $4, $5)" [params[:name],params[:here],params[:bday],params[:pic],params[:weirdId]])
-    @actors = $db.exec("SELECT * FROM stars")
-    erb :stars, layout: :default_layout
+    poster = $db.exec_params("INSERT INTO stars (name, alive, born_on, image_url, embed_id) VALUES ($1, $2, $3, $4, $5)", [params[:namesies],true,params[:bday],params[:picz],params[:weirdId]])
+    redirect "/stars/'#{poster.id}'"
   end
 
 end

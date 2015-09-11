@@ -1,0 +1,7 @@
+<h1>List a single person</h1>
+<%= @blogger.name %>
+<ul>
+<% @blogger.blogs.each do |blog| %>
+  <li><%= link_to blog.title, blog %></li>
+<% end %>
+</ul>
