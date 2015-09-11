@@ -24,6 +24,8 @@ Yesterday, you learned to CRUD. Tonight, you learn to *CURD*.
 
 Please finish through __Part 5__. As always: more is cheddar; havarti living is best.
 
+- DO NOT USE A SCAFFOLD
+
 #### Part 1: Setup
 
 Create a new Rails app using the following command:
