@@ -22,7 +22,7 @@ Yesterday, you learned to CRUD. Tonight, you learn to *CURD*.
 
 #### Completion
 
-Please finish through __Part 6__. As always: more is cheddar; havarti living is best.
+Please finish through __Part 5__. As always: more is cheddar; havarti living is best.
 
 #### Part 1: Setup
 
