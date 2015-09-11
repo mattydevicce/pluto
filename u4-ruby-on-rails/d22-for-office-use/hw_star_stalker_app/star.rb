@@ -24,8 +24,9 @@ class Star < Sinatra::Base
   end
 
   post '/star_sub' do
-    poster = $db.exec_params("INSERT INTO stars (name, alive, born_on, image_url, embed_id) VALUES ($1, $2, $3, $4, $5)", [params[:namesies],true,params[:bday],params[:picz],params[:weirdId]])
-    redirect "/stars/'#{poster.id}'"
+    poster = $db.exec_params("INSERT INTO stars (name, alive, born_on, image_url, embed_id) VALUES ($1, $2, $3, $4, $5)", [params[:namesies],true,params[:bday],params[:picz],params[:weirdId]]).first
+    # I want it to redirect to the newly created stars page
+    redirect "/stars/'#{poster}'"
   end
 
 end
