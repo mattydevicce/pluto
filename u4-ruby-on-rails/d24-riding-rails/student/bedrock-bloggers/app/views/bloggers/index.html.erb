@@ -1,4 +1,5 @@
 <h1>Listing of Bloggers</h1>
+<<<<<<< HEAD
 <% @bloggers.each do |blogger| %>
   <p><!-- <a href='/bloggers/<%= blogger.id %>'><%= blogger.name %></a> -->
   <%= link_to blogger.name, blogger %></p>
@@ -9,3 +10,11 @@
   <input type="text" name="x">
   <input type="submit">
 </form>
+=======
+
+<% @bloggers.each do |blogger| %>
+	<p>
+		<%= link_to blogger.name, blogger %>
+	</p>
+<% end %>
+>>>>>>> c0bc355cb2177f515d00c7372d3f060accf368f8

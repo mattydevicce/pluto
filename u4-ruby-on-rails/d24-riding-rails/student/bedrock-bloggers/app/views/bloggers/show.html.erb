@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>List a single person</h1>
 <%= @blogger.name %>
 <ul>
@@ -5,3 +6,12 @@
   <li><%= link_to blog.title, blog %></li>
 <% end %>
 </ul>
+=======
+<h1><%= @blogger.name %></h1>
+
+<ul>
+	<% @blogger.blogs.each do |blog| %>
+		<li><%= link_to blog.title, blog %></li>
+	<% end %>
+</ul>
+>>>>>>> c0bc355cb2177f515d00c7372d3f060accf368f8

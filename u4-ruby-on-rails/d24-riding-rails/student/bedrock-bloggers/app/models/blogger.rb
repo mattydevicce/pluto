@@ -1,4 +1,5 @@
 class Blogger < ActiveRecord::Base
+<<<<<<< HEAD
 
   has_many :blogs
   
@@ -7,4 +8,7 @@ class Blogger < ActiveRecord::Base
   end
 
 
+=======
+  has_many :blogs
+>>>>>>> c0bc355cb2177f515d00c7372d3f060accf368f8
 end

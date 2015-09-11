@@ -1,7 +1,16 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'bloggers/:id', to: 'bloggers#show', as: 'blogger'
   get 'bloggers', to: 'bloggers#index'
   get 'blogs/:id', to: 'blogs#show', as: 'blog'
+=======
+  get '/bloggers/:id', to: 'bloggers#show', as: 'blogger'
+
+  get '/bloggers', to: 'bloggers#index'
+
+  get '/blogs/:id', to: 'blogs#show', as: 'blog'
+
+>>>>>>> c0bc355cb2177f515d00c7372d3f060accf368f8
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
