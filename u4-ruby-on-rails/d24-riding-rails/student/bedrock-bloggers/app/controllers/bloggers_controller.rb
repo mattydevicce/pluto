@@ -1,7 +1,6 @@
 class BloggersController < ApplicationController
 
   def index
-<<<<<<< HEAD
     @bloggers = Blogger.all
   end
 
@@ -16,13 +15,4 @@ class BloggersController < ApplicationController
     @blogger = Blogger.find(gp)
   end
 end
-=======
-      @bloggers = Blogger.all
-  end
 
-  def show
-    @blogger = Blogger.find(params[:id])
-  end
-
-end
->>>>>>> c0bc355cb2177f515d00c7372d3f060accf368f8

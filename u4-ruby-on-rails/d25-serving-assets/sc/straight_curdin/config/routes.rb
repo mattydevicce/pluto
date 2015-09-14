@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'bloggers/:id', to: 'bloggers#show', as: 'blogger'
-  get 'bloggers', to: 'bloggers#index'
-  get 'blogs/:id', to: 'blogs#show', as: 'blog'
+  resources :cheeses  
+  # get 'cheeses',     to: 'cheeses#index'
+  # get 'cheeses/new', to: 'cheeses#new'
+  post 'cheeses/create', to:'cheeses#create'
+  post 'cheeses/:id', to:'cheeses#update'
+  # post 'cheeses/edit', to:'cheeses#edit'
+  # get 'cheeses/:id', to: 'cheeses#show', as: 'cheese'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

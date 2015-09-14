@@ -1,0 +1,17 @@
+<h1>Edit yo cheese</h1>
+
+<form action="/cheeses/<%= @cheese.id %>" method="post">
+  <h3>Edit yo name:</h3>
+  <input type="text" name="name" value="<%= @cheese.name %>">
+  <br/>
+  <h3>Edit where it came from:</h3>
+  <input type="text" name="milk_type" value="<%= @cheese.milk_type %>">
+  <br/>
+  <h3>Edit the description: </h3>
+  <input type="text" name="description" value="<%= @cheese.description %>">
+  <br/>
+  <h3>Edit the image url</h3>
+  <input type="text" name="image_url" value="<%= @cheese.image_url %>">
+  <br/>
+  <input type="submit">
+</form>
