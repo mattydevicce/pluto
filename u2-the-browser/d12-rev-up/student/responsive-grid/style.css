@@ -1,24 +1,38 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Average);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+=======
+>>>>>>> fa262b3633b5f821f0bd15d4dad84ea2fa712077
 =======
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Average);
 
+<<<<<<< HEAD
 >>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
+=======
+>>>>>>> 989fd70e0a86a616a7b444a99e86ce917fcf5cc8
+>>>>>>> fa262b3633b5f821f0bd15d4dad84ea2fa712077
 body {
   background-color: #FFFFFF;
   padding: 0;
   margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'Average', serif;
+=======
+>>>>>>> fa262b3633b5f821f0bd15d4dad84ea2fa712077
 =======
   font-family: 'Average', 'Times New Roman', 'Times', sans-serif;
 }
 
 h1 {
   font-family: 'Fjalla One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+<<<<<<< HEAD
 >>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
+=======
+>>>>>>> 989fd70e0a86a616a7b444a99e86ce917fcf5cc8
+>>>>>>> fa262b3633b5f821f0bd15d4dad84ea2fa712077
 }
 
 img {
@@ -62,6 +76,8 @@ div.column {
   padding-right: 1%;
   float: left;
 }
+<<<<<<< HEAD
+=======
 
 <<<<<<< HEAD
 @media(max-width: 767px) {
@@ -98,4 +114,8 @@ p:first-letter {
     width: 48%;
   }
 }
+<<<<<<< HEAD
 >>>>>>> 3bd9de8d7cfc73ca3bf6ae45a5d8331f39106552
+=======
+>>>>>>> 989fd70e0a86a616a7b444a99e86ce917fcf5cc8
+>>>>>>> fa262b3633b5f821f0bd15d4dad84ea2fa712077
