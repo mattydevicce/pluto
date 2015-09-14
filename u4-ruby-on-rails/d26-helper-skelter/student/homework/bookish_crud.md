@@ -82,8 +82,8 @@ Validate that your models work correctly by going into `rails console` and enter
 1. The show page for each Author should show a collection of links to their books.
 1. Clicking on the link to the book should show a list of links to characters.
 1. Read up on [nested resources](http://guides.rubyonrails.org/routing.html#nested-resources), figure out how you could edit your routes to make your URLs more RESTful.
-1. Add the predicate methods, `pseudonym?` and `alive?` to the `Author` model. [Add them to your views](http://apidock.com/rails/ActionController/Helpers/ClassMethods/helper_method) and have them set element attributes dynamically in your erb files.
-1. Create CSS classes for each genre, so that information for horror novels appears different than information for romance novels.
+1. Add the predicate methods, `pseudonym?` and `alive?` to the `Author` model. [Add them to your views](http://apidock.com/rails/ActionController/Helpers/ClassMethods/helper_method) and have them set element attributes dynamically in your erb files. (i.e. authors should be shown in a div with class dead or alive. apply a class name of your choosing to the div using your helper methods, and style in the next bonus part)
+1. Create CSS classes for each genre, so that information for horror novels appears different than information for romance novels, dead authors appear different from living ones, and whatever else comes to mind.
 1. The client has just realized that characters can appear in many books. Change your app and schema to accomodate this. Add [validations](http://guides.rubyonrails.org/active_record_validations.html) to your models by writing new migrations that add them to whatever column you desire.
 
 #### Useful Command-Line Commands
