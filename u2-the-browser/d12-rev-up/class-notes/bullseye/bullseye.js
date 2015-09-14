@@ -21,23 +21,23 @@ $(function() {
   };
 
   $('body').click(function(event) {
-    event.stopPropagation();
+    // event.stopPropagation();
     highlight(event.currentTarget);
   });
 
   // Fire your code away
   $('#t3').click(function(event) {
-    event.stopPropagation();
+    // event.stopPropagation();
     highlight(event.currentTarget);
   });
 
   $('#t2').click(function(event) {
-    event.stopPropagation();
+    // event.stopPropagation();
     highlight(event.currentTarget);
   });
 
   $('#t1').click(function(event) {
-    event.stopPropagation();
+    // event.stopPropagation();
     highlight(event.currentTarget);
   });
 
