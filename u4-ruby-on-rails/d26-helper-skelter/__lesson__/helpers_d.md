@@ -44,18 +44,33 @@ Answer the following questions in a `helpers.md` file in today's `student` folde
 1. WDInstagram::DatabaseHelper, CatTinder::DatabaseHelper
 
 
-## I Do - Discuss where this fits into Rails _(3-5min)_
+## I/We Do - Discuss where this fits into Rails _(3-5min)_
 
 Modules can be included inside classes, so when you include a module its methods are given to the class. Since Rails is trying to abstract away a lot of the pains of web app development, there are a ridiculous amount of helpers included in it. Since the bulk of our server side code lives in our models, views, and controllers let's take a look inside each.
 
 (Ask: What do our models inherit from?)
-In your Models, if you look into the [ActiveRecord::Base docs](http://apidock.com/rails/ActiveRecord/Base), and search for 'included modules', you'll see a list of helpers that just contain prebuilt methods that we've been enjoying the luxury of this whole time(Ask: Which ones have we used?). 
+In your Models, if you look into the [ActiveRecord::Base docs](http://apidock.com/rails/ActiveRecord/Base), and search for 'included modules', you'll see a list of helpers that just contain prebuilt methods that we've been enjoying the luxury of this whole time(Ask: Which ones have we used?).
 
+(Ask: What about controllers? What are we getting from Rails?)
 All controllers inherit from ApplicationController, which in turn inherits from [ActionController](http://api.rubyonrails.org/classes/ActionController/Base.html)(show the included modules) - Pick someone to identify a method that they've used or would be useful.
 
-Today's focus is largely going to be working with View Helpers. Here's the main reference for this morning's work [ActionView](http://guides.rubyonrails.org/action_view_overview.html)
+Today's focus is largely going to be working with View Helpers. Here's the main reference for this morning's work [ActionView](http://guides.rubyonrails.org/action_view_overview.html) It gives us things like:
+[ActionView Docs](http://apidock.com/rails/ActionView/Helpers)
+```bash
+~> pry
+> require 'action_view'
+ => true
+> ActionView::Base.new.number_to_currency 43
+ => "$43.00"
+ ```
 
-## Activity: Set up Existing Rails App - _(5m)_
+(MINI-ACTIVITY - Read the 'What is Action View' - while I push up starter app for next half)
+Mention Action Pack as a core rails feature. Encourage the ability to field trip your app should they want to optimize in the far future.
+
+You'll just have to accept that ActionView Helpers are available in all of your views. Don't try to dive too deep into figuring out the how/why. Convention over configuration ftw, thanks DHH.
+
+
+## You/We Do - Activity: Set up Existing Rails App - _(5m)_
 
 - Pull from upstream master
 - How to configure a fresh rails App
@@ -67,20 +82,14 @@ Today's focus is largely going to be working with View Helpers. Here's the main 
 
 # BREAK _(10-15min)_
 
-## I do
+### We do - Rails Activity _(45 min)_
 
-## Explore Some Helpers _(5m)_
+Shoot the shit with students and use view helpers to build a new app. Have them build it "with you"
 
-### Show sample of Facebook website
-
+Here is a list of Rails helpers
 path helpers
 date helpers
 time helpers
 image helpers
 
 http://api.rubyonrails.org/classes/ActionController/Base.html
-Here is a list of Rails helpers
-
-> NOTE: Unless you need to do something very specific you probably don't need to write a helper.
-
-http://api.rubyonrails.org/classes/ActionView/Helpers.html
