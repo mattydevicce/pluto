@@ -3,6 +3,7 @@
 ![NYK Historical Moment](http://38.media.tumblr.com/e18de6a5234322bfa3e3f3718a7f7a1c/tumblr_mhdrol7U281r9ngjbo1_500.gif)
 
 # Setup
+
 Using the files provided(`nba_season_2011-12.csv` & `seeds.sql`) while working in the correct directory do the following:
 <br>
 Using the `pwd` command, find the path to your current working directory, copy the path, and paste it into `seeds.sql` on line 17 so it should say something along the lines of
