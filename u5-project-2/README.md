@@ -79,12 +79,13 @@ bugs and styling)
 ## Instructional Help
 
 As this project is mostly self-driven we expect you to spend a lot of time
-debugging errors and problem solving on your own. A 1:1 schedule will be sent out during the sprint. In the meantime, we'll be around to help, but you must first submit a Github issue with the 'help wanted' label, and in it provide the following details
+debugging errors and problem solving on your own. However, if you hit a roadblock for more than an hour, please seek our help by following the steps below:
 
-1. Title it with your name and project type.
-1. A description of your error.
-1. What steps did you try to solve it?
-1. Post your issue to [Stack Overflow](http://www.stackoverflow.com). Provide a link to the thread.
+1. Post your question on [Stack Overflow](http://www.stackoverflow.com)
+2. In your post, make sure to do the following
+   * A concise and specific title that describes your problem
+   * A detailed description about the problem and what have you tried to solve the problem
+3. Then submit a Github issue with the StackOverflow link
 
 ## Instructional Feedback
 
