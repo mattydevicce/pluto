@@ -60,7 +60,7 @@ You will be expected to use the following technologies to implement this project
 - **HTML**
   Your HTML should be semantic and valid.
 
-- **Ruby and Sinatra**
+- **Ruby and Rails**
   Your app will need to have its own server.
 
 - **SQL**
