@@ -45,16 +45,10 @@ them into the `Backlog` list.
 
 ## Timeline
 
-* *Start Planning* - 5:00PM on Wednesday, June 3.
-* *First Deliverables* - 9:00AM on Thursday, June 4 - (git repo, ERD, trello,
-routes structure, and wireframes)
-* *Stand Ups* - Thursday and Friday at 9:45AM - Find your stand up group
-[here](standup-groups.md).
-* *Pairing Sessions* - Thursday afternoon and Friday morning -
-[see this chart][pair programming schedule]
-* *Feature Freeze* - 12:00PM on Sunday, June 7 - (No new features, just fixing
-bugs and styling)
-* *Code Freeze* - 8:00PM on Sunday, June 7 - (Stop coding and rest!)
+* *Start Planning* - 5:00PM on Tuesday, September 15.
+* *Stand Ups* - Thursday and Friday at 9:45AM.
+* *Feature Freeze* - 12:00PM (Noon) on Sunday, September 20 - (No new features, just fixing bugs and styling)
+* *Code Freeze* - 9:00PM on Sunday, September 20 - (Stop coding and rest!)
 * *Presentations* - 9:00AM on Monday, June 8 - (Lighting Talkings)
 
 ## Deliverables
