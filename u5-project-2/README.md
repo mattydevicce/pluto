@@ -77,17 +77,12 @@ bugs and styling)
 ## Instructional Help
 
 As this project is mostly self-driven we expect you to spend a lot of time
-debugging errors and problem solving on your own. That said, we want to have
-30 minute 1:1s with each of you to review your progress and give feedback.
+debugging errors and problem solving on your own. A 1:1 schedule will be sent out during the sprint. In the meantime, we'll be around to help, but you must first submit a Github issue with the 'help wanted' label, and in it provide the following details
 
-On Thursday and Friday each student will get to pair program for 30 minutes with
-a member of the instructional team. Due to Anya's absense on Thursday and Friday
-(feel free to ask her about it), we'll have extra support from WDI Instructional
-leads, Pavan and Akira.
-
-You can see your day/time slot on [this chart][pair programming schedule].
-
-You are required to be here all day Thursday, and all morning Friday.
+1. Title it with your name and project type.
+1. A description of your error.
+1. What steps did you try to solve it?
+1. Post your issue to [Stack Overflow](http://www.stackoverflow.com). Provide a link to the thread.
 
 ## Instructional Feedback
 
