@@ -7,8 +7,8 @@
 | Harrison Riddell        | Steph Nathai            |
 | Zoe Sachs               | Esther Zinn             |
 | Salvatore Fanara        | Christopher Smith       |
-| Nick Marshall           | Pamela Nevins           |
-| Raquel Hosein           | Calvin Yeung            |
+| Calvin Yeung            | Pamela Nevins           |
+| Raquel Hosein           | Nick Marshall           |
 | Brian Deutsch           | Mohamed Elgendy         |
 | Jacob Shemkovitz        | Joy Morgan              |
 | Victoria Donnelly       | Meiji Chen              |
