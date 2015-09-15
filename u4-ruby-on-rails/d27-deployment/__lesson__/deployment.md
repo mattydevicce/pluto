@@ -38,10 +38,12 @@ Show download page for Heroku Toolbelt
 When we want Github to have the lastest code, we `push upstream`.
 As mentioned earlier, Heroku uses Git as well, so how do you think we'll deploy code to Heroku?
 
-  ### Git Init/Add/Commit
+### Git Init/Add/Commit
+  
   Heroku uses Git to update the hosted code, so
-    * Check the status of your app
-    * Add and commit if needed
+    
+  * Check the status of your app
+  * Add and commit if needed
 
 ## Run Migration
 `heroku run rake db:migrate`
