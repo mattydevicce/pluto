@@ -5,7 +5,9 @@ class ApplicationController < ActionController::Base
 
   def current_customer
     if session[:customer_id]
-      Customer.find(session[:customer_id])
+      @customer ||= Customer.find(session[:customer_id])
     end
   end
+
+  helper_method :current_customer
 end

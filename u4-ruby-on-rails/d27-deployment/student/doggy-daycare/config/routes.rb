@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get '/dogs/:id' => 'dogs#show', as: 'dog'
   get '/login' => 'customers#login'
   post '/login' => 'customers#login_post'
-
+  get '/logout' => 'customers#logout'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

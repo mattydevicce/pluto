@@ -10,6 +10,7 @@ class CustomersController < ApplicationController
       render :login
     end
   end
+
   # Does the actial login
   def login_post
     @customer = Customer.find_by({email: params[:email]})
@@ -27,6 +28,12 @@ class CustomersController < ApplicationController
       redirect_to '/login'
     end
   end
+
+  def logout
+    session[:customer_id] = nil
+    redirect_to '/login'
+  end
+  
   # GET /customers
   # GET /customers.json
   def index
