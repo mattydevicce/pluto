@@ -67,6 +67,8 @@ bugs and styling)
   just fine here
   * APIs or modules used and descriptions of each
   * Instructions for downloading the code and running it on localhost
+* Deploy app to Heroku
+  * (Doc)[https://devcenter.heroku.com/articles/deploying-nodejs#deploy-your-application-to-heroku]
 * A 5-minute lightning talk that:
   * Is 5 minutes in length
   * Shows off all features of the app
