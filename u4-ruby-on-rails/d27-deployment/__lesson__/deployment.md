@@ -42,8 +42,8 @@ As mentioned earlier, Heroku uses Git as well, so how do you think we'll deploy 
   
   Heroku uses Git to update the hosted code, so
     
-    * Check the status of your app
-    * Add and commit if needed
+  * Check the status of your app
+  * Add and commit if needed
 
 ## Run Migration
 `heroku run rake db:migrate`
