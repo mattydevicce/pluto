@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  born_on: MyString
+  died_on: MyString
+  gender: MyString
+  has_pseudonym: false
+
+two:
+  name: MyString
+  born_on: MyString
+  died_on: MyString
+  gender: MyString
+  has_pseudonym: false
