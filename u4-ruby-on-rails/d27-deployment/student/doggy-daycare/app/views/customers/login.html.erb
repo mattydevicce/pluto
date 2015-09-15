@@ -1,0 +1,16 @@
+<h1>YOLO</h1>
+
+<form action="/login" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+  <div class="field">
+    <label for="email_id">Email</label>
+    <input type="text" id="email_id" name="email">
+  </div>
+  <div class="field">
+    <label for="password_id">Password</label>
+    <input type="password" id="password_id" name="password">
+  </div>
+  <div class="action">
+    <input type="submit">
+  </div>
+</form>
