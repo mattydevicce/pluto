@@ -78,6 +78,8 @@ bugs and styling)
 
 ## Instructional Help
 
+> **!!! READ ME !!!**
+
 As this project is mostly self-driven we expect you to spend a lot of time
 debugging errors and problem solving on your own. However, if you hit a roadblock for more than an hour, please seek our help by following the steps below:
 
