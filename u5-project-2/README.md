@@ -86,7 +86,7 @@ debugging errors and problem solving on your own. However, if you hit a roadbloc
 1. Post your question on [StackOverflow](http://www.stackoverflow.com)
 2. In your StackOverflow post, make sure to do the following
    * A concise and specific title that describes your problem
-   * A detailed description 
+   * A detailed description for the following
      * what do you think is the problem
      * how to reproduce the bug
      * things you tried to solve the problem
