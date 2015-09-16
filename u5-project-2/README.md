@@ -49,7 +49,7 @@ them into the `Backlog` list.
 * *Stand Ups* - Thursday and Friday at 9:45AM.
 * *Feature Freeze* - 12:00PM (Noon) on Sunday, September 20 - (No new features, just fixing bugs and styling)
 * *Code Freeze* - 9:00PM on Sunday, September 20 - (Stop coding and rest!)
-* *Presentations* - 9:00AM on Monday, June 8 - (Lighting Talkings)
+* *Presentations* - 9:00AM on Monday, September 21 - (Lighting Talkings)
 
 ## Deliverables
 
