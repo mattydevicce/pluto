@@ -19,6 +19,9 @@ be able to create topics, and other users should be able to comment on those top
 topics displayed based on popularity.
 5. Jake is a nerd, and is a fan of proper formatting. He wants everyone to write
 their discussion posts in markdown format.
+6. Jake would like the application to automatically tag posts with the location
+from which they are written (He does not want his friends to have to enter their
+location).
 
 ###  Advanced features
 
@@ -27,9 +30,6 @@ have the time.
 
 Feel free to enhance your project with any of the following features:
 
-1. Jake would like the application to automatically tag posts with the location
-from which they are written (He does not want his friends to have to enter their
-location).
 1. Jake's friends don't want to miss a thing. They'd love to get an email or
 text update when there is a new comment on a topic they created.
 1. Jake's friends saw a cool demo of Chart.js and think it would be neat to
