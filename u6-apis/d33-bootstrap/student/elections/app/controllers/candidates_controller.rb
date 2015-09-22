@@ -1,10 +1,9 @@
 class CandidatesController < ApplicationController
-  before_action :set_candidate, only: [:show, :edit, :update, :destroy, :vote]
+  before_action :set_candidate, only: [:show, :edit, :update, :destroy]
 
   def vote
-    # @candidate = Candidate.find(params[:id])
-    @candidate.increment(:votes, by=1)
-    
+    @candidate = Candidate.find(params[:id])
+    @candidate.votes += 1
     if @candidate.save
       render json: {status: 'success', votes: @candidate.votes}
     else
@@ -80,6 +79,6 @@ class CandidatesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def candidate_params
-      params.require(:candidate).permit(:first_name, :last_name, :bio, :party, :campaign, :votes)
+      params.require(:candidate).permit(:first_name, :last_name, :bio, :party, :votes, :campaign)
     end
 end
