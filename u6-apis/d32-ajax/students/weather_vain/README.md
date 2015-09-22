@@ -20,6 +20,8 @@ Completion for this assignment is up to( and including) part 4. As always, more 
 
 ### Part 1 - Research City Data
 
+![open_weather_api](img/open_weather.gif)
+
 We need to find out the relevant information about our data source and the tools to get it. We will be retrieving data from the [OpenWeatherMap API](http://www.openweathermap.org/api). **Do not worry about registering for API keys**. Take a look at the docs and find out what **endpoint**(route) to hit to get the temperature of a city. Let's start with "milwaukee" as our test city.
 
 Try visiting the route in your browser to get the weather data for Milwaukee. The response on this route is in JSON. Your browsers currently do not render JSON nicely. We suggest you install the `JSONView` extension to make your lives a little easier. Identifying what the query parameters are will inform your AJAX call's data parameters.
