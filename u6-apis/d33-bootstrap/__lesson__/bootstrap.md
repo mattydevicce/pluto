@@ -17,25 +17,18 @@ Bootstrap is an entire product, so the average developer would not have the reso
 
 The Bootstrap folks realized this and decided to open source it.
 
-## We do _(5m)_
+## We do _(15m)_
 - Pull from master to get the election app we built yesterday.
+- Let's read documentation together and install bootstrap. We specifically want the SASS version. Go to https://github.com/twbs/bootstrap-sass
+- Intro to the purpose of application.scss and application.js
 
-- In your gem file add
-```
-gem 'bootstrap-sass'
-```
 
 ## You do _(10m)_
-- Research Bootstrap and figure out how to apply some Bootstrap styles to the button
-
+- Research Bootstrap documenation and figure out how to apply some Bootstrap styles on the vote button.
 - Answer the following questions
-	- What is the process to find out how to Bootstrapify based on your app?
+	- What is the process to find out how to Bootstrapify the button?
 	- How do we style a button using bootstrap?
+- 
 
-This will link the CSS stylesheets and JavaScript code
 
-## Style a button _(10m)_
-Create a button and add the `btn btn-primary` class to it.
-What happen? Why does the button suddenly have this look?
 
-Remember we linked the Bootstrap CSS, which contains styles associated with the class `btn btn-primary`.
