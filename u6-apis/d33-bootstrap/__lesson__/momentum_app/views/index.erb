@@ -1,0 +1,24 @@
+<a href="/profile/edit">Edit Profile</a>
+
+<h1 class="time">
+  <%= Time.now.strftime("%l:%M %p") %>
+</h1>
+
+<p class="weather">
+  <span class="temp"><%= @temp %></span>
+  <span class="location"><%= @location %></span>
+</p>
+
+<h2 class="greeting">What's your focus<%= @name ? ", #{@name}" : "" %>?
+</h2>
+
+<form method="POST" action="/todos" class="task-form" hidden>
+  <input type="text" name="task">
+  <input type="submit" value="add">
+</form>
+
+<ul class="tasks">
+  <% @tasks.each do |task| %>
+    <li><%= task %></li>
+  <% end %>
+</ul>

@@ -1,0 +1,22 @@
+<!doctype>
+<html>
+  <head>
+    <title>Moment App</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+      body {
+        background-image: url(<%= @img %>);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+
+    <%= yield %>
+
+    <script src="jquery.js"></script>
+    <script src="moment.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>

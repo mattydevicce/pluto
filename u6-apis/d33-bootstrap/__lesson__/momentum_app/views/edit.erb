@@ -1,0 +1,9 @@
+<form method="POST" action="/profile">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" value="<%= @name %>">
+  <label for="location">Location</label>
+  <input type="text" id="location" name="location" value="<%= @location %>">
+  <label for="tags">Tags</label>
+  <input type="text" id="tags" name="tags" value="<%= @tags %>">
+  <input type="submit" value="Update">
+</form>
