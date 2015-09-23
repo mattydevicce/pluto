@@ -7,6 +7,8 @@ browser. As you know, this is an incredibly powerful tool, because it allows us 
 server (and thus retrieve data) without reloading the page. Tonight you will use
 the Github API to build a Single-Page Application to browse users and repos.
 
+> This is a good feature to put into your personal sites ;)
+
 #### Exercise Objectives
 
 - Practice using AJAX to dynamically update the page without refreshing the page.
@@ -45,6 +47,9 @@ When a you display a user's information and click "View Repos for <USER>" perfor
 
 Show each repo's name, description and language and a link to view the repo on Github.
 
+
+## Bonus
+
 ## Party Three
 
 [Displaying Gists](https://developer.github.com/v3/gists/#list-gists)
@@ -60,6 +65,10 @@ Show each gist's name and a link to view the gist on Github.
 
 Add a new form to search for code on Github. Allow a user to search by term and language.
 Display a list of search results and provide links back to Github.
+
+## Part finalValue
+
+Bootstrap yo site!
 
 #### Resources
 - [Github API](https://developer.github.com/v3/)
