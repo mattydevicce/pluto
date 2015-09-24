@@ -1,24 +1,33 @@
 class Pokemon < ActiveRecord::Base
-  serialize :resource_data
+  serialize :resource_data, JSON
 
-  attr_writer :current_hp
-  def current_hp
-    @current_hp ||= hp
+  attr_writer :health
+  def health
+    @health ||= hp
   end
 
-  # Pokemon.fetch
+  # pry> Pokemon.fetch
   def self.fetch
-    response = RestClient.get("http://pokeapi.co/api/v1/pokedex/1/");
-    pokemon_data = JSON.parse(response);
-    pokemons = pokemon_data["pokemon"]
+    text_content = RestClient.get('http://pokeapi.co/api/v1/pokedex/1/')
+    json_content = JSON.parse(text_content)
+    pokemons = json_content["pokemon"]
     pokemons.each do |pokemon|
-      Pokemon.find_or_create_by!({name: pokemon["name"], resource_uri: pokemon["resource_uri"]})
+      Pokemon.find_or_create_by!({
+        name: pokemon["name"],
+        resource_uri: pokemon["resource_uri"]
+      })
     end
   end
 
+  # MORE INFORMATION ABOUT A SINGLE POKEMON
   def fetch
-    response = RestClient.get("http://pokeapi.co/#{resource_uri}");
-    update(resource_data: JSON.parse(response))
+    text_content = RestClient.get("http://pokeapi.co/#{resource_uri}")
+    json_content = JSON.parse(text_content)
+    update(resource_data: json_content)
+  end
+
+  def hp
+    resource_data["hp"]
   end
 
   def speed
@@ -33,29 +42,25 @@ class Pokemon < ActiveRecord::Base
     resource_data["defense"]
   end
 
-  def hp
-    resource_data["hp"]
-  end
-
-  def name
-    resource_data["name"]
-  end
-
-  # butterfree = Pokemon.find_by({name: 'butterfree'})
-  # venomoth.battle(butterfree)
   def battle!(enemy)
     if self.speed > enemy.speed
       self.attack!(enemy)
-      enemy.attack!(self)
+      enemy.attack!(self) if enemy.health > 0
     else
       enemy.attack!(self)
-      self.attack!(enemy)
+      self.attack!(enemy) if self.health > 0
+    end
+    if enemy.health <= 0
+      puts "enemy #{enemy.name} fainted"
+    elsif self.health <= 0
+      puts "your #{self.name} fainted"
+    else
+      puts "next round"
     end
   end
 
   def attack!(enemy)
-    enemy.current_hp -= (self.attack - enemy.defense)
-    raise "#{enemy.name} has fainted" if enemy.current_hp <= 0
+    enemy.health -= (self.attack - enemy.defense)
   end
 
 end

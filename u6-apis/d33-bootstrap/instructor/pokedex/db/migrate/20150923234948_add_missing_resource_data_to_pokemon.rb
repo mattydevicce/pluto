@@ -1,4 +1,4 @@
-class AddResourceDataToPokemon < ActiveRecord::Migration
+class AddMissingResourceDataToPokemon < ActiveRecord::Migration
   def change
     add_column :pokemons, :resource_data, :text
   end
