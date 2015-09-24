@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  get 'parks/index' => 'parks#index'
+  post 'parks/offset/:id' => 'parks#offset'
+  get 'parks/offset' => 'parks#offset', as: 'parks'
+  get 'bbq_locations/index' => 'bbq_locations#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

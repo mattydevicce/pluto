@@ -1,0 +1,9 @@
+<ul>
+  <% @parks.each do |park| %>
+    <li><%= park.name %> => <%= park.location %></li>
+  <% end %>
+</ul>
+
+<% 0.upto(100) do |i| %>
+  <%= link_to i, parks_path(page: i) %>
+<% end %>
