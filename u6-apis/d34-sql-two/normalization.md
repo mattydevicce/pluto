@@ -32,5 +32,4 @@ Use Postgresql and Aggregate functions to:
 
 - `SELECT LEFT(prop_id,1) code FROM parks GROUP BY code;`
 - `INSERT INTO boroughs (code) (SELECT LEFT(prop_id,1) code FROM parks GROUP BY code)`
-- `UPDATE parks SET boroughs_id = boroughs.id FROM parks b JOIN boroughs ON LEFT(b.prop_id,1) = boroughs.code`
 - `UPDATE parks SET boroughs_id = boroughs.id FROM boroughs WHERE LEFT(parks.prop_id,1) = boroughs.code;`
