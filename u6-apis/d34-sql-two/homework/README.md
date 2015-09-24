@@ -16,6 +16,8 @@ and doormen. The first step will be to draw ERD's in order to establish the
 relationships and help you build your schema. Think about what
 [datatypes][pg-datatypes] would best represent the columns in your table.
 
+**Compile all of your _working_ queries in a [markdown][md-docs] file called `apartment_queries.md`**
+
 ### Completion
 
 **Please finish through Part 5.** That's the whole thing! Good luck!
@@ -90,3 +92,4 @@ Write queries to do the following:
 [Jaden]: https://github.com/jadencarver
 [Dsizzle]: https://github.com/centroDL
 [pg-datatypes]:      http://www.postgresql.org/docs/9.3/static/datatype.html
+[md-docs]: http://daringfireball.net/projects/markdown/basics
