@@ -1,4 +1,4 @@
-Learning Objectives
+Learning Objectives(SWBAT)
 
 - Define OAuth
 - Explain the OAuth process
@@ -31,6 +31,11 @@ username and password).
 http://stackoverflow.com/questions/7561631/oauth-2-0-benefits-and-use-cases-why
 
 ## Code Along
+
+1. Link to Github OAuth flow web page
+1. Show how to make app on github
+1. Walk throught the docs with them and implement the attached sample code.
+1. optional - on the oauth_callback route binding.pry and show the response params/session
 
 [Walk-through of Github OAuth](https://developer.github.com/v3/oauth/)
 
