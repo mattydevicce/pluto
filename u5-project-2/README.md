@@ -78,13 +78,18 @@ bugs and styling)
 
 ## Instructional Help
 
+> **!!! READ ME !!!**
+
 As this project is mostly self-driven we expect you to spend a lot of time
 debugging errors and problem solving on your own. However, if you hit a roadblock for more than an hour, please seek our help by following the steps below:
 
 1. Post your question on [StackOverflow](http://www.stackoverflow.com)
 2. In your StackOverflow post, make sure to do the following
    * A concise and specific title that describes your problem
-   * A detailed description about the problem and what have you tried to solve the problem
+   * A detailed description for the following
+     * what do you think is the problem
+     * how to reproduce the bug
+     * things you tried to solve the problem
 3. Then submit a Github issue with the StackOverflow link
 
 ## Instructional Feedback
