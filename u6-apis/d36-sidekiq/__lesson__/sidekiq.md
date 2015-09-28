@@ -40,7 +40,8 @@ Tools for the Job:
 - Celluload - An implementation of *The Actor Model*
 
 ### PART 6: Setup Sidekiq [W]
-- Introduce Sidekiq
+- Introduce Sidekiq [I]
 - Students read documentation [W]
 - Install Redis [W]
-- Create a `PhotoWorker`
+- Discuss The Actor Pattern [I]
+- Create a `PhotoWorker` [W]
