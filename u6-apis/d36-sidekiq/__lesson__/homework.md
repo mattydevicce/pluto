@@ -25,7 +25,7 @@ Using the selector for your image in the DOM, initialize jCrop on your uploaded 
 
 ## Step 3: Attach a Handler
 
-Update text `<input>`` fields values in the photo `<form>` so we can send these values to our server.
+Update text `<input>` fields values in the photo `<form>` so we can send these values to our server.
 
 Once you can see them updating properly, make them hidden fields, and make sure they are being sent to the server in the params.
 
