@@ -4,7 +4,7 @@ Today we built an image upload feature.  Tonight, let's see if we can add jCrop 
 
 jCrop is a front-end jQuery library that makes image cropping online a snap.
 
-**Completion is to Step 3**
+**Please finish through Step 3**. As always: more is better; healthy living is best. Only do the bonus if you have completed every single part.
 
 ![](jcrop.gif)
 
