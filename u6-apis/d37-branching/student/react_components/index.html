@@ -8,7 +8,45 @@
   </head>
   <body>
     <div id="example"></div>
+    
     <script type="text/babel">
+
+      var CommentBox = React.createClass({
+        render() {
+          return (
+            <div id="container" className="comment-box">
+              Hello, world! I am a CommentBox
+              <CommentList/>
+              <CommentForm/>
+            </div>
+          );
+        }
+      });
+
+      var CommentList = React.createClass({
+        render() {
+          return (
+            <div className="comment-list">
+              Hello I am a CommentList
+            </div>
+          );
+        }
+      });
+
+      var CommentForm = React.createClass({
+        render() {
+          return (
+            <div className="comment-form">
+              Hello World I am a CommentForm
+            </div>
+          );
+        }
+      });
+
+      React.render(
+        <CommentBox/>,
+        document.getElementById('example')
+      );
       
       var CommentBox = React.createClass({
         render: function() {
