@@ -1,6 +1,17 @@
 class PhotosController < ApplicationController
   before_action :set_photo, only: [:show, :edit, :update, :destroy]
 
+  def crop
+    @photo = Photo.find(params[:id])
+    upload_path = Rails.root.join('public','photos',"#{@photo.id}.jpg")
+    cropped_upload_path = Rails.root.join('public','photos',"#{@photo.id}.cropped.jpg")
+    image = MiniMagick::Image.open(upload_path)
+    image.crop "#{params[:w]}x#{params[:h]}+#{params[:x]}+#{params[:y]}"
+    image.write cropped_upload_path
+    redirect_to photo_path(@photo)
+  end
+
+
   # GET /photos
   # GET /photos.json
   def index
