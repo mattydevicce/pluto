@@ -1,6 +1,6 @@
 # Let's talk about Git...
 
-![Git log graph](/images/git-log-graph.gif)
+![Git log graph](./images/git-log-graph.gif)
 
 ## Objective for the exercise
 The goal of this exercise is to expose you to the what it's like working on a programming project with multiple developers utilizing Git.
@@ -15,7 +15,7 @@ After you've been divided into your respective groups, choose **one** member fro
   - Then, **OUTSIDE** of your pluto repo's, everyone else will then use `git clone [paste SSH URL here]` to clone the new repo.
   - The original project owner (team member whose repo the project belongs to) will go back to the repo's page on github and go to Setting -> Collaborators and add all of their teammates as collaborators.
 
-  ![Creating new rails app](/images/creating-new-rails-app.gif)
+  ![Creating new rails app](./images/creating-new-rails-app.gif)
 
 ## Activity
 Within your groups, your assignment is to create a simple rails application with a home page with your team's mission statement (This can be anything, the more entertaining the better) and lists all of your team members by name, and when clicked, will visit a simple profile with the following information (yes this means database):
@@ -24,4 +24,4 @@ Within your groups, your assignment is to create a simple rails application with
   - link to their github
   - small bio
 
-Keep in mind all of the tasks that will be necessary to bring this application to life and how you can utilize your team members dividing up the tasks to have it done on time. It may be wise to spend some time in the beginning to go over who should accomplish what. 
+Keep in mind all of the tasks that will be necessary to bring this application to life and how you can utilize your team members dividing up the tasks to have it done on time. It may be wise to spend some time in the beginning to go over who should accomplish what.
