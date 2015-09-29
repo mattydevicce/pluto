@@ -4,11 +4,13 @@ Today we built an image upload feature.  Tonight, let's see if we can add jCrop 
 
 jCrop is a front-end jQuery library that makes image cropping online a snap.
 
-**Completion is to Step 3**
+**Please finish through Step 3**. As always: more is better; healthy living is best. Only do the bonus if you have completed every single part.
+
+![](jcrop.gif)
 
 ## Step 1: Setup jCrop
 
-Use the `jcrop-rails` gem or the latest bower package `rails-assets-jcrop` from [https://railsassets.org](https://railsassets.org).
+Use the `jcrop-rails` gem ***or*** the latest bower package `rails-assets-jcrop` from [https://railsassets.org](https://railsassets.org).
 
 Look of their example code: http://deepliquid.com/projects/Jcrop/demos.php
 
