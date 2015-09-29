@@ -10,6 +10,42 @@
     <div id="example"></div>
     <script type="text/babel">
       
+      var CommentBox = React.createClass({
+        render: function() {
+          return (
+            <div className="commentBox">
+            Hello, world! I am a a commentBox
+            </div>
+          );
+        }
+      });
+
+      var CommentList = React.createClass({
+        render: function(){
+          return (
+            <div className="comment-list">
+              Hello I am a comment
+            </div>
+          );
+        }
+      });
+
+      var CommentForm = React.createClass({
+        render() {
+          return (
+            <form>
+              <input type="text"/>
+              <input type="submit"/>
+            </form>
+          );
+        }
+      });
+
+      React.render(
+        <div><CommentBox/><CommentList/><CommentForm/></div>,
+        document.getElementById('example')
+      );
+
     </script>
   </body>
 </html>
