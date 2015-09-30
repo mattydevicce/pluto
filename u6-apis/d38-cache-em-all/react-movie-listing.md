@@ -10,7 +10,6 @@
 - Use [SaturnAPI](https://SaturnAPI.com/) to write your app.
 
 - Please send us back a [SaturnAPI](https://SaturnAPI.com/) link with the completed React app.
-- 
+
 #### Bonus
-- Style with Bootstrap (SaturnAPI supports)
 - Link an individual movie to a view page that only displays movie about that movie.
