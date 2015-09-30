@@ -1,6 +1,6 @@
 ### GOAL 
 
-- Utilize to build a React app.
+- Utilize React app to build an app that let's a user search for movie(s) and list them.
 
 - The app should be able to list movies [OMDBapi](http://www.omdbapi.com/) to search for matching movies and then display the results.
  - *Example*: If a user searches for `Star Wars`, a list of every Star Wars movie will be displayed.
