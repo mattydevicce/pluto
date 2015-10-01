@@ -12,8 +12,10 @@
 - Please share your HW by sharing it with me thorugh [SaturnAPI](https://SaturnAPI.com/). My my username is `panw`.
 
 #### Bonus
+- Without looking at your previous code write a similar listing using the iTunes API - *Practice Makes Perfect*
 - Add bootstrap styling
-- Link an individual movie to a view page that only displays movie about that movie.
+- Link an individual movie to a view page that only displays movie about that movie
+
 
 #### Assistance
 - Share your WorkPad with me and post a question in the comment section. I will respond there. My username is `panw`.
