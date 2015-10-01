@@ -1,7 +1,11 @@
 ### GOAL 
+#####If you didn't complete the HW last night give it a second go:
 - Utilize React app to build an app that let's a user search for movie(s) and list them.
 - The app should be able to list movies [OMDBapi](http://www.omdbapi.com/) to search for matching movies and then display the results.
  - *Example*: If a user searches for `Star Wars`, a list of every Star Wars movie will be displayed.
+
+#####If you completed hw do it using the iTunes API and add Bootstrap Styles
+- This will be free form, so be an Artist!
 
 #### Deliverables
 - Use [SaturnAPI](https://SaturnAPI.com/) to write your app.
