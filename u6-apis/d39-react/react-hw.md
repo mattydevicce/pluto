@@ -5,7 +5,8 @@
  - *Example*: If a user searches for `Star Wars`, a list of every Star Wars movie will be displayed.
 
 #####If you completed hw do it using the iTunes API and add Bootstrap Styles
-- This will be free form, so be an Artist!
+- This will be free form, so be an **Artist**!
+- Write this code without looking at your previous code - **Practice Makes Perfect**
 
 #### Deliverables
 - Use [SaturnAPI](https://SaturnAPI.com/) to write your app.
