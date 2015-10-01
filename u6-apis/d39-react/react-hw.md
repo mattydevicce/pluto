@@ -12,4 +12,4 @@
 - Link an individual movie to a view page that only displays movie about that movie.
 
 #### Assistance
-- Add me aa a collaborator and post a question in the comment section. I will respond there.
+- Share your WorkPad with me and post a question in the comment section. I will respond there. My username is `panw`.
