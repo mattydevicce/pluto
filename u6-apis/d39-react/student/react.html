@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	<yadda react>
+</head>
+<body>
+
+<script type="text/babel">
+	
+	var MovieForm = React.createClass({
+		var movie = "";
+		var movies = [];
+		
+		handleChange: function(e) {
+			movie = e.target.value;
+		}, /* End handle change */
+
+		handleSubmit: function(e) {
+			e.preventDefault();
+			$.ajax(
+				url: "https://www.omdbapi.com/",
+				method: "GET",
+				data: {
+					s: movie
+				},
+				success: function(data, status, xhr) {
+					movies = data["Search"];
+				},
+				error: function(xhr, status, error) {
+					alert("error: " + error);
+				}
+			) /* End ajax */
+			movie = '';
+		}, /* End handle submit */
+
+		render() {
+	   return (
+	   	 <div>
+				 <p>Enter a movie name</p>
+		     <form onSubmit={this.handleSubmit}>
+	    	   <input type="text" value={this.props.title} onChange={this.handleChange}/>
+	      	 <input type="submit" />
+		     </form>
+		     <MovieDisplayInfo data={this.props.movies} />
+	     </div>
+	   ) /* End return */
+	  } /* End render */
+	}) /* Ending movieForm */
+
+
+	var MovieDisplayInfo = React.createClass({
+		render() {
+			var movies = this.props.data.map(function(movie) {
+				return (
+					<div>
+						<Movie title={movie["Title"]} />
+					</div>
+				)
+			}) /* End movies map */
+
+			return (
+				<div>
+					{movies}
+				</div>
+			) /* End returning of render of HTML of map */
+		} /* End render */
+	}) /* End MovieDisplayInfo */
+
+	var Movie = React.createClass({
+		render() {
+			return (
+				<div>
+					<h4>{this.props.title}</h4>
+				</div>
+			) /* End return */
+		} /* End render */
+	}) /* End Movie */
+
+	React.render(<MovieForm />, document.body);
+</script>
+
+</body>
+</html>

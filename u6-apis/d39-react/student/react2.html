@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/babel">
+	var MovieForm = React.createClass({
+		handleSubmit: function(e) {
+			e.preventDefault();
+			var title = $(".movie-title")
+			return (title);
+		}, /* End handleSubmit */	
+		render() {
+  		return (
+   			<div>
+					<p>Enter a movie name</p>
+	    		<form onSubmit={this.handleSubmit}>
+    	  		<input type="text" className="movie-title" />
+      			<input type="submit" />
+	    		</form>
+	    		<GetMovie data={this.title} />
+    		</div>
+    	)
+  	} /* End render */	
+	}) /* End MovieForm */	
+
+	var GetMovie = React.createClass({
+		movieList: function(title){	
+			var movies = [];
+			$.ajax(
+				url: "https://www.omdbapi.com/",
+				method: "GET",
+				data: {
+					s: "frozen"
+				},
+				success: function(data, status, xhr) {
+					movies = data["Search"];
+				},
+				error: function(xhr, status, error) {
+					alert("error: " + error);
+				}
+			) /* End ajax */		
+		}, /* End movieList */	
+
+		render() {
+			movies = movieList(this.props.title)
+			var movieMap = this.movies.map(function(movie){
+				return (
+					<div>
+						<Movie title={movie["Title"]} />
+					</div>
+				)
+			})
+		} /* End render */	
+	}) /* End GetMovie */	
+
+	var Movie = React.createClass({
+		render(
+			return (
+				<div>
+					{this.props.title}
+				</div>
+			)
+		)
+	}) /* End Movie */	
+
+	React.render(<MovieForm/>,document.body)
+</script>
+</body>
+</html>
