@@ -26,9 +26,11 @@ mount
 - Setup a Digital Ocean "droplet"  (Ubuntu LTS)
 - `root` password will be mailed to you
 
-**meanwhile**
+**meanwhile...**
+
 - Explain SSH Keys (public/private keys)
-**when finished**
+
+**then...**
 
 - Connect to the Droplet.
 - Create a user using `adduser`
@@ -64,10 +66,22 @@ mount
 - Create a Startup Script
 - `cd mysite`
 - `export RAILS_ENV=production`
-- `rake secret` to `export SECRET_KEY_BASE=`
-- `nohum unicorn_rails > log/unicorn.log
+- `export SECRET_KEY_BASE=` with the value from `rake secret`
+- `unicorn_rails -D`
 
 ### STEP 7: Configure Git
 - `git init`
 - `git clone` repo from DigitalOcean
 - `git push` to DigitalOcean
+- Set `receive.denyCurrentBranch` to `ignore`
+- Write `post-receive` hook to reset and restart Unicorn
+
+```
+#!/bin/bash
+
+cd /srv/http/mysite
+git reset --hard
+unicorn_pid=`cat tmp/pids/unicorn.pid`
+echo "Restarting Unicorn ($unicorn_pid)"
+kill -HUP $unicorn_pid
+```
