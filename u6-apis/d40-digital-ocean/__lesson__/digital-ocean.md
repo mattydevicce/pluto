@@ -62,8 +62,10 @@ mount
 
 ### STEP 6: Configure Unicorn
 - Create a Startup Script
+- `cd mysite`
 - `export RAILS_ENV=production`
 - `rake secret` to `export SECRET_KEY_BASE=`
+- `nohum unicorn_rails > log/unicorn.log
 
 ### STEP 7: Configure Git
 - `git init`
