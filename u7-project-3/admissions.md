@@ -2,6 +2,16 @@
 
 Track leads through the Admissions Process.
 
+## Team
+
+| Admissions Team |
+|-----------------|
+| Eric            |
+| Mohammed        |
+| Pam             |
+| Pierre          |
+| Steph           |
+
 ### Student Portal
 
 A prospective candidate should be able to visit a portal and upload their application for an immersive(WDI, UXDI, or PMI).

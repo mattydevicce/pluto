@@ -2,6 +2,15 @@
 
 Create and share quizzes for class.
 
+## Team
+
+| Quiz Team |
+|-----------|
+| Chris     |
+| Matt      |
+| Meiji     |
+| Victoria  |
+
 ### Instructor Portal
 
 When an instructor logs in they should have a dashboard that has a link to create a new quiz, lists quizzes they've created, and displays notifications about quizzes students have taken that need to be graded.

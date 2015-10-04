@@ -2,6 +2,15 @@
 
 Track graduates of the course.
 
+## Team
+| Outcomes Team |
+|---------------|
+| Josh          |
+| Jaskar        |
+| Nick          |
+| Toti          |
+| Yuka          |
+
 ### Student Portal
 
 A student may log in and update their profile with employment status, contact info, and skills.

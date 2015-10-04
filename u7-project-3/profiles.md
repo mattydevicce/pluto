@@ -2,6 +2,16 @@
 
 Highlight alumni for potential employers.
 
+## Team
+
+| Profiles Team |
+|---------------|
+| Andres        |
+| Calvin        |
+| Esther        |
+| Jacob         |
+| Jennifer      |
+
 ### Alumni Portal
 
 Graduated students can sign up for a public facing profile page, which includes a picture of them and an uploaded resume.

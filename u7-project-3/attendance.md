@@ -2,6 +2,16 @@
 
 Track students' attendance through their course.
 
+## Team
+
+| Attendance Team |
+|-----------------|
+| Brian           |
+| Ed              |
+| Harrison        |
+| Joy             |
+| Raquel          |
+
 ### Instructor Portal
 
 Instructors may log in and view a roster of their class.
