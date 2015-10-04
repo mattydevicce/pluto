@@ -23,12 +23,12 @@ These projects have many requirements surrounding "roles", such as "student", "a
 ### REQUIREMENTS
 
 - A Ruby on Rails and Postgres Application.
+- Clean coherent object-oriented JavaScript code; Incorporate a Front End Framework, such as React.js.
 - All of your routes should follow REST protocol
 - You application must provide authentication.
-- Your application MUST be on Heroku or Digital Ocean.
+- Your application **MUST** be on Heroku or Digital Ocean.
 - Every team member must be involved.
 - Each team must have a bus factor greater than 1
-- Adhere to the included Accessibility Guidelines.
 
 > Use pair programming when writing your code.  Remember pair programming protocol. Driver types, navigator observes and does research.
 
@@ -74,3 +74,4 @@ Each project asks for some level of data visualization or interaction. You may f
 - [Chart.js](http://www.chartjs.org/) Simple, clean and engaging charts for designers and developers
 - [ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) This guide provides you with all you need to get started in sending and receiving emails from and to your application. Avoid the `sendgrid` (API) gem, [instead use this](https://sendgrid.com/docs/Integrate/Frameworks/rubyonrails.html)
 - [ActionMailer Previews](http://api.rubyonrails.org/v4.1.0/classes/ActionMailer/Base.html#class-ActionMailer::Base-label-Previewing+emails) - Designing HTML emails is a pain, check out this feature to make it easy!
+- Ask your questions on [StackOverflow](http://stackoverflow.com/). Utilize your team, and fellow students as well.  For additional support, open a Github issue with the exact details of the error and mention/Slack the issue to the instructional team.
