@@ -12,6 +12,14 @@ Each prompt contains a set of feature criteria. Your team will need to create th
 
 These projects have many requirements surrounding "roles", such as "student", "administrator", etc.  Before you begin programming, research [Single Table Inheritance](http://samurails.com/tutorial/single-table-inheritance-with-rails-4-part-1/) and [Pundit](https://github.com/elabs/pundit) to help you  accomplish your objectives.
 
+### STANDUPS
+
+Each team member is required to be present at morning stand-ups, starting at 9:00 AM.
+
+Stand-ups begin with each member discussing what they did the previous day, what they plan to do today and any blockers or potential blockers.
+
+**Afterwards**, the team can discuss how to address the issues and blockers, then coordinate the day's work.
+
 ### OBJECTIVES
 
 - Collaborate with your peers as a team
@@ -67,9 +75,11 @@ The MVP of an application with a detailed README that features:
 
 Each project asks for some level of data visualization or interaction. You may find these technologies useful.
 
-- [RSpec & Capybara](https://github.com/jnicklas/capybara) When working on a team, it's important to continously test your features to ensure that nothing has been broken.
+- [RSpec/Capybara](https://github.com/jnicklas/capybara) and [Selenium IDE](http://www.seleniumhq.org/download/) When working on a team, it's important to continously test your features to ensure that nothing has been broken.
 - [Twilio](https://github.com/twilio/twilio-ruby) A Ruby gem for communicating with the Twilio API and generating TwiML
-- [React.js](https://facebook.github.io/react/) - Create components to ease the pains of front end rendering, and ensure your JavaScript code stays organized.
+- [React.js](https://facebook.github.io/react/) Create components for front end rendering, and ensure your JavaScript code stays organized.
+- [Redis](https://github.com/redis-store/redis-rails) Use Redis for Server-Side Caching. Heroku users may be able to use use [Redis Cloud](https://addons.heroku.com/rediscloud?utm_campaign=category&utm_medium=dashboard&utm_source=addons)
+- [Trello](https://trello.com/) to track stories, assignments, backlog and blockers.
 - [Velocity.js](http://julian.com/research/velocity/) Javascript interation with SVG documents, and animation.
 - [Chart.js](http://www.chartjs.org/) Simple, clean and engaging charts for designers and developers
 - [ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) This guide provides you with all you need to get started in sending and receiving emails from and to your application. Avoid the `sendgrid` (API) gem, [instead use this](https://sendgrid.com/docs/Integrate/Frameworks/rubyonrails.html)
