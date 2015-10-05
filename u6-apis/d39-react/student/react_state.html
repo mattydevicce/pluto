@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/babel">
+	var WeatherForm = React.createClass({
+		render: function() {
+			return (
+				<div className="form-div">
+					<h3>Would you like some weather sir?</h3>
+					<form className="form" onSubmit={this.handleSubmit} >
+						<input type="text" placeholder="City please" id="city"/>
+						<input type="submit" />
+					</form>
+					<DisplayWeather city={}
+				</div>
+			)
+		}
+	})
+
+	var DisplayWeather = React.createClass({
+		getWeatherData: function(city) {
+			$.ajax({
+				url: ,
+				method: 'GET',
+				data: {
+					city: city
+				},
+				success: function(data, status, xhr) {
+					return data
+				}
+			})
+		}
+
+		render: function() {
+			var data = getWeatherData(this.props.city);
+			var weathers = this.state.data.map(function(weather){
+				return (
+					<div className="weather-details">
+						<h3>weather.date</h3>
+						<p>weather.someotherstuff</p>
+					</div>
+				)
+			}),
+			return (
+				<div>
+					{weathers}
+				</div>
+			)
+		}
+	})
+
+
+</script>
+</body>
+</html>
