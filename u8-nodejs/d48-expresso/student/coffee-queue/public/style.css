@@ -1,0 +1,17 @@
+body {
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+p {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
