@@ -1,4 +1,4 @@
-<%= form_for(@candidate) do |f| %>
+x<%= form_for(@candidate) do |f| %>
   <% if @candidate.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@candidate.errors.count, "error") %> prohibited this candidate from being saved:</h2>
@@ -26,10 +26,6 @@
   <div class="field">
     <%= f.label :party %><br>
     <%= f.text_field :party %>
-  </div>
-  <div class="field">
-    <%= f.label :votes %><br>
-    <%= f.number_field :votes %>
   </div>
   <div class="field">
     <%= f.label :campaign %><br>
