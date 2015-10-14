@@ -15,7 +15,9 @@ Using what you learned today do the following:
 - Use these dependencies for your Node application: express & body-parser. _hint: if done correctly, these will show up in your package.json under... dependencies!_
 - Set your application to be hosted on port `1337` and have it listening on the same port.
 - Create get route for '/' that prints "Hey look, I'm expressing myself! Waka Waka!" in the terminal
-- Create a variable called `muppetsDB` that contains the following information: ```
+- Create a variable called `muppetsDB` that contains the following information: 
+
+```
 {id: 1, name: "Kermit",
  description: "green, frog",
  age: "37"},
