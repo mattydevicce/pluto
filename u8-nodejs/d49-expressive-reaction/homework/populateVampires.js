@@ -1,4 +1,4 @@
-{
+[{
   name: 'Count Chocula',
   hair_color: 'brown',
   eye_color: 'brown',
@@ -133,4 +133,4 @@
   location: 'New York, New York, US',
   gender: 'm',
   title: 'Osiris of Sewer Rats'
-}
+}]
