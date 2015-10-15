@@ -5,6 +5,7 @@ var path = require('path');
 var app = express();
 
 var postDB = [{yolo: 'yolo'}];
+
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
