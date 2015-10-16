@@ -12,7 +12,7 @@ client.connect('mongodb://localhost:27017/wdi', function(error, db) {
 
     var query = db.collection('students').find()
     var students = query.toArray(function(error, students) {
-      res.send(students)
+      res.send(student)
     })
 
   })
