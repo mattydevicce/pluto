@@ -17,6 +17,7 @@ io.on( 'connection', function(socket){
   console.log("INCOMING CONNECTION");
 
   socket.emit("hello", { message:"hi from wdi", admin: "dennis"});
+  //business logic here for new connections
 
   socket.on('CLICK', function(msg){
     console.log(msg.name + " said: " + msg.message );

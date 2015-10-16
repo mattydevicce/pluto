@@ -24,6 +24,7 @@
 
      $("#send").on('click', function(event){
         socket.emit('CLICK', { name: $name.val(), message: $message.val() });
+        $message.val('');
      });
 
      socket.on("christmas", function(gift){
