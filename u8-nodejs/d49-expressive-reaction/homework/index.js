@@ -15,7 +15,7 @@ client.connect('mongodb://localhost:27017/monsters', function(error, db) {
   })
 
 	app.get('/', function(req, res) {
-		res.send('asd');
+		res.rebder('show', {vampires: vampires});
 	})
 	
 })
