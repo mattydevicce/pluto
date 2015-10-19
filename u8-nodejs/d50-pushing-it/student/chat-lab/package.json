@@ -1,0 +1,16 @@
+{
+  "name": "chat-lab",
+  "version": "1.0.0",
+  "description": "Using the Chat Application you created this morning, add the following features:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.3.7"
+  }
+}

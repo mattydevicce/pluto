@@ -1,0 +1,15 @@
+#title {
+	text-align: center;
+}
+
+body {
+	background-color: #CCCCCC;
+}
+
+#chat-app {
+	margin-top: 50px;
+	background-color: #EEEEEE;
+	height: 500px;
+	width: 75%;
+	margin: 0 auto;
+}

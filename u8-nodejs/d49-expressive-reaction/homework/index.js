@@ -7,7 +7,7 @@ app.set('view engine', 'ejs')
 
 client.connect('mongodb://localhost:27017/monsters', function(error, db) {
 
-	var query = db.collection('monsters').find()
+	var query = db.collection('vampires').find()
 
 	var vampires = query.toArray(function(error, vampires) {
 		

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="/jquery-2.1.4.js"></script>
+</head>
+<body>
+<h1 id="title">Welcome to the Space Jam Chat Room </h1>
+
+<div id="log-in">
+	<input id="user-name" type="text" placeholder="Enter user name" />
+	<button id="try-user" type="submit" >Log on</button>
+</div>
+
+<div id='chat-app'>
+	<div id="messages">
+
+	</div>
+	<div id="all-users">
+		<ul class="userNames">
+		</ul>
+	</div>
+
+</div>
+
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+	var socket = io()
+	var userArray = [];
+	var current_user = ''
+
+	socket.on('users', function(users) {
+		for(var i=0; i<users.userList.length; i++) {
+			var add_new_user = $('<li>').text(users.userList[i]).appendTo('.userNames');
+			userArray.push(users.userList[i]);
+		}
+	})
+
+	function checkUserName(name) {
+		if (name == '' || name==null) {
+			$('.error').remove();
+			$('body').prepend('<div class="error no-name">User name can not be blank</div>')
+			$('#user-name').val('')
+			return false
+		} else if (userArray.indexOf(name) !== -1){
+			$('.error').remove();
+			$('body').prepend('<div class="error niu">User name already in use</div>')
+			return false
+		} else {
+			$('.error').remove();
+			$('#log-in').remove();
+			console.log(name)
+			return name
+		}
+	}
+
+
+	$('#try-user').on( 'click', function() {
+		current_user = $("#user-name").val()
+		good_user = checkUserName(current_user)
+		if (good_user) {
+			socket.emit('register', {userName: good_user})
+			var messageBox = '<div id="input-box"><input id="user-message" type="text"><button id="send-message">Send</button></div>';
+			$('body').append(messageBox);
+
+			$('#send-message').on('click', function(e) {
+				var message = $('#user-message')
+				socket.emit('message', {message: message.val()})
+			})
+		}
+	})
+
+	socket.on('newUser', function(user) {
+		$('<li>').text(user.name).appendTo('.userNames')
+		userArray.push(user.name)
+		console.log(userArray)
+	})
+
+	socket.on('userDisconnected', function(user) {
+		$("li:contains('"+user.name+"')").remove()
+		console.log('removed: ' + user.name)
+	})
+
+
+	socket.on('incomming-message', function(message) {
+		$newMessage = $("<p>"+message.message+"</p>")
+		$('#messages').append($newMessage)
+	})
+</script>
+
+</body>
+</html>
