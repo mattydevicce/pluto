@@ -4,7 +4,7 @@ Sweet libs is an opportunity to test your ability to pick up new technology with
 
 ### Timeline
 
-You will have from right now until tomorrow at 2PM to work with your group. At 2PM presentations will start. Each group will have 20 minutes to present.
+You will have from right now until 2PM on Thursday to work with your group. At 2:30PM on Thursday presentations will start. Each group will have 20 minutes to present.
 
 ### Expectations
 
