@@ -34,5 +34,5 @@ Each group needs to prepare a presentation where they walk the rest of the class
 |Jacob    |Ed         |Nick     |Mohammed  |Steph    |
 |Matt     |Toti       |Joy      |Jaskar    |Jennifer |
 |Victoria |Pam        |Josh     |Chris     |Harrison |
-|Dasha    |Esther     |Raquel   |Andres    |Eric     |
+|Meiji    |Esther     |Raquel   |Andres    |Eric     |
 |Yuka     |           |Pierre   |Brian     |Calvin   |
