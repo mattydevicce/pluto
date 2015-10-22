@@ -19,6 +19,7 @@
     .page.right { cursor: e-resize; border-left: none; }
     .page.left  { cursor: w-resize; }
   </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script>
     // Native jQuery.ready() event (feel free to add jQuery)
@@ -29,9 +30,38 @@
       var leftPage  = document.getElementById('left_page');
       var rightPage = document.getElementById('right_page');
       // When the server asks me to identify myself
+      
+
+
       socket.on('identify', function() {
-        // Ask the server to send me the book from the given URL
-        socket.emit('open', {book_url: ''})
+        $('#try-user').on('click', function(e) {
+          var loginBanner = $('<div id="login-banner"></div>');
+          var loginName = $('#user-name').val()
+          $('body').prepend(loginBanner)
+          loginBanner.text('Welcome ' +loginName)
+          $('#log-in').remove()
+          $('.container').append()
+          var searchBook = $('<input id="book-search" type="text" placeholder="Search a book" />')
+          var searchBookButton = $('<button id="search-button" type="submit" >Search</button>')
+          $('#search').append(searchBook)
+          $('#search').append(searchBookButton)
+          $('#search-button').on('click', function(e) {
+            console.log('ajax')
+            var url = "http://localhost:3000/books/" + $('#book-search').val()
+            $.ajax({
+              url: ,
+              method: 'GET',
+              success: function(results) {
+                console.log('ajax')
+                socket.emit('open', {book_url: results})
+              },
+              error: function(xhr, error, status) {
+                console.log('error' + error)
+                console.log('status' + status)
+              }
+            })
+          })
+        })
       })
       // When the servers sends updated page data
       socket.on('update', function(page) {
@@ -46,6 +76,12 @@
   </script>
 </head>
 <body>
+<div id="log-in">
+  <input id="user-name" type="text" placeholder="Enter user name" />
+  <button id="try-user" type="submit" >Log on</button>
+</div>
+<div id="search">
+</div>
 
 <div class="container">
   <h1>Flipfolio</h1>

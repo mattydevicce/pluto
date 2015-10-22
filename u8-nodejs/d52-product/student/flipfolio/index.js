@@ -14,14 +14,9 @@ io.on('connection', function(socket){
     var pageFlipDelay;
     // book: the content of the book. This needs to be modified so that it comes
     //       from an Ajax request
+    console.log(book_url)
     var book = {
-      content: [
-        loremIpsum({count: 3, units: 'paragraphs', format: 'html'}),
-        loremIpsum({count: 3, units: 'paragraphs', format: 'html'}),
-        loremIpsum({count: 3, units: 'paragraphs', format: 'html'}),
-        loremIpsum({count: 3, units: 'paragraphs', format: 'html'}),
-        loremIpsum({count: 3, units: 'paragraphs', format: 'html'})
-      ],
+      content: book_url,
       page: 1 // The current page being viewed.
     };
 
