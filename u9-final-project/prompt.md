@@ -39,9 +39,6 @@ Either way, think big, but also describe a modest set of features for your MVP. 
 
 ## Timeline
 
-### Throughout the Sprint - One-on-Ones
-You must have at least one, and no more than two 45 minute one-on-ones with an instructor. [See this speadsheet to sign up for time slots](https://docs.google.com/spreadsheets/d/1TKcGEfDzgxsdGE7X-6Pc7bzCruvTK-EH8lzWoG7acZo/edit#gid=0).
-
 ### Monday, October 26th (beginning of day) - Deliverables Due
 
 - A single paragraph description of what you want your project to be, and what technologies you plan to use
@@ -53,12 +50,6 @@ You must have at least one, and no more than two 45 minute one-on-ones with an i
   - (or any other organizational schema that is clear and useful)
 - ERD (if applicable)
 - Wireframes
-
-You will have a 15 minute check in on Monday with an instructor to go over these deliverables. **This meeting is not for technical help.** [See this schedule to know when and with whom you are meeting](check-in-schedules.md). Don't miss it!
-
-### Thursday, October 29th - Individul Retro
-
-You will have a 15 minute one-on-one retro with an instructor. The purpose of this appointment is to check in and reflect on your process: what's going well, what isn't, and what strategies will help carry you through the rest of the sprint. **This meeting is not for technical help.** [See this schedule to know when and with whom you're meeting](check-in-schedules.md). Don't miss it!
 
 ### Monday, November 2nd (9 AM) - Deliverables Due
 You should have:
