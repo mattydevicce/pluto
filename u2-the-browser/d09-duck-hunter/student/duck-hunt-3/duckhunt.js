@@ -4,7 +4,7 @@
 
 jQuery(function() {
   // This is just for fun... I couldn't help myself ;D
-  var game_start = new Audio('/audio/start-round.mp3');
+  var game_start = new Audio('./audio/start-round.mp3');
   game_start.play();
   var body = $('body');
   var currentTime = 0;
@@ -65,7 +65,7 @@ jQuery(function() {
   };
 
   function miniGun(xCoord, yCoord) {
-    var bulletHole = $("<image src='/images/Bullet-Hole-20.png' class='minigun'>");
+    var bulletHole = $("<image src='./images/Bullet-Hole-20.png' class='minigun'>");
     bulletHole.css("top", yCoord);
     bulletHole.css("left", xCoord);
     body.append(bulletHole);
@@ -75,7 +75,7 @@ jQuery(function() {
   }
 
   var displayBullets = function() {
-    $('body').on('mouseover', function(e) {
+    $('body').on('click', function(e) {
       var pageX = e.pageX;
       var pageY = e.pageY
       setInterval(miniGun(pageX, pageY), 100);
